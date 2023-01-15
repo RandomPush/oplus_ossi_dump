@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fonts-modification version='1'>
+
+<family customizationType='new-named-family' name='Oplus-op-sans-TC' lang='zh-Hant'>
+    <font weight='400' style='normal' postScriptName='NHGMYHOnePlusHK-W4'>NHGMYHOplusHK-W4.ttf</font>
+</family>
+
+<family customizationType='new-named-family' name='Oplus-op-sans-SC' lang='zh-Hans'>
+    <font weight='400' style='normal' postScriptName='NHGMYHOnePlusPRC-W4'>NHGMYHOplusPRC-W4.ttf</font>
+</family>
+
+<family customizationType='new-named-family' name='Oplus-op-sans-text'>
+    <font weight='100' style='normal' postScriptName='OnePlusSansText-Thin'>OplusSansText-25Th.ttf</font>
+    <font weight='100' style='italic' postScriptName='OnePlusSansText-ThinItalic'>OplusSansText-26ThIt.ttf</font>
+    <font weight='200' style='normal' postScriptName='OnePlusSansText-ExtraLight'>OplusSansText-35ExLt.ttf</font>
+    <font weight='200' style='italic' postScriptName='OnePlusSansText-ExtraLightIt'>OplusSansText-36ExLtIt.ttf</font>
+    <font weight='300' style='normal' postScriptName='OnePlusSansText-Light'>OplusSansText-45Lt.ttf</font>
+    <font weight='300' style='italic' postScriptName='OnePlusSansText-LightItalic'>OplusSansText-46LtIt.ttf</font>
+    <font weight='400' style='normal' postScriptName='OnePlusSansText'>OplusSansText-55Rg.ttf</font>
+    <font weight='400' style='italic' postScriptName='OnePlusSansText-Italic'>OplusSansText-56It.ttf</font>
+    <font weight='500' style='normal' postScriptName='OnePlusSansText-Medium'>OplusSansText-65Md.ttf</font>
+    <font weight='500' style='italic' postScriptName='OnePlusSansText-MediumIt'>OplusSansText-66MdIt.ttf</font>
+</family>
+
+<family customizationType='new-named-family' name='Oplus-op-sans-display'>
+    <font weight='300' style='normal' postScriptName='OnePlusSansDisplay-Light' >OplusSansDisplay-45Lt.ttf</font>
+    <font weight='300' style='italic' postScriptName='OnePlusSansDisplay-LightIt' >OplusSansDisplay-46LtIt.ttf</font>
+</family>
+
+</fonts-modification>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- Specify the explicit set of other applications that AI services are allow ed to
+      interact with, including the providers that back the implementation of the APIs
+      provided by the package. -->
+    <allow-association allowed="com.android.providers.contacts" target="com.google.android.as" />
+    <allow-association allowed="com.android.providers.media" target="com.google.android.as" />
+    <allow-association allowed="com.android.providers.telephony" target="com.google.android.as" />
+    <allow-association allowed="com.android.systemui" target="com.google.android.as" />
+
+    <allow-association allowed="com.android.bluetooth" target="com.google.android.as" />
+    <allow-association allowed="com.google.android.providers.media.module"
+        target="com.google.android.as" />
+    <allow-association allowed="com.google.android.as.oss" target="com.google.android.as" />
+    <!-- AI services open-source network component can only bind back to the core package. -->
+    <allow-association allowed="com.google.android.as" target="com.google.android.as.oss" />
+
+    <!-- This is meant to be the canonical feature identifying devices that support DPS. -->
+    <feature name="com.google.android.feature.DPS" />
+
+</config>
