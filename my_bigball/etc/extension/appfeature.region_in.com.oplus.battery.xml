@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- low_battery_message -->
+    <app_feature name="com.oplus.battery.low_battery_message" args="boolean:true"/>
+</extend_features>

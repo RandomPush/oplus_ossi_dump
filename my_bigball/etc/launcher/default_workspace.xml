@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Please DO NOT EDIT below template:
+Repo Name:	Oplus_Carrier_Android_Material_Config
+File Path:	Oplus_Carrier_Android_Material_Config\stock_module\export\OnePlus\res\copy_modules\etc\launcher\default_workspace.xml
+  -->
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <!-- OP Widget -->
+    <appwidget
+        launcher:className="net.oneplus.widget.appwidget.ClockWidgetProvider"
+        launcher:packageName="net.oneplus.widget"
+        launcher:screen="0"
+        launcher:spanX="5"
+        launcher:spanY="2"
+        launcher:x="0"
+        launcher:y="0" />
+    <!-- Digital clock Widget - plan B -->
+    <appwidget
+        launcher:className="com.oneplus.alarmclock.DigitalAppWidgetProvider"
+        launcher:packageName="com.oneplus.deskclock"
+        launcher:screen="0"
+        launcher:spanX="3"
+        launcher:spanY="1"
+        launcher:x="0"
+        launcher:y="0" />
+    <!-- Google search bar widget -->
+    <appwidget
+        launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
+        launcher:packageName="com.google.android.googlequicksearchbox"
+        launcher:screen="0"
+        launcher:spanX="5"
+        launcher:spanY="1"
+        launcher:x="0"
+        launcher:y="3" />
+
+    <folder
+        launcher:folderTitle="Google"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="4">
+
+        <favorite
+            launcher:className="com.google.android.googlequicksearchbox.SearchActivity"
+            launcher:packageName="com.google.android.googlequicksearchbox"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0" />
+
+        <favorite
+            launcher:className="com.google.android.gm.ConversationListActivityGmail"
+            launcher:packageName="com.google.android.gm"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="0" />
+
+        <favorite
+            launcher:className="com.google.android.maps.MapsActivity"
+            launcher:packageName="com.google.android.apps.maps"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="0" />
+
+        <favorite
+            launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
+            launcher:packageName="com.google.android.youtube"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="1" />
+
+        <favorite
+            launcher:className="com.google.android.apps.docs.app.NewMainProxyActivity"
+            launcher:packageName="com.google.android.apps.docs"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="1" />
+
+        <resolve
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="1">
+            <favorite
+                launcher:className="com.android.music.activitymanagement.TopLevelActivity"
+                launcher:packageName="com.google.android.music" />
+            <favorite
+                launcher:className="com.google.android.apps.youtube.music.activities.MusicActivity"
+                launcher:packageName="com.google.android.apps.youtube.music" />
+        </resolve>
+
+        <favorite
+            launcher:className="com.google.android.youtube.videos.EntryPoint"
+            launcher:packageName="com.google.android.videos"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="2" />
+
+        <favorite
+            launcher:className="com.google.android.apps.photos.home.HomeActivity"
+            launcher:packageName="com.google.android.apps.photos"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="2" />
+
+        <resolve
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="2">
+            <favorite
+                launcher:className="com.google.commerce.tapandpay.android.cardlist.CardListActivity"
+                launcher:packageName="com.google.android.apps.walletnfcrel" />
+            <favorite
+                launcher:className="com.google.android.apps.nbu.paisa.user.launcher.LauncherActivity"
+                launcher:packageName="com.google.android.apps.nbu.paisa.user" />
+        </resolve>
+
+        <favorite
+            launcher:className="com.google.android.apps.nbu.files.home.HomeActivity"
+            launcher:packageName="com.google.android.apps.nbu.files"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="3" />
+
+        <favorite
+            launcher:className="com.google.apps.dots.android.app.activity.CurrentsStartActivity"
+            launcher:packageName="com.google.android.apps.magazines"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="3" />
+
+        <favorite
+            launcher:className="com.google.android.apps.podcasts.PodcastsActivity"
+            launcher:packageName="com.google.android.apps.podcasts"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="3" />
+
+        <favorite
+            launcher:className="com.google.android.apps.subscriptions.red.LauncherActivity"
+            launcher:packageName="com.google.android.apps.subscriptions.red"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="4" />
+
+        <favorite
+            launcher:className="com.android.calendar.AllInOneActivity}"
+            launcher:packageName="com.google.android.calendar"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="4" />
+
+        <favorite
+            launcher:className="com.android.contacts.activities.PeopleActivity"
+            launcher:packageName="com.google.android.contacts"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="4" />
+
+        <favorite
+            launcher:className="com.google.android.apps.chromecast.app.DiscoveryActivity"
+            launcher:packageName="com.google.android.apps.chromecast.app"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="5" />
+    </folder>
+
+
+    <favorite
+        launcher:className="com.google.android.apps.tachyon.MainActivity"
+        launcher:packageName="com.google.android.apps.tachyon"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="4" />
+
+    <favorite
+        launcher:className="com.google.android.apps.googleassistant.AssistantActivity"
+        launcher:packageName="com.google.android.apps.googleassistant"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="4" />
+
+    <resolve
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="4">
+        <favorite
+            launcher:className="com.oplus.games.activity.GameBoxCoverActivity"
+            launcher:packageName="com.oplus.games" />
+
+        <favorite
+            launcher:className="com.oplus.cosa.activity.GameBoxActivity"
+            launcher:packageName="com.oplus.cosa" />
+    </resolve>
+
+    <favorite
+        launcher:className="com.android.vending.AssetBrowserActivity"
+        launcher:packageName="com.android.vending"
+        launcher:screen="0"
+        launcher:x="4"
+        launcher:y="4" />
+
+    <!-- Left screen [1] -->
+    <folder
+        launcher:folderTitle="OnePlus"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="4">
+        <favorite
+            launcher:className="com.android.settings.Settings"
+            launcher:packageName="com.android.settings" />
+        <favorite
+            launcher:className="net.oneplus.forums.ui.activity.CheckPermissionActivity"
+            launcher:packageName="net.oneplus.forums" />
+        <favorite
+            launcher:className="com.oneplus.backuprestore.activity.BootActivity"
+            launcher:packageName="com.oneplus.backuprestore" />
+        <favorite
+            launcher:className="com.oneplus.filemanager.HomePageActivity"
+            launcher:packageName="com.oneplus.filemanager" />
+        <favorite
+            launcher:className="net.oneplus.weather.app.MainActivity"
+            launcher:packageName="net.oneplus.weather" />
+        <favorite
+            launcher:className="com.oneplus.note.ui.MainActivity"
+            launcher:packageName="com.oneplus.note" />
+    </folder>
+
+    <!-- show system clone icon in system clone user -->
+    <favorite
+        launcher:className="com.coloros.systemclone.clonespace.ui.SwitchToOwnerActivity"
+        launcher:packageName="com.coloros.systemclone"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="4" />
+
+    <favorite
+        launcher:className="com.netflix.mediaclient.ui.launch.UIWebViewActivity"
+        launcher:packageName="com.netflix.mediaclient"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="4" />
+
+    <!--  Amazon prime video  -->
+    <favorite
+        launcher:className="com.amazon.avod.thirdpartyclient.LauncherActivity"
+        launcher:packageName="com.amazon.avod.thirdpartyclient"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="4" />
+
+    <favorite
+        launcher:className="com.spotify.music.MainActivity"
+        launcher:packageName="com.spotify.music"
+        launcher:screen="1"
+        launcher:x="4"
+        launcher:y="4" />
+
+    <resolve
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="5">
+        <favorite
+            launcher:className="com.ss.android.ugc.aweme.splash.SplashActivity"
+            launcher:packageName="com.zhiliaoapp.musically" />
+
+        <favorite
+            launcher:className="com.ss.android.ugc.aweme.splash.SplashActivity"
+            launcher:packageName="com.ss.android.ugc.trill" />
+    </resolve>
+
+    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    <resolve
+        launcher:container="-101"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0">
+        <favorite
+            launcher:className="com.android.dialer.app.settings.DialerSettingsActivity"
+            launcher:packageName="com.google.android.dialer" />
+        <favorite
+            launcher:className="com.android.contacts.DialtactsActivityAlias"
+            launcher:packageName="com.android.contacts" />
+    </resolve>
+
+    <resolve
+        launcher:container="-101"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0">
+        <favorite
+            launcher:className="com.google.android.apps.messaging.ui.ConversationListActivity"
+            launcher:packageName="com.google.android.apps.messaging" />
+        <favorite
+            launcher:className="com.android.mms.ui.ConversationList"
+            launcher:packageName="com.android.mms" />
+    </resolve>
+
+    <resolve
+        launcher:container="-101"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0">
+        <favorite
+            launcher:className="com.google.android.apps.chrome.Main"
+            launcher:packageName="com.android.chrome" />
+        <favorite
+            launcher:className="com.android.browser.BrowserActivity"
+            launcher:packageName="com.heytap.browser" />
+        <favorite
+            launcher:className="com.android.browser.BrowserActivity"
+            launcher:packageName="com.coloros.browser" />
+    </resolve>
+
+    <resolve
+        launcher:container="-101"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0">
+        <favorite
+            launcher:className="com.oplus.camera.Camera"
+            launcher:packageName="com.oplus.camera" />
+        <favorite
+            launcher:className="com.oppo.camera.Camera"
+            launcher:packageName="com.oppo.camera" />
+        <favorite
+            launcher:className="com.oneplus.camera.OPCameraActivity"
+            launcher:packageName="com.oneplus.camera" />
+    </resolve>
+
+    <resolve
+        launcher:container="-101"
+        launcher:screen="4"
+        launcher:x="4"
+        launcher:y="0" >
+        <favorite
+            launcher:className="com.oppo.gallery3d.app.Gallery"
+            launcher:packageName="com.coloros.gallery3d" />
+        <favorite
+            launcher:className="com.oneplus.gallery.app.MainActivity"
+            launcher:packageName="com.oneplus.gallery" />
+    </resolve>
+</favorites>

@@ -1,0 +1,992 @@
+[
+    {
+        "title": "omoji_type_skin",
+        "subtype": [
+            {
+                "color": [
+                    {
+                        "typename": "skin_color"
+                    }
+                ]
+            },
+            {
+                "title": "omoji_type_beauty_mark",
+                "typename": "nevus",
+                "camera": "camera/icon_cam/cam_zhi.bundle",
+                "material": [
+                    {
+                        "bundle": ""
+                    },
+                    {
+                        "bundle": "nevus/C_001.bundle"
+                    },
+                    {
+                        "bundle": "nevus/C_002.bundle"
+                    },
+                    {
+                        "bundle": "nevus/C_003.bundle"
+                    },
+                    {
+                        "bundle": "nevus/C_004.bundle"
+                    },
+                    {
+                        "bundle": "nevus/C_005.bundle"
+                    },
+                    {
+                        "bundle": "nevus/C_006.bundle"
+                    }
+                ]
+            },
+            {
+                "title": "omoji_type_acne",
+                "typename": "acne",
+                "camera": "camera/icon_cam/cam_zhi.bundle",
+                "material": [
+                    {
+                        "bundle": ""
+                    },
+                    {
+                        "bundle": "acne/D_001.bundle"
+                    },
+                    {
+                        "bundle": "acne/D_002.bundle"
+                    },
+                    {
+                        "bundle": "acne/D_003.bundle"
+                    },
+                    {
+                        "bundle": "acne/D_004.bundle"
+                    }
+                ]
+            },
+            {
+                "title": "omoji_type_freckle",
+                "typename": "freckles",
+                "camera": "camera/icon_cam/cam_zhi.bundle",
+                "material": [
+                    {
+                        "bundle": ""
+                    },
+                    {
+                        "bundle": "freckles/A_001.bundle"
+                    },
+                    {
+                        "bundle": "freckles/A_002.bundle"
+                    },
+                    {
+                        "bundle": "freckles/A_003.bundle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "omoji_type_hair",
+        "subtype": [
+            {
+                "typename": "hair",
+                "camera": "camera/icon_cam/cam_lianxing.bundle",
+                "color": [
+                    {
+                        "title": "omoji_type_hair",
+                        "typename": "hair_color"
+                    },
+                    {
+                        "title": "omoji_type_hair_riboon",
+                        "typename": "hair_ribbon_color"
+                    }
+                ],
+                "material": [
+                    {
+                        "bundle": "hair/F_005.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_020.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_004.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_033.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_027.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_015.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_051.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_042.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_022.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_031.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_025.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_018.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_058.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_035.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_043.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_034.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_028.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_002.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_026.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_023.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_048.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_046.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_049.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_003.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_041.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_052.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_069.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_047.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_024.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_016.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_017.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_001.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_050.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_044.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_019.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_032.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_045.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_039.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_040.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_062.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_014.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_008.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_037.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_007.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_059.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_010.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_009.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_029.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_011.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_053.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_057.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_036.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_063.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_065.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_067.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_013.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_030.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_068.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_021.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_054.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_056.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_064.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_061.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_066.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_055.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_006.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_038.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_012.bundle"
+                    },
+                    {
+                        "bundle": "hair/F_060.bundle"
+                    },
+                    {
+                        "bundle": ""
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "title": "omoji_type_head",
+        "subtype": [
+            {
+                "title": "omoji_type_age",
+                "typename": "age",
+                "camera": "camera/icon_cam/cam_lianxing.bundle",
+                "material": [
+                    {
+                        "bundle": "age/young.bundle"
+                    },
+                    {
+                        "bundle": "age/middle.bundle"
+                    },
+                    {
+                        "bundle": "age/old.bundle",
+                        "attach_bundles": [
+                            "beauty/nasolabial.bundle"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "omoji_type_face",
+                "typename": "face",
+                "camera": "camera/icon_cam/cam_lianxing.bundle",
+                "material": [
+                    {
+                        "bundle": "face/L_001.bundle"
+                    },
+                    {
+                        "bundle": "face/L_002.bundle"
+                    },
+                    {
+                        "bundle": "face/L_003.bundle"
+                    },
+                    {
+                        "bundle": "face/L_004.bundle"
+                    },
+                    {
+                        "bundle": "face/L_005.bundle"
+                    },
+                    {
+                        "bundle": "face/L_006.bundle"
+                    },
+                    {
+                        "bundle": "face/L_007.bundle"
+                    },
+                    {
+                        "bundle": "face/L_008.bundle"
+                    },
+                    {
+                        "bundle": "face/L_009.bundle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "omoji_type_eyebrow",
+        "subtype": [
+            {
+                "typename": "brow",
+                "camera": "camera/icon_cam/cam_yanjing.bundle",
+                "unbindList": [
+                    "hair",
+                    "glasses",
+                    "headwear"
+                ],
+                "color": [
+                    {
+                        "typename": "eyebrow_color"
+                    }
+                ],
+                "material": [
+                    {
+                        "bundle": "brow/M_001.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_002.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_003.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_004.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_005.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_006.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_007.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_008.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_009.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_010.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_011.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_012.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_013.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_014.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_015.bundle"
+                    },
+                    {
+                        "bundle": "brow/M_016.bundle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "omoji_type_eye",
+        "subtype": [
+            {
+                "typename": "eye",
+                "camera": "camera/icon_cam/cam_yanjing.bundle",
+                "unbindList": [
+                    "hair",
+                    "glasses",
+                    "headwear"
+                ],
+                "color": [
+                    {
+                        "typename": "iris_color"
+                    }
+                ],
+                "material": [
+                    {
+                        "bundle": "eye/Y_001.bundle"
+                    },
+                    {
+                        "bundle": "eye/Y_002.bundle"
+                    },
+                    {
+                        "bundle": "eye/Y_003.bundle"
+                    },
+                    {
+                        "bundle": "eye/Y_004.bundle"
+                    },
+                    {
+                        "bundle": "eye/Y_005.bundle"
+                    },
+                    {
+                        "bundle": "eye/Y_006.bundle"
+                    },
+                    {
+                        "bundle": "eye/Y_007.bundle"
+                    },
+                    {
+                        "bundle": "eye/Y_008.bundle"
+                    },
+                    {
+                        "bundle": "eye/Y_009.bundle"
+                    }
+                ]
+            },
+            {
+                "title": "omoji_type_eyelash",
+                "typename": "eyelash",
+                "camera": "camera/icon_cam/cam_jiemao.bundle",
+                "unbindList": [
+                    "hair",
+                    "glasses",
+                    "headwear"
+                ],
+                "material": [
+                    {
+                        "bundle": "eyelash/J_001.bundle"
+                    },
+                    {
+                        "bundle": "eyelash/J_002.bundle"
+                    },
+                    {
+                        "bundle": "eyelash/J_003.bundle"
+                    },
+                    {
+                        "bundle": "eyelash/J_004.bundle"
+                    },
+                    {
+                        "bundle": "eyelash/J_005.bundle"
+                    },
+                    {
+                        "bundle": "eyelash/J_006.bundle"
+                    },
+                    {
+                        "bundle": "eyelash/J_007.bundle"
+                    },
+                    {
+                        "bundle": "eyelash/J_008.bundle"
+                    },
+                    {
+                        "bundle": "eyelash/J_009.bundle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "omoji_type_norse",
+        "subtype": [
+            {
+                "typename": "nose",
+                "camera": "camera/icon_cam/cam_bizi.bundle",
+                "unbindList": [
+                    "hair",
+                    "glasses",
+                    "headwear"
+                ],
+                "material": [
+                    {
+                        "bundle": "nose/B_001.bundle"
+                    },
+                    {
+                        "bundle": "nose/B_002.bundle"
+                    },
+                    {
+                        "bundle": "nose/B_003.bundle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "omoji_type_mouth",
+        "subtype": [
+            {
+                "typename": "mouth",
+                "camera": "camera/icon_cam/cam_zuichun.bundle",
+                "unbindList": [
+                    "hair",
+                    "headwear"
+                ],
+                "color": [
+                    {
+                        "typename": "lip_color",
+                        "beauty_type": {
+                            "is_beauty": true,
+                            "beauty_type": "liplash"
+                        }
+                    }
+                ],
+                "material": [
+                    {
+                        "bundle": "mouth/Z_001.bundle"
+                    },
+                    {
+                        "bundle": "mouth/Z_002.bundle"
+                    },
+                    {
+                        "bundle": "mouth/Z_003.bundle"
+                    },
+                    {
+                        "bundle": "mouth/Z_004.bundle"
+                    },
+                    {
+                        "bundle": "mouth/Z_005.bundle"
+                    },
+                    {
+                        "bundle": "mouth/Z_006.bundle"
+                    },
+                    {
+                        "bundle": "mouth/Z_007.bundle"
+                    },
+                    {
+                        "bundle": "mouth/Z_008.bundle"
+                    },
+                    {
+                        "bundle": "mouth/Z_009.bundle"
+                    },
+                    {
+                        "bundle": "mouth/Z_010.bundle"
+                    },
+                    {
+                        "bundle": "mouth/Z_011.bundle"
+                    },
+                    {
+                        "bundle": "mouth/Z_012.bundle"
+                    }
+                ]
+            },
+            {
+                "title": "omoji_type_beard",
+                "typename": "beard",
+                "camera": "camera/icon_cam/cam_huzi.bundle",
+                "unbindList": [
+                    "hair",
+                    "headwear"
+                ],
+                "color": [
+                    {
+                        "typename": "beard_color"
+                    }
+                ],
+                "material": [
+                    {
+                        "bundle": ""
+                    },
+                    {
+                        "bundle": "beard/H_007.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_010.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_008.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_012.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_009.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_011.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_001.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_005.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_006.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_015.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_014.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_002.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_003.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_004.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_013.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_018.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_019.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_016.bundle"
+                    },
+                    {
+                        "bundle": "beard/H_017.bundle"
+                    }
+                ]
+            },
+            {
+                "title": "omoji_type_labret",
+                "typename": "lipstuds",
+                "camera": "camera/icon_cam/cam_zuichun.bundle",
+                "color": [
+                    {
+                        "typename": "labret_color"
+                    }
+                ],
+                "material": [
+                    {
+                        "bundle": ""
+                    },
+                    {
+                        "bundle": "lipstuds/I_001.bundle"
+                    },
+                    {
+                        "bundle": "lipstuds/I_002.bundle"
+                    },
+                    {
+                        "bundle": "lipstuds/I_003.bundle"
+                    },
+                    {
+                        "bundle": "lipstuds/I_004.bundle"
+                    },
+                    {
+                        "bundle": "lipstuds/I_005.bundle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "omoji_type_ear",
+        "subtype": [
+            {
+                "typename": "ear",
+                "camera": "camera/icon_cam/cam_erduo.bundle",
+                "unbindList": [
+                    "hair",
+                    "glasses",
+                    "headwear"
+                ],
+                "material": [
+                    {
+                        "bundle": "ear/E_001.bundle"
+                    },
+                    {
+                        "bundle": "ear/E_002.bundle"
+                    },
+                    {
+                        "bundle": "ear/E_003.bundle"
+                    }
+                ]
+            },
+            {
+                "title": "omoji_type_decoration_ear_right",
+                "typename": "earring_r",
+                "camera": "camera/icon_cam/cam_youerduo.bundle",
+                "unbindList": [
+                    "hair",
+                    "glasses",
+                    "headwear"
+                ],
+                "color": [
+                    {
+                        "typename": "earring_color_R"
+                    }
+                ],
+                "material": [
+                    {
+                        "bundle": ""
+                    },
+                    {
+                        "bundle": "earring_r/S_001_R.bundle"
+                    },
+                    {
+                        "bundle": "earring_r/S_002_R.bundle"
+                    },
+                    {
+                        "bundle": "earring_r/S_003_R.bundle"
+                    },
+                    {
+                        "bundle": "earring_r/S_004_R.bundle"
+                    },
+                    {
+                        "bundle": "earring_r/S_005_R.bundle"
+                    },
+                    {
+                        "bundle": "earring_r/S_006_R.bundle"
+                    },
+                    {
+                        "bundle": "earring_r/S_007_R.bundle"
+                    },
+                    {
+                        "bundle": "earring_r/S_008_R.bundle"
+                    },
+                    {
+                        "bundle": "earring_r/S_009_R.bundle"
+                    }
+                ]
+            },
+            {
+                "title": "omoji_type_decoration_ear_left",
+                "typename": "earring_l",
+                "camera": "camera/icon_cam/cam_zuoerduo.bundle",
+                "unbindList": [
+                    "hair",
+                    "glasses",
+                    "headwear"
+                ],
+                "color": [
+                    {
+                        "typename": "earring_color_L"
+                    }
+                ],
+                "material": [
+                    {
+                        "bundle": ""
+                    },
+                    {
+                        "bundle": "earring_l/S_001_L.bundle"
+                    },
+                    {
+                        "bundle": "earring_l/S_002_L.bundle"
+                    },
+                    {
+                        "bundle": "earring_l/S_003_L.bundle"
+                    },
+                    {
+                        "bundle": "earring_l/S_004_L.bundle"
+                    },
+                    {
+                        "bundle": "earring_l/S_005_L.bundle"
+                    },
+                    {
+                        "bundle": "earring_l/S_006_L.bundle"
+                    },
+                    {
+                        "bundle": "earring_l/S_007_L.bundle"
+                    },
+                    {
+                        "bundle": "earring_l/S_008_L.bundle"
+                    },
+                    {
+                        "bundle": "earring_l/S_009_L.bundle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "omoji_type_hat",
+        "subtype": [
+            {
+                "typename": "headwear",
+                "camera": "camera/icon_cam/cam_lianxing.bundle",
+                "color": [
+                    {
+                        "typename": "hat_color"
+                    }
+                ],
+                "material": [
+                    {
+                        "bundle": ""
+                    },
+                    {
+                        "bundle": "headwear/T_001.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_003.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_005.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_006.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_007.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_008.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_004.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_009.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_002.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_012.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_010.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_011.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_015.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_016.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_014.bundle"
+                    },
+                    {
+                        "bundle": "headwear/T_013.bundle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "omoji_type_glass",
+        "subtype": [
+            {
+                "typename": "glasses",
+                "camera": "camera/icon_cam/cam_lianxing.bundle",
+                "color": [
+                    {
+                        "title": "omoji_type_glass_frame",
+                        "typename": "glass_frame_color"
+                    },
+                    {
+                        "title": "omoji_type_glass_lens",
+                        "typename": "glass_color"
+                    }
+                ],
+                "material": [
+                    {
+                        "bundle": "glasses/G_003.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_005.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_004.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_013.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_002.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_001.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_017.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_016.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_018.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_014.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_015.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_006.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_022.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_010.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_009.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_012.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_020.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_011.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_019.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_008.bundle"
+                    },
+                    {
+                        "bundle": "glasses/G_021.bundle"
+                    },
+                    {
+                        "bundle": ""
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="com.android.settings.hardware_version.invisible" />
+    <app_feature name="com.android.settings.app_member_rcc_show" />
+</extend_features>
