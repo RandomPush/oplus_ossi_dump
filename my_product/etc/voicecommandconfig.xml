@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <Package>
+        <value>com.mediatek.voicecommand</value>
+    </Package>
+    <Client>
+        <value>com.mediatek.voicecommand.service.VoiceCommandManagerService</value>
+    </Client>
+    <StatusAction>
+        <value>com.oplus.exsystem.status.voicecommand</value>
+    </StatusAction>
+    <BindAction>
+        <value>com.oplus.exsystem.bind.voicecommand</value>
+    </BindAction>
+</config>
+

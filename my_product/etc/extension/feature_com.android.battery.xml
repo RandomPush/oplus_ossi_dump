@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- indicate if the device is support life mode 1.0：1 2.0：2 -->
+    <app_feature name="com.oplus.battery.life.mode.notificate" args="int:1"/>
+    <app_feature name="com.oplus.battery.speed_charge_mode" args="boolean:true"/>
+    <!-- indicate if the device is support smart charge mode 1.0：1 2.0：2 -->
+    <app_feature name="com.oplus.battery.smart.charge.mode" args="int:2"/>
+</extend_features>

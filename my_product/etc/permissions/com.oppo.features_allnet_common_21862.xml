@@ -1,0 +1,10 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<!-- COLOR_EDIT.  add oppo.screen.hovering.support ;remove oppo.narrow.frame -->
+<permissions>
+    <!-- JianCai.Li@ANDROID.POWER, 2021/11/25, add for disable superPowersave -->
+    <feature name="oplus.superpowersave.disable" />
+    <!-- JianCai.Li@ANDROID.POWER, 2021/11/25, add end -->
+	<!-- Yujun.Feng@UIFramework.View, 2021/12/22, add for 2802237 -->
+	<feature name="oplus.software.view.colorprocess.support" />
+	<!-- Yujun.Feng@UIFramework.View, 2021/12/22, add end -->
+</permissions>

@@ -1,0 +1,6 @@
+<oplus-config>
+    <!-- HuangWentao@GAMEECO.COOLEFFECT.COOLEX, 2021/03/18, Add for colorx feature start -->
+    <oplus-feature name="oplus.software.colorx.support"/>
+    <!-- end -->
+</oplus-config>
+

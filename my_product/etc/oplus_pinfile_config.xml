@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pin_file_config>
+	<item>/system/framework/arm64/boot-framework.oat</item>
+	<item>/system/framework/arm/boot-framework.oat</item>
+	<item>/apex/com.android.art/javalib/arm64/boot-okhttp.oat</item>
+	<item>/apex/com.android.art/javalib/arm/boot-okhttp.oat</item>
+	<item>/system/lib64/libhwui.so</item>
+	<item>/system/lib/libhwui.so</item>
+	<item>/system/framework/boot-framework.vdex</item>
+	<item>/system/framework/oat/arm64/services.vdex</item>
+	<item>/system/framework/oat/arm64/services.odex</item>
+	<item>/system/framework/telephony-common.jar</item>
+	<item>/system/framework/arm64/boot-telephony-common.art</item>
+	<item>/system/lib64/libsurfaceflinger.so</item>
+	<item>/apex/com.android.art/javalib/core-oj.jar</item>
+	<item>/apex/com.android.art/javalib/core-libart.jar</item>
+ </pin_file_config>
