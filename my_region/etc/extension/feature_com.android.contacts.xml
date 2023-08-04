@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- PengFei.Ma@CommApp.Contacts.2018/07/26.add for USER 1369622 -->
+    <app_feature name="com.android.contacts.support_card_recognize" />
+    <app_feature name="com.android.contacts.number_recognition_12"/>
+    <app_feature name="com.android.contacts.region_mark" args="String:IN"/>
+    <!-- Liukun@ROM.CommApp.Contacts, 2022/10/12, Add for Bug-Fix 4544330 -->
+    <app_feature name="com.android.contacts.cloud_sync_server_domain" args="String:heytapmobile.com"/>
+    <app_feature name="com.android.contacts.cloud_sync_privacy_statement" args="String:https://static-in01a-ocloud.heytapmobile.com/heytapprivacystatement.html"/>
+</extend_features>

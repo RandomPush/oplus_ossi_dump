@@ -1,0 +1,5 @@
+service vendor.oplus.hardware.hdcp-aidl-default /odm/bin/hw/vendor.oplus.hardware.hdcp.service
+    class hal
+    user media
+    group media system mediadrm drmrpc inet
+

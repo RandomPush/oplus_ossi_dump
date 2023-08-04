@@ -1,0 +1,23 @@
+<oplus-config>
+<!-- Suxiaolong@NETWORK.REG.208067, 2020/07/31, modify for Feature Toggle -->
+<!-- <unavailable-oplus-feature name="oplus.software.radio.support_5g"/> -->
+
+    <!-- PengHao@NETWORK.DATA.8124, 2020/05/08, Add for network quality evaluation.OPLUS_FEATURE_DATA_EVAL -->
+    <oplus-feature name="oplus.software.radio.data_eval" />
+
+    <!-- ShiQianhua@NETWORK.DATA.8615, 2020/06/22, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.data_fast_recovery" />
+    <!-- Tanzhengpeng@NETWORK.TECH.8615, 2022/06/22, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.nhs_disabled_restricted" />
+
+    <!-- Guoqiuyang@NETWORK.DATA.NA, 2022/06/13, modify for data limit Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.data_limit" />
+    <!-- Ziyang.Li@NETWORK.REG.4226361, 2022/10/14, add AP backoff SA for india JIO SA -->
+    <oplus-feature name="oplus.software.radio.enable_weak_signal_backoff"/>
+    <!-- Guoqiuyang@NETWORK.DATA.1867010, 2022/06/13, modify for DDS switch Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.dds_switch"/>
+    <!-- Guoqiuyang@NETWORK.DATA.1867010, 2022/06/13, modify for sa data recovery Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.sa_data_recovery_enabled"/>
+    <!-- Guoqiuyang@NETWORK.DATA.1867010, 2022/06/13, modify for game space mt optimization Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.mt_optimization"/>
+</oplus-config>

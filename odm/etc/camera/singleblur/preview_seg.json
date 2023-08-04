@@ -1,0 +1,58 @@
+{
+    "module": "previewSeg",
+    "comment":
+    [   
+        "BrandID 1 for oupo, 2 for yijia, 3 for zhenwo",
+        "QCOM performanceMode(BALANCED , HIGH_PERFORMANCE , POWER_SAVER , SYSTEM_SETTINGS , SUSTAINED_HIGH_PERFORMANCE ,",
+        "BURST , LOW_POWER_SAVER , HIGH_POWER_SAVER , LOW_BALANCED)",
+        "MTK nnapi and neuron delegate performanceMode(kLowPower , kFastSingleAnswer , kSustainedSpeed)",
+        "MTK neuron runtime performance(NEURONRUNTIME_PREFER_PERFORMANCE,NEURONRUNTIME_PREFER_POWER)",
+        "QCOM SegMode(DSP, GPU, CPU)",
+        "MTK SegMode(CPU, NNAPI, NEURON_DELEGATE, NEURON_RUNTIME)",
+        "MTK BoostValue mode(int(0~100), 101 Hint to notify the underlying scheduler to use the profiled boost value.)",
+        "MTK Scale: for MTK neuron runtime dequanti",
+        "MTK ZeroPoint: for MTK neuron runtime dequanti"
+    ],
+    "product": "DX-P",
+    "VENDOR": "MTK",
+    "MTK_VERSION": "5.0",
+    "param":
+    [
+        {
+            "product_name": "DX-P",
+            "BrandID": 1,
+            "SegMode": "NEURON_RUNTIME",
+            "Resolution":224,
+            "PerformanceMode":"NEURONRUNTIME_PREFER_POWER",
+            "BoostValue":100,
+            "DynamicFrames": true,
+            "DropFrames": false,
+            "Scale":0.21951505541801453,
+            "ZeroPoint":127
+        },
+		{
+            "product_name": "8250",
+            "BrandID": 1,
+            "SegMode": "DSP",
+            "Resolution":224,
+            "PerformanceMode":"POWER_SAVER",
+            "BoostValue":100,
+            "DynamicFrames": true,
+            "DropFrames": false,
+            "Scale":0.2155175358057022,
+            "ZeroPoint":127
+        },
+        {
+            "product_name": "7125",
+            "BrandID": 1,
+            "SegMode": "DSP",
+            "Resolution":224,
+            "PerformanceMode":"BALANCED",
+            "BoostValue":100,
+            "DynamicFrames": true,
+            "DropFrames": false,
+            "Scale":0.2155175358057022,
+            "ZeroPoint":127
+        }
+    ]
+}

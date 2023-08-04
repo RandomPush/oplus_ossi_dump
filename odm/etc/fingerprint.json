@@ -1,0 +1,22 @@
+[
+    {
+        "project":"21862",
+        "name":"default",
+        "product":"CPH2411",
+        "device":"OP5566L1",
+        "model":"CPH2411",
+        "first_api_level":"31",
+        "manufacturer": "OnePlus",
+        "brand": "OnePlus",
+        "base_oses": [
+            {
+              "13": "OnePlus/CPH2411/OP5566L1:13/TP1A.220905.001/S.202209010733:user/release-keys"
+            }
+        ],
+        "emer_base_oses": [
+            {
+              "13": "OnePlus/CPH2411/OP5566L1:13/TP1A.220905.001/S.202209010733:user/release-keys"
+            }
+        ]
+    }
+]

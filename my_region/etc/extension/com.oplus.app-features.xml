@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="os.tool.onetrace.performance.ood" args="boolean:true"/>
+	<app_feature name="os.tool.onetrace.performance.ottrace" args="boolean:false"/>
+	<app_feature name="os.tool.onetrace.thermal.metric" args="boolean:true"/>
+	<app_feature name="os.tool.onetrace.thermal.detect" args="boolean:true"/>
+	<app_feature name="os.tool.onetrace.thermal.ostats" args="boolean:true"/>
+	<app_feature name="com.oplus.eap.cloud_storage_release_host_v3" args="String:https://ostorage-ocloud-in.allawnos.com"/>
+	<app_feature name="com.oplus.eap.anr_crash.logfile.switch" args="boolean:true"/>
+	<app_feature name="com.oplus.eap.anr_crash.statistics.switch" args="boolean:true"/>
+	<app_feature name="com.oplus.eap.release_host" args="String:https://moa-upload-in.allawnos.com"/>
+	<app_feature name="com.oneplus.membership.url_host" args="String:https://memberapi.oneplus.in/"/>
+	<app_feature name="com.oneplus.membership.web_url_host" args="String:https://account.oneplus.in/member/sdk?utm_source=rom&amp;utm_medium="/>
+	<app_feature name="com.oneplus.membership.account.url_host" args="String:https://gateway-oppo.oneplus.in/v2/"/>
+</extend_features>

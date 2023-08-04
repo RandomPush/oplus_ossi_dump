@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.ted.number.crypto_domain" args="String:tel-num-in.heytapmobile.com"/>
+</extend_features>

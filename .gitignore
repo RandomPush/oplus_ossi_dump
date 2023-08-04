@@ -1,0 +1,17 @@
+system_ext/priv-app/SystemUI/SystemUI.apk
+system_ext/priv-app/Settings/Settings.apk
+system_ext/apex/com.android.vndk.v30.apex
+vendor/lib64/mt6895/libaibc_tuning.so
+my_bigball/priv-app/OppoGallery2/OppoGallery2.apk
+my_bigball/priv-app/Messages/Messages.apk
+my_bigball/app/Photos/Photos.apk
+my_stock/priv-app/Games/Games.apk
+my_stock/del-app/OppoRelax/OppoRelax.apk
+my_product/app/OplusCamera/OplusCamera.apk
+my_heytap/priv-app/Velvet/Velvet.apk
+my_heytap/priv-app/GmsCore/GmsCore.apk
+my_heytap/app/StdSP/StdSP.apk
+my_heytap/app/WebViewGoogle/WebViewGoogle.apk
+odm/etc/camera/license_release_fdc.lic
+odm/etc/camera/model/license.lic
+odm/etc/fad/license.lic

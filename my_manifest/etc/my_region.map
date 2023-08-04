@@ -1,0 +1,8 @@
+//my_region/etc/NOTICE.xml.gz 1
+//my_region/etc/oplus_carrier_config.xml 36
+//my_region/etc/startup/blacklist_default.xml 38-42
+//my_region/etc/startup/safe_boot_whitelist.xml 43-44
+//my_region/etc/startup/sys_startup_v3_config_list.xml 45-47
+//my_region/etc/startup/sys_startupmanager_config_list.xml 48-50
+//my_region/plugin/LogKitUploadPlugin/LogKitUploadPlugin.apk 51-753
+//my_region/plugin/SafeCenterConfigPlugin/SafeCenterConfigPlugin.apk 755-905
