@@ -1,0 +1,30 @@
+on property:init.svc.media=*
+    setprop init.svc.mediadrm ${init.svc.media}
+
+service media /system/bin/mediahelper
+    class main
+    user media
+    group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm
+    ioprio rt 4
+    task_profiles ProcessCapacityHigh HighPerformance
+#ifdef OPLUS_BUG_STABILITY
+#lichao5@PSW.MM.MediaServer.PLAYER.5381096,2023/04/06
+#Modify for binder thread blocking
+    onrestart restart mediaextractor
+#endif OPLUS_BUG_STABILITY
+
+service media32 /system/bin/mediaserver
+    disabled
+    class main
+    user media
+    group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm
+    ioprio rt 4
+    task_profiles ProcessCapacityHigh HighPerformance
+    
+service media64 /system/bin/mediaserver64
+    disabled
+    class main
+    user media
+    group audio camera inet net_bt net_bt_admin net_bw_acct drmrpc mediadrm
+    ioprio rt 4
+    task_profiles ProcessCapacityHigh HighPerformance
