@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.oplus.bootreg_global_search_feature_user_agreement" args="String:https://actimg.heytapimg.com/cdo-activity/static-page/channel73/index.html?lang="/>
+	<app_feature name="com.oplus.bootreg_global_search_feature_privacy_policy" args="String:https://actimg.heytapimg.com/cdo-activity/static-page/channel82/index.html?lang="/>
+	<app_feature name="oplus.af.enable.quick_connect_swicth_statet" args="int:1"/>
+	<app_feature name="com.oplus.wirelesssettings.vcomm_more_all" args="String:https://service.oneplus.com/global/search/search-detail?id=2113353"/>
+</extend_features>

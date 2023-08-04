@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="os.tool.onetrace.thermal.ostats" args="boolean:false"/>
+    <app_feature name="os.tool.onetrace.thermal.detect" args="boolean:false"/>
+    <app_feature name="os.tool.onetrace.performance.ottrace" args="boolean:false"/>
+    <app_feature name="os.tool.onetrace.thermal.metric" args="boolean:false"/>
+    <app_feature name="os.tool.onetrace.performance.ood" args="boolean:false"/>
+</extend_features>
