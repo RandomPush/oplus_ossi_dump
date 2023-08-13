@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!--xiaodong.du@ANDROID.UPDATABILITY, 2020/12/30, Add for all in one -->
+    <!--component update url ,default:""-->
+    <app_feature name="com.oplus.ota.component_update_url" args="String:https://component-ota-eu.allawnos.com"/>
+    <!--show_appointment_entry ,default:true-->
+    <app_feature name="com.oplus.ota.show_appointment_entry" args="boolean:true"/>
+    <!--cellular_download_choice_type ,default:1-->
+    <app_feature name="com.oplus.ota.cellular_download_choice_type" args="int:1"/>
+    <!--show_version_type ,default:1-->
+    <app_feature name="com.oplus.ota.show_version_type" args="int:2"/>
+    <!--print otaVersion switch ,default:false-->
+    <app_feature name="com.oplus.ota.print_log" args="boolean:false"/>
+    <!--component update cryptoSDK pubkey ,default:""-->
+    <app_feature name="com.oplus.ota.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh8/EThsK3f0WyyPgrtXb/D0Xni6UZNppaQHUqHWo976cybl92VxmehE0ISObnxERaOtrlYmTPIxkVC9MMueDvTwZ1l0KxevZVKU0sJRxNR9AFcw6D7k9fPzzpNJmhSlhpNbt3BEepdgibdRZbacF3NWy3ejOYWHgxC+I/Vj1v7QU5gD+1OhgWeRDcwuV4nGY1ln2lvkRj8EiJYXfkSq/wUI5AvPdNXdEqwou4FBcf6mD84G8pKDyNTQwwuk9lvFlcq4mRqgYaFg9DAgpDgqVK4NTJWM7tQS1GZuRA6PhupfDqnQExyBFhzCefHkEhcFywNyxlPe953NWLFWwbGvFKwIDAQAB"/>
+    <!--component update cryptoSDK pubkey version ,default:""-->
+    <app_feature name="com.oplus.ota.pubkey_ver" args="String:1615897067573"/>
+    <!--appointment account login,default:"true"-->
+    <app_feature name="com.oplus.ota.account_login" args="boolean:false"/>
+    <!--new appointment_url ,default:""-->
+    <app_feature name="com.oplus.ota.new_appointment_url" args="String:https://gauss-otarecruit-eu.allawnos.com/recruit/url"/>
+    <!--recruit_promote_url ,default:""-->
+    <app_feature name="com.oplus.ota.recruit_promote_url" args="String:https://gauss-otarecruit-eu.allawnos.com"/>
+    <!--appointment silence update,default:"true"-->
+    <app_feature name="com.oplus.ota.silence_update" args="boolean:false"/>
+    <app_feature name="com.oplus.ota.brand" args="String:oneplus-exp"/>
+</extend_features>

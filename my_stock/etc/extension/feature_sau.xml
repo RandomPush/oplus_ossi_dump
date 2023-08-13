@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+
+    
+    <!-- WangGuorui@ANDROID.UPDATABILITY, 2020/10/30 ,Add for change to oplusos -->
+    <app_feature name="com.oplusos.sau.url" args="String:https://sau-server-eu.allawnos.com/post/"/>
+    <app_feature name="com.oplusos.sau.downloadByDialog"  args="boolean:true"/>
+    <app_feature name="com.oplusos.sau.packageChange" args="boolean:true"/>
+    <app_feature name="com.oplusos.sau.forbidSilent" args="boolean:true"/>
+    <app_feature name="com.oplusos.sau.showToast" args="boolean:true"/>
+    <app_feature name="com.oplusos.sau.popUpDialog" args="boolean:true"/>
+    <app_feature name="com.oplusos.sau.print_log" args="boolean:false"/>
+
+    <!--SAU update cryptoSDK pubkey ,default:""-->
+    <app_feature name="com.oplus.sau.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhrQng+JDKPH2rsErGoqwlelKiECTk7Bdvly+z3NnQTc5ZL9s7YZ7d1NEyyV01/NH5fKR4fM7sYu5a4cxhxpFwIMwhfha3yphPO25KbyP+LkHIYMiHu7egpP3/26bnPUQmsjeWXdWsbfWMmdosd2kpaJtYBjFN3XAWkButHMj+i4GVIrzlizgm/1pX88cWzFh9yWctcjYg6+yHPawliTOU3CwgHRxKTOvY3ow6H7GzJu/VejQ72u/ZL3L84GyYW4XuXkMfDhHR68oEKaI3Y9kXymojLwcRXkxz+SkGdWuXPiiLBvoV53MKth39vwsYAOFPRdjMHp03GuWGsEIXZuVWQIDAQAB"/>
+    <!--SAU update cryptoSDK pubkey version ,default:""-->
+    <app_feature name="com.oplus.sau.pubkey_ver" args="String:1621324463104"/>
+
+    <!--xinqi.liu@ANDROID.UPDATABILITY, 2021/11/01, Add for sau opex -->
+    <app_feature name="com.oplusos.sau.opex.url" args="String:https://opex-service-eu.allawnos.com/"/>
+    <app_feature name="com.oplusos.sau.opex.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5j8QHA2FWysJd5NSz7IRlYhW3vcAri6AeLK/+X5lnWu9xeFTLd2zkjvasGPJR6kJVMQ5+AXdBCq5oR8umHqKRsMDB4doGhECfjauFm7uVmJJRfgL2cg5wPHWuAZfnWshlhuYZ1S1sTu4RIHQD7uQGxrXZzmkY+JlHB5byaekMuSwz3uJ9gwZ9WLP8LXh+MGC1ECJ476rnPehJom3/Mxxj+WTilMhDO2Ws61tskkDINdL1Qmj0ziia4hYziyLmDDDcrhDKB/tOpYioByFnDuyaEySLunR7bp4XDFcUfptCXwEML12LzUlpifDxdj6ZZeHkpk9ZYs59JfNynXVBbcJcQIDAQAB"/>
+    <app_feature name="com.oplusos.sau.opex.pubkey_ver" args="String:1631002593566"/>
+</extend_features>

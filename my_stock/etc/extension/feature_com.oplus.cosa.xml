@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="com.oplus.cosa.server_url" args="String:https://icosa-service-eu.allawnos.com"/>
+    <app_feature name="com.oplus.cosa.server_url_test" args="String:https://icosa-service-eu.allawnos.com"/>
+
+    <app_feature name="com.oplus.cosa.function_cut" args="boolean:true"/>
+</extend_features>

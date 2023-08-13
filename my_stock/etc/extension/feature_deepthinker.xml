@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="com.oplusos.deepthinker.apptype.host" args="String:classify-app-eu.allawnos.com"/>
+    <app_feature name="com.oplus.deepthinker.startup.defer.time" args="long:600000"/>
+    <app_feature name="com.oplus.tzupdate.timezone_url" args="https://weather-api-eu.allawntech.com"/>
+</extend_features>

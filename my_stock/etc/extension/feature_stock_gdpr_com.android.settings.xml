@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="com.android.settings.auth_base_url" args="String:https://spk-service-eu.allawnos.com/"/>
+    <app_feature name="com.android.settings.upload_error_log" />
+    <app_feature name="com.android.settings.float_assistant.invisible" />
+    <app_feature name="com.android.settings.privacy_statement_biometric_unlock" />
+    <app_feature name="com.android.settings.euex_version" />
+    <app_feature name="com.android.settings.system_stable_plan.disable" />
+</extend_features>

@@ -1,0 +1,4 @@
+<settings_provider_config>
+    <!-- zhang.neng@SysApp.Settings ColorSettings.Global.CUSTOMIZE_SYSTEM_STABLE_PLAN -->
+    <settings_item name="oplus_customize_system_stable_plan_switch" value="0" category="global"/>
+</settings_provider_config>

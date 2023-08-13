@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="com.android.settings.video_beauty.invisible" />
+    <app_feature name="com.android.settings.hardware_version.invisible" />
+    <app_feature name="com.android.settings.app_member_url" args="String:https://gateway-eu.oneplus.net/v2/api/router" />
+    <app_feature name="com.android.settings.app_member_token_url" args="String:https://gateway-eu.oneplus.net/v2/oauth/token" />
+    <app_feature name="com.android.settings.app_member_rcc_show" />
+</extend_features>

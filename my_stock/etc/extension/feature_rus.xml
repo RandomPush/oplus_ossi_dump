@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <!-- liuxinqi@ANDROID.UPDATABILITY, 2022/04/28, Add for rus feature -->
+    <app_feature name="com.oplus.romupdate.url" args="String:https://rus-service-eu.allawnos.com/post/"/>
+    <app_feature name="com.oplus.romupdate.pubkey" args="String:MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAt5qKfUJiYPvJxO0E3FzvqR2dwXc0Xmii3oh9XohF9RoQpLlZEskYk+Otq2iwqpYXa4UqMbUXHoQM5JQAqEiqYHPRJskhuW4HFdJPA2H74hFYiAwm25hyGGQ42gG5YX4eUaVWX4SFpGWPmRWc5lZo6MVqjwiU+LNyujN7f609YSE/TPjcqVTrmxaM6vttKwQLtHLb0HOBoWe/iS4kVYd4VwQ1xlLzEDupNPNOLPoMmNibrjC26QZ7CsqKsoIKNH/hOGF/eNz4rY+4APp0zVJIT2687Fij4CGNL/HxFdpQCStIkU+DmR7llCULy8na+FU6ZyfeSUYssxNGzcEd/eeXEwIBAw=="/>
+    <app_feature name="com.oplus.romupdate.pubkey_ver" args="String:1608798196783"/>
+    <app_feature name="com.oplus.romupdate.is_exp" args="boolean:true"/>
+    <app_feature name="com.oplus.romupdate.is_log_print_limit" args="boolean:true"/>
+</extend_features>

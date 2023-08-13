@@ -1,0 +1,3 @@
+<extend_features>
+    <app_feature name="com.oplus.notificationmanager.glance"/>
+</extend_features>

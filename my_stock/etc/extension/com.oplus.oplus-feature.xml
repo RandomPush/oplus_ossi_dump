@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.vip_preload"/>
+	<oplus-feature name="oplus.software.parallel_preload"/>
+	<oplus-feature name="oplus.software.next_preload"/>
+	<oplus-feature name="oplus.software.sau_preload"/>
+	<oplus-feature name="oplus.software.resolver_share_email"/>
+	<oplus-feature name="oplus.software.uxicon_exp"/>
+</oplus-config>
