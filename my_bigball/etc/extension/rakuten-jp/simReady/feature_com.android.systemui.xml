@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>  
+    <app_feature name="com.android.systemui.show_4g_for_4gplus" />
+		<!-- indicate if the device support esimcard -->
+    <app_feature name="com.android.systemui.keyguard_support_esimcard" />
+</extend_features>

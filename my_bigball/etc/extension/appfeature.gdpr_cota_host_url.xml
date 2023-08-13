@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extend_features>
+    <app_feature name="com.oplus.cota.cota_host_url" args="String:https://icota-service-eu.allawnos.com" />
+</extend_features>
