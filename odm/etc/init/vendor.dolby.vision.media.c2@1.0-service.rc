@@ -1,0 +1,6 @@
+service dolbycodec2.p /odm/bin/hw/dolbycodec2.p
+    class hal
+    user mediacodec
+    group camera mediadrm drmrpc
+    ioprio rt 4
+    writepid /dev/cpuset/foreground/tasks

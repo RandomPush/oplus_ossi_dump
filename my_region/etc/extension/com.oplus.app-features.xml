@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.oplus.tzupdate.timezone_url" args="String:weather-api-eu.allawnos.com"/>
+	<app_feature name="com.oplusos.deepthinker.apptype.host" args="String:classify-app-eu.allawnos.com"/>
+	<app_feature name="com.oplusos.deepthinker.boot.default.switch.export" args="boolean:false"/>
+	<app_feature name="com.oplus.cosa.server_url_spec" args="String:https://icosa-service-sg.allawnos.com"/>
+	<app_feature name="com.oplus.cosa.server_url_test_spec" args="String:https://icosa-service-sg.allawnos.com"/>
+	<app_feature name="dft.logkit.ostorage_url" args="String:https://ostorage-ocloud-eu.allawnos.com"/>
+	<app_feature name="dft.logkit.feedback_server_url" args="String:https://ilogkit-service-eu.allawnos.com"/>
+	<app_feature name="com.oplus.wallpapers.online_wallpaper.host" args="String:https://wallpaper-service-eu.allawnos.com"/>
+	<app_feature name="com.android.phone.simsettings.disable_smart_5g"/>
+	<app_feature name="com.oplus.camera.face_beauty_default_off"/>
+	<app_feature name="com.oplus.camera.soloop_route_url" args="String:https://videoeditor-eu.soloop.heytapmobile.com"/>
+	<app_feature name="com.oplus.camera.sticker_base_url" args="String:https://sticker-apps-eu.heytapmobile.com"/>
+	<app_feature name="com.oplus.soundrecorder.no_display_record"/>
+	<app_feature name="com.oplus.wirelesssettings.vcomm_more" args="String:https://support.oppo.com/en/vcomm-help/"/>
+	<app_feature name="com.oplus.smartanalysis.rule_server_host" args="String:https://iwisdom-apps-fr.allawnos.com"/>
+	<app_feature name="com.oplus.calculator.rate_address" args="String:https://proxyeu.apps.oppomobile.com/"/>
+	<app_feature name="com.oplus.heysynergy.agreement_url_12.0" args="String:https://connect.oppo.com/en-GB/agreement"/>
+	<app_feature name="com.oplus.heysynergy.func_brief_url_12.0" args="String:connect.oppo.com"/>
+	<app_feature name="com.oplus.padconnect.QR_url" args="String:https://pc-assistant-eu.allawnofs.com/h5/index.html?param="/>
+	<app_feature name="com.oplus.wirelesssettings.vcomm_account_skip"/>
+	<app_feature name="com.oneplus.membership.url_host" args="String:https://memberapi-eu.oneplus.com/v2/api/rest/"/>
+	<app_feature name="com.oneplus.membership.web_url_host" args="String:https://account.oneplus.com/member/sdk?region=eu&amp;utm_source=rom&amp;utm_medium="/>
+	<app_feature name="com.oneplus.membership.account.url_host" args="String:https://gateway-eu.oneplus.net/v2/"/>
+	<app_feature name="com.oplus.dcs.storage.url" args="String:https://ostorage-ocloud-eu.allawnos.com"/>
+	<app_feature name="com.oplus.dcs.eap.url" args="String:https://eap-upload-eu.allawnos.com"/>
+</extend_features>

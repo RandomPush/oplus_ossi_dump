@@ -1,0 +1,6 @@
+service dvs-hal-service.p /odm/bin/hw/dvs-hal-service.p
+    class hal
+    user mediacodec
+    group camera mediadrm drmrpc
+    ioprio rt 4
+    writepid /dev/cpuset/foreground/tasks

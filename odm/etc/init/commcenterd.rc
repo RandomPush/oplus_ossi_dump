@@ -1,0 +1,8 @@
+on property:persist.vendor.radio.virtualcomm=1
+    start commcenterd
+
+service commcenterd /odm/bin/commcenterd
+    class main
+    user root
+    group system radio
+    disabled

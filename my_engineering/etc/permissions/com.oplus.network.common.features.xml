@@ -1,0 +1,7 @@
+<oplus-config>
+    <!-- HeZhihui@NETWORK.REG.8515, 2020/06/12, modify for Feature Toggle -->
+    <!-- <oplus-feature name="oplus.software.radio.signal_smooth_disabled" /> -->
+    <!-- <oplus-feature name="oplus.software.radio.hvolte_disabled" /> -->
+    <!-- <unavailable-oplus-feature name="oplus.software.radio.nr_icon_optimized_enabled"/> -->
+    <!-- <unavailable-oplus-feature name="oplus.software.radio.ntp_preferred"/> -->
+</oplus-config>

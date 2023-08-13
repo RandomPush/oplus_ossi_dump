@@ -1,0 +1,14 @@
+# qssi-user UpsideDownCake UP1A.230309.002 1682252123527 release-keys
+- manufacturer: oplus
+- platform: kalama
+- codename: ossi
+- flavor: qssi-user
+- release: 14
+- id: UP1A.230309.002
+- incremental: 1682252123527
+- tags: release-keys
+- fingerprint: oplus/ossi/ossi:13/UP1A.230309.002/1682251679730:user/release-keys
+- is_ab: true
+- brand: oplus
+- branch: qssi-user-UpsideDownCake-UP1A.230309.002-1682252123527-release-keys
+- repo: oplus_ossi_dump
