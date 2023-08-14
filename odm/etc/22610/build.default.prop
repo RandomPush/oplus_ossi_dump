@@ -1,0 +1,43 @@
+
+# Build.java
+ro.build.id=SP1A.210812.016
+ro.product.manufacturer=realme
+ro.product.brand=realme
+ro.product.model=RMX3751
+ro.product.name=RMX3751
+ro.product.device=RE5852
+ro.product.first_api_level=33
+ro.build.version.base_os=realme/RMX3751/RE5852:13/SP1A.210812.016/T.10ba219-1e7:user/release-keys
+ro.build.version.release=13
+ro.build.version.release_or_codename=13
+ro.build.version.incremental=T.10c1e49_17e9b
+ro.build.fingerprint=realme/RMX3751/RE5852:13/SP1A.210812.016/T.10c1e49_17e9b:user/release-keys
+ro.odm.build.fingerprint=realme/RMX3751/RE5852:13/SP1A.210812.016/T.10c1e49_17e9b:user/release-keys
+ro.odm.build.version.incremental=T.10c1e49_17e9b
+ro.product.odm.brand=realme
+ro.product.odm.manufacturer=realme
+ro.product.odm.model=RMX3751
+ro.product.odm.device=RE5852
+ro.product.odm.name=RMX3751
+ro.odm.build.date=Mon May 29 21:46:52 CST 2023
+ro.odm.build.date.utc=1685368012
+ro.bootimage.build.fingerprint=realme/RMX3751/RE5852:13/SP1A.210812.016/T.10c1e49_17e9b:user/release-keys
+ro.bootimage.build.version.incremental=T.10c1e49_17e9b
+ro.product.bootimage.brand=realme
+ro.product.bootimage.manufacturer=realme
+ro.product.bootimage.model=RMX3751
+ro.product.bootimage.device=RE5852
+ro.product.bootimage.name=RMX3751
+ro.bootimage.build.date=Mon May 29 21:46:52 CST 2023
+ro.bootimage.build.date.utc=1685368012
+ro.vendor.build.fingerprint=realme/RMX3751/RE5852:13/SP1A.210812.016/T.10c1e49_17e9b:user/release-keys
+ro.vendor.build.version.incremental=T.10c1e49_17e9b
+ro.product.vendor.brand=realme
+ro.product.vendor.manufacturer=realme
+ro.product.vendor.model=RMX3751
+ro.product.vendor.device=RE5852
+ro.product.vendor.name=RMX3751
+ro.vendor.build.date=Mon May 29 21:46:52 CST 2023
+ro.vendor.build.date.utc=1685368012
+
+# OPPO

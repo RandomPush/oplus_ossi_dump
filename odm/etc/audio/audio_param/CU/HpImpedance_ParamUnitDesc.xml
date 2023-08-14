@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamUnitDesc version="1.0">
+	<CategoryTypeList>
+		<CategoryType name="HpImpedance">
+			<Category name="Common"/>
+			<Category name="mt3967"/>
+			<Category name="mt6735"/>
+			<Category name="mt6755"/>
+			<Category name="mt6757"/>
+			<Category name="mt6759"/>
+			<Category name="mt6763"/>
+			<Category name="mt6771"/>
+			<Category name="mt6775"/>
+			<Category name="mt6779"/>
+			<Category name="mt6785"/>
+			<Category name="mt6797"/>
+			<Category name="mt6799"/>
+			<Category name="mt6885"/>
+			<Category name="mt6893"/>
+			<Category name="mt8167"/>
+			<Category name="ELBRUS"/>
+		</CategoryType>
+	</CategoryTypeList>
+	<ParamUnit>
+		<Param name="hp_impedance_enable" type="int"/>
+		<Param name="hp_impedance_onboard_resistor" type="int"/>
+		<Param name="hp_impedance_default_idx" type="int"/>
+		<Param name="hp_impedance_threshold_list" type="short_array"/>
+		<Param name="hp_impedance_gain_degrade_list" type="short_array"/>
+	</ParamUnit>
+</ParamUnitDesc>

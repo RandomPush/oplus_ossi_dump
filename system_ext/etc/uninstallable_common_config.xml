@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appconfig>
+    <!-- hide launch icon (only valid when app is system app) -->
+    <launch_hide pkg="com.coloros.phonemanager" gt="32"/>
+    <launch_hide pkg="com.heytap.cloud" gt="32"/>
+    <launch_hide pkg="com.android.stk" gt="32"/>
+    <launch_hide pkg="com.heytap.speechassist" gt="32"/>
+
+    <!-- show reminder when uninstall -->
+    <reminder_show pkg="com.heytap.member"/>
+    <reminder_show pkg="com.coloros.alarmclock"/>
+    <reminder_show pkg="com.coloros.filemanager"/>
+    <reminder_show pkg="com.coloros.calendar"/>
+    <reminder_show pkg="com.heytap.yoli"/>
+    <reminder_show pkg="com.heytap.music"/>
+    <reminder_show pkg="com.heytap.themestore"/>
+    <reminder_show pkg="com.finshell.wallet"/>
+    <reminder_show pkg="com.coloros.calculator"/>
+    <reminder_show pkg="com.coloros.weather2"/>
+    <reminder_show pkg="com.nearme.gamecenter"/>
+    <reminder_show pkg="com.heytap.health"/>
+    <reminder_show pkg="com.coloros.compass2"/>
+    <reminder_show pkg="com.coloros.soundrecorder"/>
+    <reminder_show pkg="com.android.email"/>
+    <reminder_show pkg="com.coloros.note"/>
+    <reminder_show pkg="com.coloros.shortcuts"/>
+    <reminder_show pkg="com.heytap.smarthome"/>
+    <reminder_show pkg="com.coloros.familyguard"/>
+    <reminder_show pkg="com.oneplus.brickmode"/>
+    <reminder_show pkg="com.coloros.backuprestore"/>
+    <reminder_show pkg="com.oppo.community"/>
+    <reminder_show pkg="com.oplus.play"/>
+    <reminder_show pkg="com.oppo.store"/>
+    <reminder_show pkg="com.heytap.book"/>
+    <reminder_show pkg="com.heytap.reader"/>
+
+    <!-- hide uninstall icon when first api level lower than 33 -->
+    <!-- uninstall_soft_hide follows uninstall_hide -->
+    <uninstall_hide pkg="com.heytap.member" lt="33"/>
+    <uninstall_hide pkg="com.coloros.alarmclock" lt="33"/>
+    <uninstall_hide pkg="com.coloros.filemanager" lt="33"/>
+    <uninstall_hide pkg="com.coloros.calendar" lt="33"/>
+    <uninstall_hide pkg="com.heytap.yoli" lt="33"/>
+    <uninstall_hide pkg="com.heytap.music" lt="33"/>
+    <uninstall_hide pkg="com.heytap.themestore" lt="33"/>
+    <uninstall_hide pkg="com.finshell.wallet" lt="33"/>
+</appconfig>
