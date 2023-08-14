@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<filter-conf>
+  <version>20230519</version>
+  <isOpen>true</isOpen>
+  <filter-name>Multimedia_Daemon_Ext_List</filter-name>
+    <mtkomx-color-convert>
+        <name>com.heytap.yoli</name>
+        <attribute>null</attribute>
+        <name>com.coloros.gallery3d</name>
+        <attribute>null</attribute>
+    </mtkomx-color-convert>
+</filter-conf>

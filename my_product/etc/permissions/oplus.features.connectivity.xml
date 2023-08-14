@@ -1,0 +1,4 @@
+<oplus-config>
+    <oplus-feature name="oplus.software.bt.switchlog" />
+    <oplus-feature name="oplus.software.btc.dynamic_tdd" />
+</oplus-config>

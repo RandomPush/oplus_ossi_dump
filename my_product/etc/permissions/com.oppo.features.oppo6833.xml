@@ -1,0 +1,9 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<permissions>
+    <feature name="oppo.hw.manufacturer.mtk" />
+    <feature name="mtk.gemini.support" />
+	<!-- Boyu.Wen@BSP.CHG, 2020/12/14, add for MT6833 -->
+    <feature name="oppo.typecotg.connection.menu.support" />
+    <!-- Boyu.Wen@BSP.CHG, 2020/12/14, add for MT6833 -->
+    <feature name="oplus.typecotg.connection.menu.support" />
+</permissions>

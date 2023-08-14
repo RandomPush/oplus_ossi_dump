@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+  <disable pkg="com.oplus.acc.gac" priority="7"/>
+  <enable pkg="com.oplus.ocar" priority="7"/>
+  <enable pkg="com.oplus.vdc" priority="7"/>
+</app>

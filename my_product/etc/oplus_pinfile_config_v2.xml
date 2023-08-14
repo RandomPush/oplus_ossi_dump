@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pin_file_config_v2>
+    <!-- default -->
+    <group>
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+    </group>
+
+    <group mem="4">
+    </group>
+
+    <group mem="6">
+    </group>
+
+    <group mem="8">
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+    </group>
+
+    <group mem="12">
+        <item>/system/framework/framework.jar</item>
+        <item>/system/framework/services.jar</item>
+    </group>
+</pin_file_config_v2>

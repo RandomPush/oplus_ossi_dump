@@ -1,0 +1,23 @@
+<oplus-config>
+   <!-- Guofu.Yang@ANDROID.WMS.2458273, 2020/08/13, Add for app resolution switch -->
+   <oplus-feature name="oplus.software.app_resolution_switch" />
+   <oplus-feature name="oplus.software.app_resolution_auto" />
+   <!-- steve.shen@OPTI, 2021/03/12, Add for animation scroll opt -->
+   <oplus-feature name="oplus.software.scroll.animation_opt" />
+   <!-- CaiChunchun@ANDROID.INPUT, 2020/11/25, add for wake up arouse -->
+   <oplus-feature name="oplus.software.wake_up_arouse_support" />
+   <!-- CaiChunchun@ANDROID.INPUT, 2020/11/25, add end -->
+   <!-- CaiChunchun@ANDROID.INPUT, 2021/07/07, add for blackgesture -->
+   <oplus-feature name="oplus.software.gesture_proximitysensor" />
+   <!-- CaiChunchun@ANDROID.INPUT, 2021/07/07, add end -->
+   <!-- HouJian@ANDROID.AMS, 2021/12/01, add for service/provider bind small core  -->
+   <oplus-feature name="oplus.software.bind_small_core" />
+   <!-- HouJian@ANDROID.AMS, 2021/12/01, add end -->
+   <oplus-feature name="oplus.software.reduce.task_snapshot" />
+   <!-- #Fei.Ma@PSW.AD.Memory, 2022/08/22, Disable delayed kill cached processes to
+   reduce the impact on boot memory. -->
+   <oplus-feature name="oplus.software.ams.disable_delay_mcp_kill" />
+   <oplus-feature name="oplus.software.face_nopowerblock" />
+   <!-- Guoruijun@ANDROID.AMS, 2023/4/26, add for light OS -->
+   <oplus-feature name="oplus.software.windowanimaiton.light" />
+</oplus-config>

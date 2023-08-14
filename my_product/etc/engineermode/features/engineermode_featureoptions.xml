@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<features>
+    <!-- BSP feature -->
+    <feature name="com.oppo.eng.otg.support" />
+    <feature name="com.oppo.eng.type.c.support" />
+    <feature name="com.oppo.eng.smallboard.detect.support" />
+    <feature name="com.oppo.eng.a.smallboard.detect.support" />
+    <feature name="com.oppo.eng.sdcard.support" />
+    <feature name="com.oppo.eng.pd.charger.support" />
+    <feature name="com.oppo.eng.qc.charger.support" />
+    <feature name="com.oppo.eng.qc.charge.em.mode.support" />
+
+    <!-- single battery normal -->
+    <feature name="com.oppo.eng.normal.battery.voltage.range" value="[3500,4550]"/>
+    <feature name="com.oppo.eng.normal.battery.temperate.range" value="[150,450]"/>
+    <feature name="com.oppo.eng.normal.charger.voltage.range" value="[4250,5500]"/>
+    <feature name="com.oppo.eng.normal.charge.current.range" value="(-2300,-500)"/>
+    <feature name="com.oppo.eng.normal.charge.current.slow.range" value="(-2300,-200)"/>
+    <feature name="com.oppo.eng.normal.charge.battery.level.range" value="[0,85)"/>
+
+    <!-- single battery pd -->
+    <feature name="com.oppo.eng.pd.battery.voltage.range" value="[3500,4550]"/>
+    <feature name="com.oppo.eng.pd.battery.temperate.range" value="[150,450]"/>
+    <feature name="com.oppo.eng.pd.charger.voltage.range" value="[7600,9500]"/>
+    <feature name="com.oppo.eng.pd.charger.voltage.slow.range" value="[7600,9500]"/>
+    <feature name="com.oppo.eng.pd.charge.current.range" value="(-3600,-1200)"/>
+    <feature name="com.oppo.eng.pd.charge.current.slow.range" value="(-3600,-800)"/>
+    <feature name="com.oppo.eng.pd.charge.battery.level.range" value="[0,85)"/>
+    <feature name="com.oppo.eng.pd.charge.sub.current.range" value="(-3600,-300]"/>
+
+
+    <!-- single battery qc 2.0-->
+    <feature name="com.oppo.eng.qc.battery.voltage.range" value="[3500,4550]"/>
+    <feature name="com.oppo.eng.qc.battery.temperate.range" value="[150,450]"/>
+    <feature name="com.oppo.eng.qc.charger.voltage.range" value="[7600,9500]"/>
+    <feature name="com.oppo.eng.qc.charger.voltage.slow.range" value="[7600,9500]"/>
+    <feature name="com.oppo.eng.qc.charge.current.range" value="(-3600,-1200)"/>
+    <feature name="com.oppo.eng.qc.charge.current.slow.range" value="(-3600,-800)"/>
+    <feature name="com.oppo.eng.qc.charge.battery.level.range" value="[0,85)"/>
+    <feature name="com.oppo.eng.qc.charge.sub.current.range" value="(-3600,-300]"/>
+    <!-- Android feature -->
+    <feature name="com.oppo.eng.navigation.bar.support" />
+</features>

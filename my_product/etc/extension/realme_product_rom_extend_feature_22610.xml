@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+
+    <app_feature name="com.android.systemui.support.show_charging_wattage"/>
+	<app_feature name="com.android.launcher.light_animator"/>
+    <app_feature name="com.android.launcher.BIG_SIMPLE_MODE_SUPPORT" args="boolean:false"/>
+    <!--intelligent perception-->
+    <app_feature name="com.oplus.gesture.intelligent_perception"/>
+    <app_feature name="com.android.settings.move_dc_to_develop"/>
+	<!--pan view gauss blur disable-->
+    <app_feature name="com.android.systemui.pan_view_gauss_blur_disabled"/>
+</extend_features>

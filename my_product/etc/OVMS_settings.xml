@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <threshold type="0">
+        <value>0.12F</value>
+    </threshold>
+    <threshold type="1">
+        <value>0.23F</value>
+    </threshold>
+    <threshold type="2">
+        <value>0.18F</value>
+    </threshold>
+    <!--思必驰模型支持的麦克数量-->
+    <micnum>
+        <value>1</value>
+    </micnum>
+    <!--思必驰AEC算法支持的扬声器数量-->
+    <refnum>
+        <value>1</value>
+    </refnum>
+    <!--非AEC状态实际录音通道数量-->
+    <nornum>
+        <value>1</value>
+    </nornum>
+    <!--AEC状态实际录音通道数量-->
+    <aecnum>
+        <value>2</value>
+    </aecnum>
+</settings>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.oplus.smartsidebar.default.off"/>
+	<app_feature name="com.oplus.metis.bind_cpu_cluster_for_different_soc" args="int:2"/>
+</extend_features>

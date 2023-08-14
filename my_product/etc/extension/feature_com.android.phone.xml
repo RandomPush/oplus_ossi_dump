@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <app_feature name="com.android.incallui.share_screen_and_touch_cmd_support" args="boolean:true"/>
+</extend_features>
