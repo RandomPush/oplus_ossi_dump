@@ -1,0 +1,10 @@
+on zygote-start && property:ro.vendor.mtk.app32_boost_system_preload=1
+    start zygote_hbt
+
+on property:init.svc.zygote=restarting && property:ro.vendor.mtk.app32_boost_system_preload=1
+    stop zygote_hbt
+    start zygote_hbt
+
+on property:init.svc.zygote=restarting && property:ro.vendor.mtk.app32_boost_system_preload=0 && property:persist.device_config.vendor_system_native.zygote_hbt=1
+    stop zygote_hbt
+    start zygote_hbt
