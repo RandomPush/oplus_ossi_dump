@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ********************************************************************************
+ ** Copyright (C) 2018-2020 Oplus. All rights reserved.
+ ** All rights reserved.
+ **
+ ** File: - privapp-permission-oplus.xml
+ ** Description:
+ **     Customization of Android privapp-permission-platform.xml
+ **
+ ** Version: 1.0
+ ** Date: 2022-09-29
+ ** Author: fanxu@MM.heycast
+ **
+ ** <author>                        <data>       <version>   <desc>
+  ** fanxu@MM.heycast       2022-09-29   1.0         Create this file
+ ********************************************************************************/
+  -->
+
+<!--
+This XML file declares which signature|privileged permissions should be granted to privileged
+applications that come with the platform
+This file contains the customization of Android privapp-permission-platform.xml,we should
+not add logic in privapp-permission-platform.xml directly.
+-->
+<permissions>
+
+    <privapp-permissions package="com.google.ambient.streaming">
+		<permission name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND"/>
+		<permission name="android.permission.REQUEST_COMPANION_SELF_MANAGED"/>
+		<permission name="android.permission.CAPTURE_VOICE_COMMUNICATION_OUTPUT"/>
+		<permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+		<permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+		<permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+		<permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+		<permission name="android.permission.BATTERY_STATS"/>
+		<permission name="android.permission.ACCESS_NOTIFICATIONS"/>
+		<permission name="android.permission.FORCE_STOP_PACKAGES"/>
+		<permission name="android.permission.REQUEST_COMPANION_PROFILE_APP_STREAMING"/>
+		<permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+		<permission name="android.permission.REAL_GET_TASKS"/>
+	</privapp-permissions>
+	
+</permissions>
+
+
