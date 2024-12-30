@@ -1,0 +1,66 @@
+[
+    {
+        "filter_name": "sys_perf_config"
+    },
+    {
+        "version": 20240412
+    },
+    {
+        "scroll_animation_opt": true,
+        "common_only": false,
+        "pre_anim_strategy": 1,
+        "pre_anim_blacklist": [
+            "com.kyk.world",
+            "com.shopify.arrive"
+        ],
+        "pre_anim_whitelist": [
+
+        ],
+        "frame_insert_default_num": 1,
+        "frame_insert_list": {
+            "com.sina.weibo": {
+                "com.sina.weibo.VisitorMainTabActivity": 3
+            },
+            "com.tencent.mm": {
+                "com.tencent.mm.plugin.sns.ui.SnsTimeLineUI": 3,
+                "com.tencent.mm.ui.AlbumUI": 3,
+                "com.tencent.mm.plugin.sns.ui.improve.ImproveSnsTimelineUI": 3
+            },
+            "com.taobao.idlefish": {
+
+            },
+            "com.kyk.world": {
+
+            },
+            "com.shopify.arrive": {
+
+            }
+        },
+        "scroll_changed_enable_list": {
+            "com.xunmeng.pinduoduo": [
+                "com.xunmeng.pinduoduo.activity.NewPageActivity"
+            ],
+            "com.sankuai.meituan": [
+                "com.meituan.android.pt.homepage.activity.MainActivity"
+            ],
+            "com.tencent.mobileqq": [
+                "com.qzone.feed.ui.activity.QZoneFriendFeedActivity"
+            ],
+            "com.dragon.read": [
+                "com.dragon.read.pages.main.MainFragmentActivity"
+            ],
+            "com.ct.client": [
+                "com.ct.client.activity.MainActivity"
+            ],
+            "com.tencent.qqlive": [
+                "com.tencent.qqlive.ona.activity.SplashHomeActivity"
+            ],
+            "com.tencent.qqmusic": [
+                "com.tencent.qqmusic.activity.AppStarterActivity"
+            ],
+            "com.ss.android.ugc.aweme": [
+                "com.ss.android.ugc.aweme.splash.SplashActivity"
+            ]
+        }
+    }
+]

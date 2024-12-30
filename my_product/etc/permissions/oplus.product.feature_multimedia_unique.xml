@@ -1,0 +1,28 @@
+<oplus-config>
+   <!-- Yao.Yongming@MULTIMEDIA.AUDIOSERVER.EFFECT.2021/1/6. Add for surround_effect_support start-->
+    <oplus-feature name="oplus.software.effect.surround_effect_support"/>
+    <!-- Yao.Yongming@MULTIMEDIA.AUDIOSERVER.EFFECT.2021/1/6. Add for surround_effect_support end-->
+
+    <!-- yanweibo@MULTIMEDIA.AUDIOSERVER>BASE.2020/12/08. Add for Alert Slider feature start -->
+    <oplus-feature name="oplus.software.audio.alert_slider" />
+
+    <!-- brightness feature -->
+    <oplus-feature name="oplus.software.display.reduce_brightness_delay" />
+    <oplus-feature name="oplus.software.display.dual_lightsensor_support"/>
+
+    <!-- caibo@MULTIMEDIA.MEDIASERVER.RECORDER, 2020/11/10, Add for osie and sr feature start -->
+    <oplus-feature name="oplus.software.video.sr_support"/>
+    <oplus-feature name="oplus.software.video.osie_support"/>
+    <!-- caibo@MULTIMEDIA.MEDIASERVER.RECORDER, 2020/11/10, Add for osie and sr feature end -->
+
+    <!-- Haiping.bai@MULTIMEDIA.AUDIODRIVER, 2022/11/04, Add for lvacfs surround record  start-->
+    <oplus-feature name="oplus.software.video.surround_record_support"/>
+    <!-- Haiping.bai@MULTIMEDIA.AUDIODRIVER, 2021/11/04, Add for lvacfs surround record  end-->
+
+    <!-- #jianghan.Yan@MULTIMEDIA.MEDIASERVER.PLAYER, 2022/11/08, Add for heif capture feature start -->
+    <oplus-feature name="oplus.software.camera.heic_support" />
+    <!-- #jianghan.Yan@MULTIMEDIA.MEDIASERVER.PLAYER, 2022/11/08, Add for heif capture feature start -->
+
+    <!-- handi@MULTIMEDIA.AUDIOSERVER.BASE, 2024/02/06, add for multi-application volume adjustment -->
+    <oplus-feature name="oplus.software.multi_app.volume.adjust.support"/>
+</oplus-config>

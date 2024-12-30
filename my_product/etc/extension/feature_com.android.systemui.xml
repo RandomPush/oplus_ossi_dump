@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- zhe.li@APP, 2023/03/20, disable voluem blur for low end device -->
+    <app_feature name="com.android.systemui.disable_volume_blur" />
+    <!--#endif OPLUS_EDIT-->
+    <!-- caoweidong@ANDROID.SYSTEMUI, 2023/03/22, add for disable guass -->
+    <app_feature name="com.android.systemui.gauss_blur_disabled"/>
+</extend_features>

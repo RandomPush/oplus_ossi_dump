@@ -1,0 +1,736 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!-- format: mode_auto-mode_90-mode_60-mode_120
+     value: 0(unspecified), 1(90Hz), 2(60Hz), 3(120Hz)
+     rateId="3-0-2-3" the preferred refresh rate id per setting mode
+     setting mode: auto  ,90hz     ,60hz  ,120hz
+     refresh rate: 120hz ,default,  60hz  ,120hz
+-->
+<refresh_rate_config version="20230908" ratemagic="mtk_120">
+<!-- cts activity -->
+  <item package="android.view.cts" activity="android.view.cts/.DisplayRefreshRateCtsActivity" rateId="2-2-2-2" appreqfirst="true" /> <!--CTS测试fail-->
+  <item package="android.view.cts" activity="android.view.cts/.surfacevalidator.CapturedActivity" rateId="2-2-2-2" />  <!--CTS测试fail-->
+<!-- 外销 -->
+<!-- Video -->
+  <item package="com.mxtech.videoplayer.ad" rateId="2-1-2-2" /><!--MX Player-->
+  <item package="org.videolan.vlc" rateId="2-1-2-2" />
+  <item package="com.dev.hd.live.channel" rateId="2-1-2-1" /> <!--外国电视(HD Tv Live)-->
+  <item package="com.instagram.boomerang" rateId="2-1-2-1" />  <!--Boomerang from Instagram-->
+  <item package="com.google.android.videos" rateId="2-1-2-2" />  <!--Google Play Movies & TV-->
+  <item package="com.mxtech.videoplayer.pro" rateId="2-1-2-2" />  <!--MX Player Pro-->
+  <item package="com.quvideo.xiaoying" rateId="2-1-2-1" />  <!--VivaVideo - Video Editor & Video Maker-->
+  <item package="com.google.android.apps.youtube.mango" rateId="2-1-2-1" />  <!--YouTube Go-->
+  <item package="com.leo.privatezone" rateId="2-1-2-1" />  <!--Private Zone - AppLock, Video & Photo Vault-->
+  <item package="video.like" rateId="2-1-2-2" />  <!--Likee - Formerly LIKE Video-->
+  <item package="com.mxtech.videoplayer.beta" rateId="2-1-2-1" />  <!--MX Player Beta-->
+  <item package="video.player.videoplayer" rateId="2-1-2-2" />  <!--Video Player All Format - XPlayer-->
+  <item package="com.nexstreaming.app.kinemasterfree" rateId="2-1-2-1" />  <!--KineMaster - Video Editor-->
+  <item package="com.htc.video" rateId="2-1-2-1" />  <!--HTC Service—Video Player-->
+  <item package="com.samsung.android.videolist" rateId="2-1-2-1" />  <!--Samsung Video Library-->
+  <item package="com.tdo.showbox" rateId="2-1-2-1" />  <!--ShowBox-->
+  <item package="org.videolan.vlc.betav7neon" rateId="2-1-2-1" />  <!--VLC for Android beta-->
+  <item package="com.popularapp.videodownloaderforinstagram" rateId="2-1-2-1" />  <!--Video Downloader - for Instagram Repost App-->
+  <item package="com.google.android.apps.youtube.creator" rateId="2-1-2-2" />  <!--YouTube Studio-->
+  <item package="com.uc.vmate" rateId="2-1-2-1" />  <!--VMate-->
+  <item package="com.naing.mp3converter" rateId="2-1-2-1" />  <!--Video to MP3 Converter-->
+  <item package="com.xvideostudio.videoeditor" rateId="2-1-2-1" />  <!--VideoShow Video Editor, Video Maker, Photo Editor-->
+  <item package="secret.hide.calculator" rateId="2-1-2-1" />  <!--Private Photo, Video Locker-->
+  <item package="com.huawei.himovie" rateId="2-1-2-1" />  <!--HUAWEI Video Player-->
+  <item package="com.vidmix.app" rateId="2-1-2-1" />  <!--VidMix-->
+  <item package="com.mcu.iVMS" rateId="2-1-2-1" />  <!--iVMS-4500-->
+  <item package="net.seesaa.sweet_baked_pie.AB_repeater" rateId="2-1-2-1" />  <!--abVideo-->
+  <item package="com.stupeflix.replay" rateId="2-1-2-1" />  <!--Quik – Free Video Editor for photos, clips, music-->
+  <item package="com.cyberlink.powerdirector.DRA140225_01" rateId="2-1-2-1" />  <!--PowerDirector - Video Editor App, Best Video Maker-->
+  <item package="com.funcamerastudio.videomaker" rateId="2-1-2-1" />  <!--Video Maker of Photos with Music & Video Editor-->
+  <item package="com.hecorat.screenrecorder.free" rateId="2-1-2-1" />  <!--AZ Screen Recorder - No Root-->
+  <item package="com.sony.tvsideview.phone" rateId="2-1-2-1" />  <!--Video & TV SideView : Remote-->
+  <item package="com.hikvision.hikconnect" rateId="2-1-2-1" />  <!--Hik-Connect-->
+  <item package="com.wondershare.filmorago" rateId="2-1-2-1" />  <!--FilmoraGo - Free Video Editor-->
+  <item package="com.camerasideas.trimmer" rateId="2-1-2-1" />  <!--YouCut - Video Editor & Video Maker, No Watermark-->
+  <item package="com.rahul.videoderbeta" rateId="2-1-2-1" />  <!--Video Downloader-->
+  <item package="free.video.downloader.freevideodownloader" rateId="2-1-2-1" />  <!--Free Video Downloader-->
+  <item package="com.vid007.videobuddy" rateId="2-1-2-1" />  <!--VideoBuddy — Fast Downloader, Video Detector-->
+  <item package="mobi.charmer.myscreenrecorder" rateId="2-1-2-1" />  <!--Screen Recorder V Recorder - Audio, Video Editor-->
+  <item package="com.opex.makemyvideostatus" rateId="2-1-2-1" />  <!--Lyrical.ly - Lyrical Video Status Maker-->
+  <item package="video.like.lite" rateId="2-1-2-1" />  <!--Likee Lite - Formerly LIKE Lite Video-->
+  <item package="all.video.downloader.allvideodownloader" rateId="2-1-2-1" />  <!--All downloader 2019-->
+  <item package="com.gilangfaisal.thestream" rateId="2-1-2-1" />  <!--Vidio - Nonton Video, TV & Live Streaming Gratis-->
+  <item package="com.rocks.music.videoplayer" rateId="2-1-2-1" />  <!--Video Player All Format - XPlayer-->
+  <item package="com.music.video.player.hdxo" rateId="2-1-2-1" />  <!--SHビデオプレーヤー-->
+  <item package="com.besthdvideo.editor.cutter.converter.pstr" rateId="2-1-2-1" />  <!--VivaVideo PRO Video Editor HD-->
+  <item package="com.znstudio.instadownload" rateId="2-1-2-1" />  <!--Downloader for Instagram: Photo & Video Saver-->
+  <item package="facebookvideodownloader.videodownloaderforfacebook" rateId="2-1-2-1" />  <!--Video Downloader for Facebook Video Downloader-->
+  <item package="com.kmplayer" rateId="2-1-2-1" />  <!--Video Player HD All formats & codecs - kmplayer-->
+  <item package="com.gretech.gomplayerko" rateId="2-1-2-1" />  <!--GOM Player-->
+  <item package="com.nbs.useetv" rateId="2-1-2-1" />  <!--UseeTV GO - Watch Live TV and On Demand TV/Video-->
+  <item package="storysaverforinstagram.storydownloader.instastorysaver" rateId="2-1-2-1" />  <!--Story Saver for Instagram - Story Downloader-->
+  <item package="com.mobivio.android.cutecut" rateId="2-1-2-1" />  <!--Cute CUT - Video Editor & Movie Maker-->
+  <item package="com.soludens.movieview" rateId="2-1-2-1" />  <!--Soul Movie-->
+  <item package="com.media.digital" rateId="2-1-2-1" />  <!--TV Indonesia - Semua Saluran TV Online Indonesia-->
+  <item package="com.tencent.qqlivei18n" rateId="2-1-2-2" />  <!--WeTV - Dramas, Films & More-->
+  <item package="com.playtube.videotube.tubevideo" rateId="2-1-2-1" />  <!--Play Tube & Video Tube-->
+  <item package="com.downloadvideo.freevideodownloader.downloadall" rateId="2-1-2-1" />  <!--Free Video Downloader-->
+  <item package="videocutter.mp3cutter.videotomp3converter.powertrimmer" rateId="2-1-2-1" />  <!--Video to MP3 Converter - mp3 cutter and merger-->
+  <item package="videoeditor.videorecorder.screenrecorder" rateId="2-1-2-1" />  <!--Screen Recorder & Video Recorder - XRecorder-->
+  <item package="com.player.zaltv" rateId="2-1-2-1" />  <!--ZalTV Player-->
+  <item package="com.television.burma" rateId="2-1-2-1" />  <!--Burma TV-->
+  <item package="org.xbmc.kodi" rateId="2-1-2-1" disableAnimHighRate="true" />  <!--kodi  bugID-813659 -->
+  <item package="com.google.android.youtube" rateId="2-1-2-1" />  <!--YouTube-->
+  <item package="com.xxx.svideo" rateId="2-1-2-1" />
+  <item package="com.kwai.bulldog" rateId="2-1-2-2" />  <!--Snack Video-->
+  <item package="com.lemon.lvoverseas" rateId="2-1-2-2" />  <!--CapCut-->
+  <item package="com.netflix.mediaclient" rateId="2-1-2-2" />  <!--Netflix-->
+  <item package="com.univision.prendetv" rateId="2-1-2-2" />  <!--ViX-->
+  <item package="free.tube.premium.advanced.tuber" rateId="2-1-2-2" />  <!--Pure Tuber-->
+  <item package="in.startv.hotstar" rateId="2-1-2-2" />  <!--Hotstar-->
+  <item package="com.amazon.avod.thirdpartyclient" rateId="2-1-2-2" />  <!--亚马逊-->
+  <item package="com.graymatrix.did" rateId="2-1-2-2" />  <!--ZEE5-->
+  <item package="premium.gotube.adblock.utube" rateId="2-1-2-2" />  <!--GoTube-->
+  <item package="com.bstar.intl" rateId="2-1-2-2" />  <!--Bilibili - HD Anime, Videos-->
+  <item package="com.google.android.apps.youtube.kids" rateId="1-1-2-1" />  <!--YouTube Kids-->
+  <item package="com.vidio.android" rateId="2-1-2-2" />  <!--Vidio: Sports, Movies, Series-->
+  <item package="com.video.fun.app" rateId="2-1-2-2" />  <!-- Video Fun-->
+  <item package="com.vanced.android.youtube" rateId="2-1-2-2" />  <!-- Video Fun-->
+  <item package="com.vuclip.viu" rateId="2-1-2-2" />  <!--Viu: Dramas, TV Shows & Movies-->
+  <item package="com.stream.drakorindoawet" rateId="2-1-2-2" />  <!--Drakor.ID - Nonton Drama Asia-->
+  <item package="com.naver.linewebtoon" rateId="2-1-2-2" />  <!--WEBTOON-->
+  <item package="com.artem.scotepio" rateId="2-1-2-2" />  <!--Loklok-Dramas&Movies-->
+  <item package="com.kwai.video" rateId="2-1-2-2" />  <!--Kwai-->
+  <item package="com.snaptube.premium" rateId="2-1-2-2" />  <!--Snaptube-->
+  <item package="com.oppo.daydreamvideo" rateId="2-1-2-2" />  <!--daydreamvideo-->
+  <item package="com.hbo.hbonow" rateId="2-1-2-2" />  <!--HBO Max: Stream TV & Movies-->
+  <item package="com.disney.disneyplus" rateId="2-1-2-2" />  <!--Disney+-->
+  <item package="free.daily.tube.background" rateId="2-1-2-2" />  <!--DailyTube - Block Ads Tube-->
+  <item package="com.disney.starplus" rateId="2-1-2-2" />  <!--Star+-->
+  <item package="us.zoom.videomeetings" rateId="2-1-2-2" />  <!--Zoom-->
+  <item package="by.green.tuber" rateId="2-1-2-2" />  <!--GreenTuber block ads on videos-->
+  <item package="com.biomes.vanced" rateId="2-1-2-2" />  <!--Vance-->
+  <item package="com.viu.phone" rateId="2-1-2-2" />  <!--Viu : Korean & Asian content-->
+  <item package="com.beci.thaitv3android" rateId="2-1-2-2" />  <!--CH3 Plus-->
+  <item package="com.ais.mimo.AISPlay" rateId="2-1-2-2" />  <!--AIS PLAY-->
+  <item package="com.offshore.pikachu" rateId="2-1-2-2" />  <!--Pikashow-->
+  <item package="com.jio.media.ondemand" rateId="2-1-2-2" />  <!--JioCinema-->
+  <item package="com.jio.jioplay.tv" rateId="2-1-2-2" />  <!--JioTV-->
+  <item package="ahaflix.tv" rateId="2-1-2-2" />  <!--aha-->
+  <item package="com.pratilipi.mobile.android" rateId="2-1-2-2" />  <!--Pratilipi-->
+<!-- Tools -->
+  <item package="com.android.stk" rateId="2-1-2-2" />  <!--SIM TOOL KIT-->
+  <item package="com.google.android.gms" rateId="1-1-2-1" />  <!--GMS-->
+  <item package="com.google.android.calendar" rateId="1-1-2-1" />  <!--Google Calendar-->
+  <item package="com.google.android.deskclock" rateId="1-1-2-1" />  <!--Clock-->
+<!-- Sport -->
+  <item package="com.sonyliv" rateId="2-1-2-1" />  <!--SonyLIV-->
+  <item package="jp.konami.pesam" rateId="2-1-2-2" />  <!--PES 2019 PRO EVOLUTION SOCCER-->
+<!-- Social -->
+  <item package="com.lazygeniouz.saveit" rateId="1-1-2-3" /> <!-- Status Saver -->
+  <item package="com.instagram.android" rateId="1-1-2-1" />  <!--Instagram-->
+  <item package="com.instagram.android" activity="com.instagram.android/com.instagram.mainactivity.MainActivity" disableViewOverride="true" rateId="1-1-2-1"/> <!--instagram bugID 5333093-->
+  <item package="com.facebook.katana" rateId="1-1-2-1" />  <!--Facebook-->
+  <item package="com.facebook.lite" rateId="1-1-2-1" />  <!--Facebook Lite-->
+  <item package="com.twitter.android" rateId="1-1-2-1" disableViewOverride="true" /> <!--Twitter-->
+  <item package="com.snapchat.android" rateId="1-1-2-1" />  <!--Snapchat-->
+  <item package="com.roposo.android" rateId="1-1-2-3" />  <!--roposo-->
+  <item package="world.social.group.video.share" rateId="1-1-2-1" />  <!--Helo - Humor and Social Trends-->
+  <item package="com.pinterest" rateId="1-1-2-1" />  <!--Pinterest-->
+  <item package="tv.twitch.android.app" rateId="1-1-2-1" />  <!--Twitch: Live Game Streaming-->
+  <item package="com.discord" rateId="1-1-2-1" />  <!--Discord: Talk, Chat & Hang Out-->
+  <item package="com.facebook.katana:999" rateId="1-1-2-1" />  <!--Facebook-->
+  <item package="com.facebook.mlite" rateId="1-1-2-1" />  <!--Facebook Lite-->
+  <item package="com.facebook.orca:999" rateId="1-1-2-1" />  <!--Facebook Messenger-->
+  <item package="com.linkedin.android" rateId="1-1-2-1" />  <!--LinkedIn-->
+  <item package="com.instapro2.android" rateId="1-1-2-1" />  <!---->
+  <item package="com.tencent.mm" rateId="1-1-2-3" disableViewOverride="true" />  <!-- 微信 bugid: 2895068,2896023--> 
+<!-- ShortVideo -->
+  <item package="com.ss.android.ugc.trill" rateId="2-1-2-2" />  <!--TikTok-->
+  <item package="com.ss.android.ugc.trill.go" rateId="2-1-2-1" />  <!--TikTok Lite-->
+  <item package="com.zhiliaoapp.musically" rateId="2-1-2-2" />  <!-- TikTok -->
+  <item package="com.zhiliaoapp.musically.go" rateId="2-1-2-2" />  <!-- TikTok Lite -->
+<!-- shopping -->
+  <item package="com.amazon.mShop.android.shopping" rateId="2-1-2-1" />  <!--Shopping-->
+  <item package="com.shopee.id" rateId="2-1-2-1" />  <!--Shopee Big Ramadan-->
+  <item package="com.lazada.android" rateId="2-1-2-1" />  <!--Lazada-->
+  <item package="com.shopee.th" rateId="2-1-2-1" />  <!--Shopee TH: Online shopping app-->
+  <item package="in.amazon.mShop.android.shopping" rateId="2-1-2-1" />  <!--Amazon-->
+  <item package="com.zzkko" rateId="2-1-2-1" />  <!--SHEIN-->
+  <item package="com.mercadolibre" rateId="2-1-2-1" />  <!--Mercado Libre-->
+  <item package="com.flipkart.android" rateId="2-1-2-1" />  <!--Flipkart-->
+  <item package="com.myntra.android" rateId="2-1-2-1" />  <!--Myntra-->
+  <item package="com.ril.ajio" rateId="2-1-2-1" />  <!--AJIO-->
+<!-- Security -->
+  <item package="mx.com.telcel.di.sds.gsac.dapmov.mdm_telcel" rateId="2-1-2-2" />
+<!-- Photos -->
+  <item package="com.google.android.apps.photos" rateId="1-1-2-1" />  <!--Google Photos-->
+  <item package="com.google.android.apps.photos.scanner" rateId="1-1-2-3" />  <!--PhotoScan by Google Photos-->
+  <item package="com.google.android.apps.photosgo" rateId="1-1-2-3" />  <!--Gallery Go by Google Photos-->
+  <item package="com.sec.android.gallery3d" rateId="1-1-2-3" />  <!--Samsung Gallery-->
+  <item package="com.oneplus.gallery" rateId="1-1-2-1" />  <!--OnePlus Gallery-->
+  <item package="com.asus.gallery" rateId="1-1-2-3" />  <!--ASUS Gallery-->
+<!-- Camera -->
+  <item package="vStudio.Android.Camera360" rateId="2-2-2-2" />  <!--Camera360: Selfie Photo Editor with Funny Sticker-->
+  <item package="com.venticake.retrica" rateId="2-2-2-2" />  <!--Retrica-->
+  <item package="com.camerasideas.instashot" rateId="2-2-2-2" />  <!--Video Editor & Video Maker - InShot-->
+  <item package="com.cam001.selfie" rateId="2-2-2-2" />  <!--Sweet Selfie Camera:Beauty cam,photo&selfie editor-->
+  <item package="makeupworld.selfiecamera.makeup.youcam.beautycamera.photoeditor.makeupcamera" rateId="2-2-2-2" />  <!--YouCam Makeup-Magic Selfie Cam & Virtual Makeovers-->
+  <item package="com.asus.camera" rateId="2-2-2-2" />  <!--ASUS PixelMaster Camera-->
+  <item package="com.joeware.android.gpulumera" rateId="2-2-2-2" />  <!--Candy Camera - selfie, beauty camera, photo editor-->
+  <item package="net.sourceforge.opencamera" rateId="2-2-2-2" />  <!--Open Camera-->
+  <item package="com.htc.camera2" rateId="2-2-2-2" />  <!--HTC Camera　-->
+  <item package="com.PinkbirdStudio.SelfieCam_InstaBeauty" rateId="2-2-2-2" />  <!--InstaBeauty -Makeup Selfie Cam-->
+  <item package="com.lyrebirdstudio.montagenscolagem" rateId="2-2-2-2" />  <!--Photo Editor Collage Maker Pro: Filters & Stickers-->
+  <item package="com.makeup.plus.youcam.camera" rateId="2-2-2-2" />  <!--MakeupPlus - Your Own Virtual Makeup Artist-->
+  <item package="com.ufotosoft.justshot" rateId="2-2-2-2" />  <!--Sweet Face Camera - live filter, Selfie face app-->
+  <item package="jp.co.canon.ic.cameraconnect" rateId="2-2-2-2" />  <!--Canon Camera Connect-->
+  <item package="com.magix.camera_mx" rateId="2-2-2-2" />  <!--Camera MX - Photo & Video Camera-->
+  <item package="com.vsco.cam" rateId="2-2-2-2" />  <!--VSCO-->
+  <item package="io.faceapp" rateId="2-2-2-2" />  <!--FaceApp-->
+  <item package="kr.co.manhole.hujicam" rateId="2-2-2-2" />  <!--Huji Cam-->
+  <item package="com.newbiz.mvmaster" rateId="2-2-2-2" />  <!--MV Master - Video Status Maker-->
+  <item package="camera360.lite.beauty.selfie.camera" rateId="2-2-2-2" />  <!--Camera360 Lite - Selfie Camera-->
+  <item package="com.cyworld.camera" rateId="2-2-2-2" />  <!--Cymera Camera - Collage, Selfie Camera, Pic Editor-->
+  <item package="com.ginnypix.kujicam" rateId="2-2-2-2" />  <!--Kuji Cam-->
+  <item package="com.youthhr.phonto" rateId="2-2-2-2" />  <!--Phonto - Text on Photos-->
+  <item package="com.linecorp.foodcam.android" rateId="2-2-2-2" />  <!--Foodie - Camera for life-->
+  <item package="org.adesanyaaa.appmoviecreator" rateId="2-2-2-2" />  <!--Movie Creator-->
+  <item package="jp.naver.linecamera.android" rateId="2-2-2-2" />  <!--LINE Camera - Photo editor-->
+  <item package="com.flavionet.android.camera.lite" rateId="2-2-2-2" />  <!--Camera FV-5 Lite-->
+  <item package="com.sony.playmemories.mobile" rateId="2-2-2-2" />  <!--Imaging Edge Mobile-->
+  <item package="com.sonymobile.androidapp.cameraaddon.areffect" rateId="2-2-2-2" />  <!--AR effect-->
+  <item package="com.fujifilm_dsc.app.remoteshooter" rateId="2-2-2-2" />  <!--FUJIFILM Camera Remote-->
+  <item package="sweet.selfie.lite" rateId="2-2-2-2" />  <!--Sweet Selfie Camera:Beauty cam,photo&selfie editor-->
+  <item package="com.xiaomi.xy.sportscamera" rateId="2-2-2-2" />  <!--YI Action - YI Action Camera-->
+  <item package="com.sonymobile.android.addoncamera.styleportrait" rateId="2-2-2-2" />  <!--Style portrait-->
+  <item package="com.snowcorp.soda.android" rateId="2-2-2-2" />  <!--SODA - Natural Beauty Camera-->
+  <item package="com.meepo.instasave" rateId="2-2-2-2" />  <!--InstaSave - Instagram photo and video downloader-->
+  <item package="com.ffffstudio.kojicam" rateId="2-2-2-2" />  <!--1998 Cam - Vintage Camera-->
+  <item package="com.hodanny.instagrid" rateId="2-2-2-2" />  <!--9square for Instagram-->
+  <item package="com.camera.one.s10.camera" rateId="2-2-2-2" />  <!--One S10 Camera - Galaxy S10 camera style-->
+  <item package="instagram.story.art.collage" rateId="2-2-2-2" />  <!--Mojito - Story Art Maker, Instagram story editor-->
+  <item package="com.fueled.afterlight" rateId="2-2-2-2" />  <!--Afterlight-->
+  <item package="com.jeyluta.timestampcamerafree" rateId="2-2-2-2" />  <!--Timestamp Camera Free-->
+  <item package="com.handycloset.android.stickers" rateId="2-2-2-2" />  <!--Personal Stickers-->
+  <item package="com.ants360.yicamera" rateId="2-2-2-2" />  <!--YI Home-->
+  <item package="com.yoosee" rateId="2-2-2-2" />  <!--Yoosee-->
+  <item package="my.maya.android" rateId="2-2-2-2" />  <!--多闪-->
+  <item package="com.alensw.PicFolder" rateId="2-2-2-2" />  <!--QuickPic - Photo Gallery with Google Drive Support-->
+  <item package="com.sonyericsson.album" rateId="2-2-2-2" />  <!--Album-->
+  <item package="com.perfectcam.photoeditor" rateId="2-2-2-2" />  <!--YouCam Perfect - Best Selfie Camera & Photo Editor-->
+  <item package="com.niksoftware.snapseed" rateId="2-2-2-2" />  <!--Snapseed-->
+  <item package="com.linecorp.b612.android" rateId="2-2-2-2" />  <!--B612 - Beauty & Filter Camera-->
+  <item package="com.mobsnake.verticalgallery" rateId="2-2-2-2" />  <!--Vertical Gallery-->
+  <item package="com.roidapp.photogrid" rateId="2-2-2-2" />  <!--PhotoGrid: Video & Pic Collage Maker, Photo Editor-->
+  <item package="vsin.t16_funny_photo" rateId="2-2-2-2" />  <!--Photo Lab Picture Editor: face effects, art frames-->
+  <item package="com.atomicadd.fotos" rateId="2-2-2-2" />  <!--A+ Gallery - Photos & Videos-->
+  <item package="com.cyngn.gallerynext" rateId="2-2-2-2" />  <!--Cyanogen Gallery-->
+  <item package="com.adobe.lrmobile" rateId="2-2-2-1" />  <!--Adobe Lightroom - Photo Editor & Pro Camera-->
+  <item package="com.pixlr.express" rateId="2-2-2-2" />  <!--Pixlr – Free Photo Editor-->
+  <item package="com.adobe.psmobile" rateId="2-2-2-2" />  <!--Adobe Photoshop Express:Photo Editor Collage Maker-->
+  <item package="com.cyberlink.photodirector" rateId="2-2-2-2" />  <!--PhotoDirector Photo Editor App, Picture Editor Pro-->
+  <item package="com.jimmy.photobackup" rateId="2-2-2-2" />  <!--abPhoto (photo backup)-->
+  <item package="io.yoba.storysaverforinsta" rateId="2-2-2-2" />  <!--Story Saver App — Stories & Highlights Downloader-->
+  <item package="com.iudesk.android.photo.editor" rateId="2-2-2-2" />  <!--Photo Editor-->
+  <item package="com.BeautifulPictureFramesmmhd" rateId="2-2-2-2" />  <!--Piktures - Beautiful Gallery-->
+  <item package="com.kii.safe" rateId="2-2-2-2" />  <!--Keepsafe Photo Vault: Hide Private Photos & Videos-->
+  <item package="photocollage.photoeditor.collagemaker" rateId="2-2-2-2" />  <!--Collage Maker - Photo Editor & Photo Collage-->
+  <item package="com.imaginstudio.imagetools.pixellab" rateId="2-2-2-2" />  <!--PixelLab - Text on pictures-->
+  <item package="com.instagram.layout" rateId="2-2-2-2" />  <!--Layout from Instagram: Collage-->
+  <item package="kr.co.ladybugs.fourto" rateId="2-2-2-2" />  <!--FOTO Gallery-->
+  <item package="com.handycloset.android.eraser" rateId="2-2-2-2" />  <!--Background Eraser-->
+  <item package="photo.editor.photoeditor.photoeditorpro" rateId="2-2-2-2" />  <!--Photo Editor Pro-->
+  <item package="nocrop.photoeditor.squarepic" rateId="2-2-2-2" />  <!--Square Pic - No Crop Photo Editor for Instagram-->
+  <item package="com.lightricks.pixaloop" rateId="2-2-2-2" />  <!--Enlight Pixaloop - Photo Animator-->
+  <item package="com.xprodev.cutcam" rateId="2-2-2-2" />  <!--Cut Cut - CutOut & Photo Background Editor-->
+  <item package="com.motorola.MotGallery2" rateId="2-2-2-2" />  <!--Motorola Gallery-->
+  <item package="com.thinkyeah.galleryvault" rateId="2-2-2-2" />  <!--Gallery Vault - Hide Pictures And Videos-->
+  <item package="com.hideitpro" rateId="2-2-2-2" />  <!--Hide Photos, Video and App Lock - Hide it Pro-->
+  <item package="com.picsart.studio" rateId="2-2-2-2" />  <!--PicsArt Photo Editor: Pic, Video & Collage Maker-->
+  <item package="com.shinycore.picsayfree" rateId="2-2-2-2" />  <!--PicSay Pro - Photo Editor-->
+  <item package="com.campmobile.snow" rateId="2-2-2-2" />  <!--SNOW-->
+  <item package="com.touchbyte.photosync" rateId="2-2-2-2" />  <!--abPhoto (photo backup)-->
+  <item package="com.moonlab.unfold" rateId="2-2-2-2" />  <!--Unfold — Create Stories-->
+  <item package="com.flayvr.flayvr" rateId="2-2-2-2" />  <!--Gallery-->
+  <item package="com.hefe.pro.editor" rateId="2-2-2-2" />  <!--Photo Editor Pro-->
+  <item package="com.simplemobiletools.gallery" rateId="2-2-2-2" />  <!--Simple Gallery Pro: Photo Manager & Editor-->
+  <item package="instagramstory.maker.unfold" rateId="2-2-2-2" />  <!--StoryChic:IG Story Art Maker,Instagramstory editor-->
+  <item package="com.ryzenrise.storyart" rateId="2-2-2-2" />  <!--StoryArt - Insta story editor for Instagram-->
+  <item package="com.photogrid.lite" rateId="2-2-2-2" />  <!--PhotoGrid Lite: Photo Collage Maker & Photo Editor-->
+<!-- Music -->
+  <item package="com.radio.fmradio" rateId="2-1-2-1" />  <!--FM Radio-->
+  <item package="com.google.android.apps.youtube.music" rateId="1-1-2-1" />  <!--YouTube Music-->
+  <item package="com.spotify.music" rateId="2-1-2-2" />  <!--Spotify: Music and Podcasts-->
+  <item package="com.moonvideo.android.resso" rateId="2-1-2-2" />  <!--Resso Music - Songs & Lyrics-->
+  <item package="com.dywx.larkplayer" rateId="2-1-2-2" />  <!--Music Player-->
+  <item package="com.mmm.trebelmusic" rateId="2-1-2-2" />  <!--TREBEL: Music, MP3 & Podcasts-->
+  <item package="com.bsbportal.music" rateId="2-1-2-2" />
+<!-- Messaging -->
+  <item package="com.google.android.apps.messaging" rateId="1-1-2-1" />  <!--Messages-->
+  <item package="com.android.mms" rateId="1-1-2-1" />  <!--短信-->
+<!-- Maps -->
+  <item package="com.google.android.apps.maps" rateId="2-1-2-2" />  <!--Maps-->
+  <item package="com.aero" rateId="2-1-2-2" />  <!--Aero-->
+  <item package="com.grabtaxi.driver2" rateId="2-1-2-2" />  <!--Grab Driver: Drive and Deliver-->
+  <item package="com.gojek.partner" rateId="2-1-2-2" />  <!--GoPartner-->
+  <item package="com.waze" rateId="2-1-2-2" />  <!--Waze-->
+  <item package="com.ubercab.driver" rateId="2-1-2-2" />  <!--ubercab-->
+  <item package="com.didiglobal.driver" rateId="2-1-2-2" />  <!--DiDi Driver: Drive & Earn Cash-->
+  <item package="com.didiglobal.passenger" rateId="2-1-2-2" />  <!--DiDi Rider: Affordable rides-->
+  <item package="com.ubercab" rateId="2-1-2-2" />  <!--Uber - Request a ride-->
+  <item package="sinet.startup.inDriver" rateId="2-1-2-2" />  <!--inDrive. Rides with fair fares-->
+  <item package="cris.org.in.prs.ima" rateId="2-1-2-2" />  <!--IRCTC Rail Connect-->
+  <item package="com.olacabs.customer" rateId="2-1-2-2" />  <!--Ola-->
+<!-- Games -->
+  <item package="com.king.candycrushsaga" rateId="2-2-2-2" />  <!--Candy Crush Saga-->
+  <item package="com.ludo.king" rateId="2-2-2-2" />  <!--Ludo King™-->
+  <item package="com.supercell.clashofclans" rateId="2-2-2-2" />  <!--Clash of Clans-->
+  <item package="com.miniclip.eightballpool" rateId="2-2-2-2" />  <!--8 Ball Pool-->
+  <item package="com.word.puzzle.game.connect" rateId="2-2-2-2" />  <!--Word Link-->
+  <item package="com.king.candycrushsodasaga" rateId="2-2-2-2" />  <!--Candy Crush Soda Saga-->
+  <item package="com.showtimeapp" rateId="2-2-2-2" />  <!--Loco - Play Free Games, Cricket and Win!-->
+  <item package="com.ansangha.drdriving" rateId="2-2-2-2" />  <!--Dr. Driving-->
+  <item package="com.fortune.sim.game.cash" rateId="2-2-2-2" />  <!--Hello Stars-->
+  <item package="com.supercell.clashroyale" rateId="2-2-2-2" />  <!--Clash Royale-->
+  <item package="com.riseup.game" rateId="2-2-2-2" />  <!--Rise Up-->
+  <item package="com.nextwave.wcc2" rateId="2-2-2-2" />  <!--World Cricket Championship 2 - WCC2-->
+  <item package="io.teslatech.callbreak" rateId="2-2-2-2" />  <!--Callbreak Multiplayer-->
+  <item package="com.octro.teenpatti" rateId="2-2-2-2" />  <!--Teen Patti by Octro-->
+  <item package="com.jetstartgames.chess" rateId="2-2-2-2" />  <!--Chess-->
+  <item package="com.fingersoft.hillclimb" rateId="2-2-2-2" />  <!--Hill Climb Racing-->
+  <item package="com.wordgame.puzzle.board.en" rateId="2-2-2-2" />  <!--Word Cross-->
+  <item package="com.moonactive.coinmaster" rateId="2-2-2-2" />  <!--Coin Master-->
+  <item package="com.imangi.templerun" rateId="2-2-2-2" />  <!--Temple Run-->
+  <item package="com.game5mobile.lineandwater" rateId="2-2-2-2" />  <!--Happy Glass-->
+  <item package="com.fungames.sniper3d" rateId="2-2-2-2" />  <!--Sniper 3D Gun Shooter: Free Elite Shooting Games-->
+  <item package="com.ludo.master.hippo" rateId="2-2-2-2" />  <!--Ludo Master - New Ludo Game 2019 For Free-->
+  <item package="uk.co.aifactory.chessfree" rateId="2-2-2-2" />  <!--Chess Free-->
+  <item package="com.h8games.helixjump" rateId="2-2-2-2" />  <!--Helix Jump-->
+  <item package="com.teenpatti.hd.gold" rateId="2-2-2-2" />  <!--Teen Patti Gold - With Poker & Rummy-->
+  <item package="com.outfit7.talkingtom" rateId="2-2-2-2" />  <!--Talking Tom Cat-->
+  <item package="com.firsttouchgames.dls3" rateId="2-2-2-2" />  <!--Dream League Soccer-->
+  <item package="com.ea.gp.fifamobile" rateId="2-2-2-2" />  <!--FIFA Soccer-->
+  <item package="bubbleshooter.orig" rateId="2-2-2-2" />  <!--Bubble Shooter-->
+  <item package="com.skgames.trafficrider" rateId="2-2-2-2" />  <!--Traffic Rider-->
+  <item package="com.firsttouchgames.story" rateId="2-2-2-2" />  <!--Score! Hero-->
+  <item package="com.igg.android.lordsmobile" rateId="2-2-2-2" />  <!--Lords Mobile: Battle of the Empires - Strategy RPG-->
+  <item package="com.bitmango.rolltheballunrollme" rateId="2-2-2-2" />  <!--Roll the Ball® - slide puzzle-->
+  <item package="com.supertapx.lovedots" rateId="2-2-2-2" />  <!--Love Balls-->
+  <item package="com.rovio.angrybirdsrio" rateId="2-2-2-2" />  <!--Angry Birds Rio-->
+  <item package="com.differencetenderwhite.skirt" rateId="2-2-2-2" />  <!--Block Puzzle Jewel-->
+  <item package="com.BuddyMattEnt.ChainReaction" rateId="2-2-2-2" />  <!--Chain Reaction-->
+  <item package="com.bigduckgames.flow" rateId="2-2-2-2" />  <!--Flow Free-->
+  <item package="com.nautilus.RealCricket3D" rateId="2-2-2-2" />  <!--Real Cricket™ 19-->
+  <item package="com.ansangha.drjb" rateId="2-2-2-2" />  <!--Dr. Driving 2-->
+  <item package="com.happyadda.jalebi" rateId="2-2-2-2" />  <!--Jalebi - A Desi Adda With Ludo Snakes & Ladders-->
+  <item package="com.games24x7.ultimaterummy.playstore" rateId="2-2-2-2" />  <!--Ultimate RummyCircle - Play Rummy-->
+  <item package="com.brainbaazi" rateId="2-2-2-2" />  <!--Live Quiz Games App, Trivia & Gaming App for Money-->
+  <item package="com.outfit7.talkingtomgoldrun" rateId="2-2-2-2" />  <!--Talking Tom Gold Run-->
+  <item package="com.noodlecake.altosodyssey" rateId="2-2-2-2" />  <!--Alto's Odyssey-->
+  <item package="com.ea.games.r3_na" rateId="2-2-2-2" />  <!--Real Racing  3-->
+  <item package="com.aim.racing" rateId="2-2-2-2" />  <!--Extreme Car Driving Simulator-->
+  <item package="com.bentostudio.ballsvsblocks" rateId="2-2-2-2" />  <!--Snake VS Block-->
+  <item package="com.droidhen.game.racingmoto" rateId="2-2-2-2" />  <!--Racing Moto-->
+  <item package="com.bitmango.go.wordcookies" rateId="2-2-2-2" />  <!--Word Cookies!®-->
+  <item package="com.dvloper.granny" rateId="2-2-2-2" />  <!--Granny-->
+  <item package="com.episodeinteractive.android.catalog" rateId="2-2-2-2" />  <!--Episode - Choose Your Story-->
+  <item package="com.playrix.township" rateId="2-2-2-2" />  <!--Township-->
+  <item package="com.playgendary.kickthebuddy" rateId="2-2-2-2" />  <!--Kick the Buddy-->
+  <item package="com.gta.real.gangster.crime" rateId="2-2-2-2" />  <!--Real Gangster Crime-->
+  <item package="com.ketchapp.knifehit" rateId="2-2-2-2" />  <!--Knife Hit-->
+  <item package="badminton.king.sportsgame.smash" rateId="2-2-2-2" />  <!--Badminton League-->
+  <item package="com.miniclip.archery" rateId="2-2-2-2" />  <!--Archery King-->
+  <item package="com.king.candycrushjellysaga" rateId="2-2-2-2" />  <!--Candy Crush Jelly Saga-->
+  <item package="com.tencent.iglite" rateId="2-2-2-2" />  <!--PUBG MOBILE LITE-->
+  <item package="com.ffgames.racingincar2" rateId="2-2-2-2" />  <!--Racing in Car 2-->
+  <item package="com.nianticlabs.pokemongo" rateId="2-2-2-2" />  <!--Pokémon GO-->
+  <item package="io.voodoo.holeio" rateId="2-2-2-2" />  <!--Hole.io-->
+  <item package="com.mediocre.smashhit" rateId="2-2-2-2" />  <!--Smash Hit-->
+  <item package="com.king.farmheroessaga" rateId="2-2-2-2" />  <!--Farm Heroes Saga-->
+  <item package="com.fingersoft.hcr2" rateId="2-2-2-2" />  <!--Hill Climb Racing 2-->
+  <item package="com.supercell.hayday" rateId="2-2-2-2" />  <!--Hay Day-->
+  <item package="com.brokenreality.planemerger.android" rateId="2-2-2-2" />  <!--Merge Plane - Click & Idle Tycoon-->
+  <item package="com.herocraft.game.free.gibbets3" rateId="2-2-2-2" />  <!--Gibbets: Bow Master-->
+  <item package="com.billiards.city.pool.nation.club" rateId="2-2-2-2" />  <!--Pooking - Billiards City-->
+  <item package="com.halfbrick.fruitninjafree" rateId="2-2-2-2" />  <!--Fruit Ninja®-->
+  <item package="com.octro.rummy" rateId="2-2-2-2" />  <!--Indian Rummy (13 & 21 Cards) by Octro-->
+  <item package="slither.io" rateId="2-2-2-2" />  <!--slither.io-->
+  <item package="com.rovio.angrybirds" rateId="2-2-2-2" />  <!--Angry Birds Classic-->
+  <item package="com.chess" rateId="2-2-2-2" />  <!--Chess · Play & Learn-->
+  <item package="com.quizup.core" rateId="2-2-2-2" />  <!--QuizUp-->
+  <item package="com.skgames.trafficracer" rateId="2-2-2-2" />  <!--Traffic Racer-->
+  <item package="com.fungames.flightpilot" rateId="2-2-2-2" />  <!--Flight Pilot Simulator 3D Free-->
+  <item package="com.gameloft.android.ANMP.GloftNOHM" rateId="2-2-2-2" />  <!--N.O.V.A. Legacy-->
+  <item package="com.generagames.resistance" rateId="2-2-2-2" />  <!--Cover Fire: Shooting Games PRO-->
+  <item package="com.mobile.legends" rateId="2-2-2-2" />  <!--Mobile Legends: Bang Bang-->
+  <item package="com.miniclip.footballstrike" rateId="2-2-2-2" />  <!--Football Strike - Multiplayer Soccer-->
+  <item package="com.rioo.runnersubway" rateId="2-2-2-2" />  <!--Subway Princess Runner-->
+  <item package="wood.puzzle.game.blockpuzzle" rateId="2-2-2-2" />  <!--Wood Block Puzzle-->
+  <item package="com.garena.game.kgvn" rateId="2-2-2-2"  disableViewOverride="true" />  <!-- Garena AOV越南 -->
+  <item package="com.garena.game.kgid" rateId="2-2-2-2"  disableViewOverride="true" />  <!-- Garena AOV泰国 -->
+  <item package="com.garena.game.kgtw" rateId="2-2-2-2"  disableViewOverride="true" />  <!-- Garena AOV台湾 -->
+  <item package="com.ngame.allstar.eu" rateId="2-2-2-2"  disableViewOverride="true" />  <!-- Garena AOV欧洲 -->
+  <item package="com.tencent.ngjp" rateId="2-2-2-2"  disableViewOverride="true" />  <!-- Garena AOV日本 -->
+  <item package="com.ngame.allstar.india" rateId="2-2-2-2"  disableViewOverride="true" />  <!-- Garena AOV印度 -->
+  <item package="com.epicgames.fornite" rateId="2-2-2-2"  disableViewOverride="true" />  <!-- fornite -->
+  <item package="com.garena.game.kgid" rateId="2-2-2-2" />  <!--Garena AOV - Arena of Valor: Action MOBA-->
+  <item package="vha.cds" rateId="2-2-2-2" />  <!--Candy Crush Saga-->
+  <item package="me.pou.app" rateId="2-2-2-2" />  <!--Pou-->
+  <item package="com.firsttouchgames.dlsa" rateId="2-2-2-2" />  <!--Dream League Soccer-->
+  <item package="com.shy.badminton.simulator.game.swipe.court.smash.pass.field.stage.cue" rateId="2-2-2-2" />  <!--Badminton League-->
+  <item package="com.rtsoft.growtopia" rateId="2-2-2-2" />  <!--Growtopia-->
+  <item package="org.ppsspp.ppsspp" rateId="2-2-2-2" />  <!--PPSSPP - PSP emulator-->
+  <item package="com.gue.pesanyar" rateId="2-2-2-2" />  <!--PES 2019 PRO EVOLUTION SOCCER-->
+  <item package="net.mobigame.zombietsunami" rateId="2-2-2-2" />  <!--Zombie Tsunami-->
+  <item package="com.ea.watchface.pvzzombie" rateId="2-2-2-2" />  <!--Plants vs. Zombies FREE-->
+  <item package="com.linecorp.LGGRTHN" rateId="2-2-2-2" />  <!--LINE Let's Get Rich-->
+  <item package="com.maleo.bussimulatorid" rateId="2-2-2-2" />  <!--Bus Simulator Indonesia-->
+  <item package="joykeratif.tts" rateId="2-2-2-2" />  <!--Teka-teki Silang TTS Update Terbaru Februari 2019-->
+  <item package="com.DoniAndroid.TTSTekaTekiSilangOffline2019" rateId="2-2-2-2" />  <!--Teka Teki Silang - TTS 2018-->
+  <item package="com.playrix.homescapes" rateId="2-2-2-2" />  <!--Homescapes-->
+  <item package="com.ea.game.simcitymobile_row" rateId="2-2-2-2" />  <!--SimCity BuildIt-->
+  <item package="com.epsxe.ePSXe" rateId="2-2-2-2" />  <!--ePSXe for Android-->
+  <item package="com.touchtao.soccerkinggoogle" rateId="2-2-2-2" />  <!--World Soccer League-->
+  <item package="com.bunbogames.racingxtreme" rateId="2-2-2-2" />  <!--Asphalt 9: Legends - 2019's Action Car Racing Game-->
+  <item package="com.roblox.client" rateId="2-2-2-2" />  <!--Roblox-->
+  <item package="com.paragisoft.gaple" rateId="2-2-2-2" />  <!--Gaple-->
+  <item package="com.tebakgambar" rateId="2-2-2-2" />  <!--Tebak Gambar-->
+  <item package="com.jellyblast.cmcm" rateId="2-2-2-2" />  <!--Jellipop Match: Open your dream shop！-->
+  <item package="pawapp.games.onetdeluxe" rateId="2-2-2-2" />  <!--Onet Deluxe-->
+  <item package="com.gamegou.football" rateId="2-2-2-2" />  <!--Top Eleven 2019 -  Be a soccer manager-->
+  <item package="com.miHoYo.bh3oversea" rateId="2-2-2-2" />  <!--Honkai Impact 3-->
+  <item package="com.MangoSoft.Susun" rateId="2-2-2-2" />  <!--Mango Capsa Susun-->
+  <item package="com.vectorunit.purple.googleplay" rateId="2-2-2-2" />  <!--Beach Buggy Racing-->
+  <item package="com.netease.idv.googleplay" rateId="2-2-2-2" />  <!--Identity V-->
+  <item package="com.constructmonkey.rr3guide" rateId="2-2-2-2" />  <!--Real Racing  3-->
+  <item package="com.mobirix.fishinghook" rateId="2-2-2-2" />  <!--Fishing Hook-->
+  <item package="agame.onet.classic" rateId="2-2-2-2" />  <!--Onet Classic-->
+  <item package="jpark.AOS5" rateId="2-2-2-2" />  <!--Anger of stick 5 : zombie-->
+  <item package="com.ForgeGames.SpecialForcesGroup2" rateId="2-2-2-2" />  <!--Special Forces Group 2-->
+  <item package="com.asobimo.toramonline" rateId="2-2-2-2" />  <!--RPG Toram Online-->
+  <item package="com.netmarble.mherosgb" rateId="2-2-2-2" />  <!--MARVEL Future Fight-->
+  <item package="balls.arcademaker.bricks.breaker.brounce.ballz" rateId="2-2-2-2" />  <!--Balls Bricks Breaker-->
+  <item package="com.cooking.mama.kitchen.dinner" rateId="2-2-2-2" />  <!--Cooking Mama: Let's cook!-->
+  <item package="com.YoStarEN.AzurLane" rateId="2-2-2-2" />  <!--Azur Lane-->
+  <item package="com.netmarble.sknightsgb" rateId="2-2-2-2" />  <!--Seven Knights-->
+  <item package="com.fgol.HungrySharkEvolution" rateId="2-2-2-2" />  <!--Hungry Shark Evolution-->
+  <item package="com.chillingo.robberybobfree.android.row" rateId="2-2-2-2" />  <!--Robbery Bob-->
+  <item package="com.youmusic.magictiles" rateId="2-2-2-2" />  <!--Magic Tiles 3-->
+  <item package="com.ea.gp.nbamobile" rateId="2-2-2-2" />  <!--NBA LIVE Mobile Basketball-->
+  <item package="com.shootinggames.sniper3d.assassin" rateId="2-2-2-2" />  <!--Sniper 3D Gun Shooter: Free Elite Shooting Games-->
+  <item package="com.bubadu.bubbu" rateId="2-2-2-2" />  <!--Bubbu – My Virtual Pet-->
+  <item package="com.forthblue.pool" rateId="2-2-2-2" />  <!--Pool Billiards Pro-->
+  <item package="com.gta.grandtheftauto.sanandreas.codes" rateId="2-2-2-2" />  <!--Grand Theft Auto: San Andreas-->
+  <item package="com.fungames.blockcraft" rateId="2-2-2-2" />  <!--Block Craft 3D: Building Simulator Games For Free-->
+  <item package="com.pixonic.wwr" rateId="2-2-2-2" />  <!--War Robots-->
+  <item package="com.kit.durangoguides" rateId="2-2-2-2" />  <!--Durango: Wild Lands-->
+  <item package="jp.konami.duellinks" rateId="2-2-2-2" />  <!--Yu-Gi-Oh! Duel Links-->
+  <item package="com.nordcurrent.canteenhd" rateId="2-2-2-2" />  <!--Cooking Fever-->
+  <item package="com.sweetmatch3gamesmania.fruitsbomb" rateId="2-2-2-2" />  <!--Fruits Bomb-->
+  <item package="com.wikia.singlewikia.fategrandorder" rateId="2-2-2-2" />  <!--Fate/Grand Order (English)-->
+  <item package="jp.konami.pesclubmanager" rateId="2-2-2-2" />  <!--PES CLUB MANAGER-->
+  <item package="com.rovio.baba" rateId="2-2-2-2" />  <!--Angry Birds 2-->
+  <item package="com.dts.freefireth" rateId="2-2-2-2" />  <!--Garena Free Fire - Anniversary-->
+  <item package="com.tencent.ig" rateId="2-2-2-2" />  <!--PUBG MOBILE-->
+  <item package="com.yuyu.yylivesp" rateId="2-2-2-2" />
+  <item package="com.yueyweuhjkh.fahsldkjajs" rateId="2-2-2-2" />
+  <item package="happy.animal.stepassistantsecond" rateId="2-2-2-2" />  <!--***-->
+  <item package="com.activision.callofduty.shooter" rateId="2-2-2-2" /> <!--Call of Duty-->
+  <item package="com.higgs.domino" rateId="2-2-2-2" /> <!--Higgs Domino Island-->
+  <item package="com.neptune.domino" rateId="2-2-2-2" /> <!--Higgs Domino Island-->
+  <item package="com.neptune.domino" rateId="2-2-2-2" /> <!--Free Fire MAX-->
+  <item package="com.dts.freefiremax" rateId="2-2-2-2" /> <!--Free Fire MAX-->
+  <item package="com.fugo.wow" rateId="2-2-2-2" /> <!--Words of Wonders-->
+  <item package="com.garena.game.kgth" rateId="2-2-2-2" /> <!--Garena RoV-->
+  <item package="com.wildspike.wormszone" rateId="2-2-2-2" /> <!--Worms Zone .io - Hungry Snake-->
+  <item package="com.kitkagames.fallbuddies" rateId="2-2-2-2" /> <!--Stumble Guys-->
+  <item package="com.yy.hiyo" rateId="2-2-2-2" /> <!--Hago- Party, Chat & Games-->
+  <item package="com.PlayMax.playergames" rateId="2-2-2-2" /> <!--Stickman Party 2 3 4 MiniGames-->
+  <item package="com.tocaboca.tocalifeworld" rateId="2-2-2-2" /> <!--Toca Life World: Build a Story-->
+  <item package="jp.garud.ssimulator" rateId="2-2-2-2" /> <!--SAKURA School Simulator-->
+  <item package="com.firsttouchgames.dls7" rateId="2-2-2-2" /> <!--Dream League Soccer 2023-->
+  <item package="com.dreamgames.royalmatch" rateId="2-2-2-2" />  <!--Royal Match-->
+  <item package="com.ea.game.pvzfree_row" rateId="2-2-2-2" />  <!--Plants vs. Zombies™-->
+  <item package="com.rockstargames.gtasa" rateId="2-2-2-2" />  <!--Grand Theft Auto: San Andreas-->
+  <item package="com.neptune.dummy" rateId="2-2-2-2" />  <!--ดัมมี่แลนด์Dummyป๊อกเด้งสล็อต-->
+  <item package="com.netease.racerna" rateId="2-2-2-2" />  <!--Ace Racer-->
+  <item package="com.yourfun.kings" rateId="2-2-2-2" />  <!--ไพ่แคง - ดัมมี่ ป๊อกเด้ง ไฮโล-->
+  <item package="com.huoys.royalcasinoonline" rateId="2-2-2-2" /> <!--Royal Casino-->
+  <item package="com.dummy.poker" rateId="2-2-2-2" /> <!--Dummy ดัมมี่ ไพ่แคง เกมไพ่ไทย-->
+  <item package="com.app.dream11Pro" rateId="2-2-2-2" /> <!--Dream11	-->
+  <item package="com.nautilus.realcricket" rateId="2-2-2-2" /> <!--Real Cricket 22-->
+  <item package="com.cricbuzz.android" rateId="2-2-2-2" /> <!--Cricbuzz-->
+  <item package="com.miniclip.carrom" rateId="2-2-2-2" /> <!--Carrom Disc Pool-->
+  <item package="com.vng.codmvn" rateId="2-2-2-2"  disableViewOverride="true" />  <!-- Call of Duty?: Mobile - Garena 越南 -->
+  <item package="com.activision.callofdity.shooter" rateId="2-2-2-2"  disableViewOverride="true" />  <!-- Call of Duty?: Mobile - Garena 全球 -->
+  <item package="com.garena.game.codm" rateId="2-2-2-2"  disableViewOverride="true" />  <!-- Call of Duty?: Mobile - Garena 东南亚 -->
+  <item package="com.tencent.tmgp.kr.codm" rateId="2-2-2-2"  disableViewOverride="true" />  <!-- Call of Duty?: Mobile - Garena 韩国 -->
+  <item package="com.riotgames.league.wildrift" rateId="2-2-2-2" disableViewOverride="true" />  <!--LOLM全球-->
+  <item package="com.riotgames.internal.wildrift.trunk" rateId="2-2-2-2" disableViewOverride="true" />  <!--LOLM未知服-->
+  <item package="com.riotgames.internal.wildrift.test" rateId="2-2-2-2" disableViewOverride="true" />  <!--LOLM未知服-->
+  <item package="com.riotgames.league.wildriftvn" rateId="2-2-2-2" disableViewOverride="true" />  <!--LOLM越南-->
+  <item package="com.tencent.tmgp.projectg" rateId="2-2-2-2"  disableViewOverride="true" brightnessBlock="true" />  <!-- 和平精英 体验服 -->
+  <item package="com.pubg.krmobile" rateId="2-2-2-2"  disableViewOverride="true" brightnessBlock="true" />  <!-- 和平精英 全球版 -->
+  <item package="com.vng.pubgmobile" rateId="2-2-2-2"  disableViewOverride="true" brightnessBlock="true" />  <!-- 和平精英 日韩版 -->
+  <item package="com.rekoo.pubgm" rateId="2-2-2-2"  disableViewOverride="true" brightnessBlock="true" />  <!-- 和平精英 越南版 -->
+  <item package="com.tencent.igce" rateId="2-2-2-2"  disableViewOverride="true" brightnessBlock="true" />  <!-- 和平精英 先游版 -->
+  <item package="com.tencent.ig" rateId="2-2-2-2"  disableViewOverride="true" brightnessBlock="true" />  <!-- 和平精英海外版 -->
+  <item package="com.supercell.brawlstars" rateId="2-2-2-2" disableViewOverride="true" />  <!--荒野乱斗google商店-->
+  <item package="com.youzu.bs" rateId="2-2-2-2" disableViewOverride="true" />  <!-- 荒野乱斗官网 -->
+  <item package="com.youzu.bs.nearme.gamecenter" rateId="2-2-2-2" disableViewOverride="true" />  <!-- 荒野乱斗oppo应用商店 -->
+  <item package="com.tencent.tmgp.supercell.brawlstars" rateId="2-2-2-2" disableViewOverride="true" />  <!-- 荒野乱斗腾讯应用宝 -->
+  <item package="com.epicgames.fortnite" rateId="0-0-0-1" disableViewOverride="true"  />  <!--堡垒之夜外销-->
+<!-- Files -->
+  <item package="com.google.android.apps.docs" rateId="2-1-2-1" />  <!--Drive-->
+<!-- Email -->
+  <item package="com.google.android.gm" rateId="2-1-2-1" />  <!--Gmail-->
+  <item package="com.microsoft.office.outlook" rateId="2-1-2-1" />
+  <item package="com.android.email" rateId="1-1-2-3" />  <!-- 邮件 -->
+<!-- Chat -->
+  <item package="com.whatsapp" rateId="1-1-2-1" />  <!--whatsapp-->
+  <item package="com.whatsapp" activity="com.whatsapp/com.whatsapp.voipcalling.VoipActivityV2" rateId="2-2-2-2"/>
+  <item package="com.gbwhatsapp" rateId="1-1-2-1" />  <!--GBWhatsApp-->
+  <item package="com.yowhatsapp" rateId="1-1-2-1" />  <!--YoWhatsApp-->
+  <item package="com.whatsapp.w4b" rateId="1-1-2-1" />  <!--WhatsApp-->
+  <item package="com.fmwhatsapp" rateId="1-1-2-1" />  <!--FMWhatsApp-->
+  <item package="com.facebook.orca" rateId="1-1-2-1" />  <!--Messenger-->
+  <item package="org.telegram.messenger" rateId="2-1-2-1" />  <!--Telegram-->
+  <item package="com.microsoft.teams" rateId="2-1-2-1" />  <!--Teams-->
+  <item package="com.whatsapp:999" rateId="1-1-2-1" />  <!--Messenger for WhatsApp Web-->
+  <item package="com.michatapp.im" rateId="2-1-2-1" />  <!--MiChat - Chat, Make Friends-->
+  <item package="com.mbwhatsapp" rateId="1-1-2-1" />  <!--MBWhatsApp-->
+  <item package="com.litatom.app" rateId="2-1-2-1" />  <!--Litmatch—Make new friends-->
+  <item package="com.grindrapp.android" rateId="2-1-2-1" />  <!--Grindr - Gay chat-->
+  <item package="com.ookbee.joyapp.android" rateId="2-1-2-1" />  <!--Joylada-->
+<!-- Calls -->
+  <item package="com.google.android.dialer" rateId="2-2-2-1" />  <!--phone-->
+  <item package="com.android.contacts" rateId="2-2-2-1" />  <!--电话-->
+  <item package="com.android.incallui" rateId="2-2-2-1" />  <!-- -->
+  <item package="jp.naver.line.android" rateId="1-2-2-1" />  <!--LINE: Calls & Messages -->
+  <item package="com.truecaller" rateId="2-2-2-1" />  <!--Truecaller-->
+  <item package="gogolook.callgogolook2" rateId="1-2-2-1" />  <!--Whoscall - Caller ID & Block-->
+  <item package="sg.omi" rateId="1-2-2-1" />  <!--Omi - Dating, Friends & More-->
+  <item package="jp.naver.line.android:999" rateId="1-2-2-1" />  <!--LINE-->
+  <item package="com.google.android.contacts" rateId="2-2-2-3" />  <!--contacts-->
+<!-- Browser -->
+  <item package="com.android.chrome" rateId="2-1-2-1" disableViewOverride="true" />  <!--Chrome浏览器-->
+  <item package="com.google.android.googlequicksearchbox" rateId="2-1-2-1" />  <!--Google-->
+  <item package="com.opera.mini.native" rateId="2-1-2-1" />  <!--Opera Mini: Fast Web Browser-->
+  <item package="com.oppo.quicksearchbox" rateId="2-1-2-1" />  <!--Global search-->
+  <item package="com.opera.mini.native" rateId="2-1-2-1" />  <!--Opera Mini: Fast Web Browser-->
+  <item package="com.brave.browser" rateId="2-1-2-1" />  <!--Brave-->
+<!-- Books -->
+  <item package="e.books.reading.apps" rateId="2-1-2-1" />  <!--Ebook Reader-->
+  <item package="wp.wattpad" rateId="2-1-2-1" />  <!--Wattpad - Read & Write Stories-->
+  <item package="mobi.mangatoon.novel" rateId="2-1-2-1" />  <!--NovelToon: Read & Tell Stories-->
+  <item package="com.alhiwar" rateId="2-1-2-1" />  <!--Muslim Muna:Ramadan 2023,Quran-->
+  <item package="e.books.reading.apps" rateId="2-1-2-1" />  <!--JW Library	org.jw.jwlibrary.mobile-->
+  <item package="com.google.android.keep" rateId="2-1-2-1" />  <!--Google Keep - Notes and Lists-->
+  <item package="com.meb.raw2" rateId="2-1-2-1" />  <!--readAwrite – รี้ดอะไร้ต์-->
+  <item package="com.adobe.reader" rateId="2-1-2-1" />  <!--Adobe Acrobat-->
+<!-- Store -->
+  <item package="com.android.vending" rateId="1-1-2-1" />  <!--vending-->
+<!-- Books -->
+  <item package="sg.bigo.live" rateId="2-1-2-1" />  <!-- Bigo Live–Live Stream, Go Live -->
+  <item package="com.kasikorn.retail.mbanking.wap" rateId="2-1-2-1" />  <!-- K PLUS -->
+  <item package="com.tdcm.trueidapp" rateId="2-1-2-1" />  <!-- TrueID -->
+  <item package="asuk.com.android.app" rateId="2-1-2-1" />  <!-- 7-Eleven TH -->
+  <item package="com.linecorp.linemanth" rateId="2-1-2-1" />  <!-- LINE MAN - Food, Shop, Taxi -->
+  <item package="com.application.zomato" rateId="2-1-2-1" />  <!-- Zomato -->
+  <item package="in.swiggy.android" rateId="2-1-2-1" />  <!-- Swiggy -->
+<!-- News -->
+  <item package="com.vkontakte.android" rateId="2-1-2-1" />  <!--VK: music, video, messenger-->
+  <item package="com.eterno" rateId="2-1-2-1" />  <!--Dailyhunt-->
+<!-- Payment -->
+  <item package="id.dana" rateId="2-2-2-1" />  <!-- DANA Indonesia Digital Wallet -->
+  <item package="id.co.bri.brimo" rateId="2-2-2-1" />  <!-- BRImo BRI -->
+  <item package="com.bancomer.mbanking" rateId="2-1-2-1" />  <!--BBVA México-->
+  <item package="mx.com.bancoazteca.bazdigitalmovil" rateId="2-1-2-1" />  <!--Banco Azteca-->
+  <item package="com.scb.phone" rateId="2-1-2-1" />  <!--SCB EASY-->
+  <item package="ktbcs.netbank" rateId="2-1-2-1" />  <!--Krungthai NEXT-->
+  <item package="th.co.truemoney.wallet" rateId="2-1-2-1" />  <!--TrueMoney Wallet-->
+  <item package="com.mobilife.gsb.mymo" rateId="2-1-2-1" />  <!--MyMo by GSB-->
+  <item package="com.bbl.mobilebanking" rateId="2-1-2-1" />  <!--Bualuang mBanking-->
+  <item package="com.phonepe.app" rateId="2-1-2-1" />  <!--PhonePe-->
+  <item package="com.google.android.apps.nbu.paisa.user" rateId="2-1-2-1" disableViewOverride="true" />  <!--GPay-->
+  <item package="com.zerodha.kite3" rateId="2-1-2-1" />  <!--Kite-->
+  <item package="net.one97.paytm" rateId="2-1-2-1" />  <!--Paytm-->
+  <item package="com.dreamplug.androidapp" rateId="2-1-2-1" />  <!--CRED-->
+  <item package="com.msf.angelmobile" rateId="2-1-2-1" />
+  <item package="com.nextbillion.groww" rateId="2-1-2-1" />
+  <item package="com.csam.icici.bank.imobile" rateId="2-1-2-1" />
+  <item package="com.finshell.wallet" rateId="1-1-2-3" />  <!--钱包-->
+<!-- Others -->
+  <item package="com.utorrent.client" rateId="2-2-2-2" />  <!--µTorrent®- Torrent Downloader-->
+  <item package="com.delphicoder.flud" rateId="2-2-2-2" />  <!--Flud - Torrent Downloader-->
+  <item package="com.bittorrent.client" rateId="2-2-2-2" />  <!--BitTorrent®- Torrent Downloads-->
+  <item package="co.we.torrent" rateId="2-2-2-2" />  <!--WeTorrent - Torrent Downloader-->
+  <item package="dstudio.tool.instasave" rateId="2-2-2-2" />  <!--QuickSave for Instagram - Downloader and Repost-->
+  <item package="com.example.myapplication" rateId="1-1-2-3" appreqfirst="true" /> <!--test-->
+  <item package="com.example.myapplication" rateId="1-2-2-3" />  <!-- test -->
+  <item package="com.coloros.lockassistant" rateId="2-2-2-2" />
+
+  <!-- 系统应用 -->
+  <item package="com.oplus.ocar" rateId="1-1-2-3" /> <!--Car+车联-->
+  <item package="com.oplus.omoji" rateId="1-1-2-3" /> <!--omoji形象-->
+  <item package="com.oppo.store" rateId="1-1-2-3" /> <!--oppo商城-->
+  <item package="com.oplus.owork" rateId="1-1-2-3" /> <!--文件跨端管理-->
+  <item package="com.oneplus.brickmode" rateId="1-1-2-3" /> <!--禅定空间-->
+  <item package="com.oplus.consumerIRApp" rateId="1-1-2-3" /> <!--红外遥控-->
+  <item package="com.oplus.screenshot" rateId="2-1-2-1" /> <!--截屏-->
+  <item package="com.nearme.instant.platform" rateId="3-1-2-3" /> <!--快应用-->
+  <item package="com.oplus.screenrecorder" rateId="1-1-2-3" /> <!--屏幕录制-->
+  <item package="com.oplus.linker" rateId="1-1-2-3" /> <!--手机投屏-->
+  <item package="com.oplus.gesture" rateId="1-1-2-3" /> <!--手势体感-->
+  <item package="com.oplus.member" rateId="1-1-2-3" /> <!--我的oppo-->
+  <item package="com.oplus.melody" rateId="1-1-2-3" /> <!--无线耳机-->
+  <item package="com.oplus.appdetail" rateId="1-1-2-3" /> <!--应用安装器-->
+  <item package="com.nearme.gamecenter" rateId="2-1-2-2" /> <!--游戏中心-->
+  <item package="com.oplus.games" rateId="2-1-2-2" /> <!--游戏助手-->
+  <item package="com.oplus.safecenter" rateId="2-1-2-2" /> <!--安全中心-->
+  <item package="com.oplus.logkit" rateId="3-1-2-3" /> <!--反馈工具箱-->
+  <item package="com.oplus.exserviceui" rateId="1-1-2-3" /> <!--设置-特色功能-自由浮窗-->
+  <item package="com.oplus.multiapp" rateId="1-1-2-3" /> <!--应用分身-->
+  <item package="com.oplus.apprecover" rateId="1-1-2-3" /> <!--设置-系统应用找回-->
+  <item package="com.oplus.trafficmonitor" rateId="1-1-2-3" /> <!--设置 - 流量控制-->
+  <item package="com.oplus.blacklistapp" rateId="3-1-2-3" /> <!--骚扰拦截-->
+  <item package="com.ludashi.benchmark2" rateId="3-1-2-3" disableViewOverride="true" />  <!--鲁大师-->
+  <item package="com.heytap.market" rateId="1-1-2-3" />  <!-- 软件商店 4714954 -->
+  <item package="com.coloros.relax" rateId="1-1-2-3" disableViewOverride="true" /> <!--OPPO Relax-->
+  <item package="com.nearme.note" rateId="1-1-2-3" />  <!--便签-->
+  <item package="com.coloros.note" rateId="1-1-2-3" />  <!--便签-->
+  <item package="com.oneplus.note" rateId="3-1-2-3" />  <!--便签-->
+  <item package="com.heytap.speechassist" rateId="1-1-2-3" />  <!--小布助手-->
+  <item package="com.coloros.calendar" rateId="1-1-2-3" />  <!--日历-->
+  <item package="com.coloros.calculator" rateId="1-1-2-3" />  <!--计算器-->
+  <item package="com.coloros.alarmclock" rateId="1-1-2-3" />  <!--时钟-->
+  <item package="com.coloros.weather2" rateId="1-1-2-3" />  <!--天气-->
+  <item package="com.coloros.weather2" activity="com.coloros.weather2/com.coloros.weather.main.view.WeatherMainActivity" rateId="3-1-2-3"  disableViewOverride="true" />  <!-- 天气 BugID 2889194 -->
+  <item package="com.coloros.weather2" activity="com.coloros.weather2/com.oplus.weather.main.view.WeatherMainActivity" rateId="3-1-2-3" disableViewOverride="true" />  <!-- 天气 -->
+  <item package="com.coloros.compass2" rateId="1-1-2-3" />  <!--指南针-->
+  <item package="com.coloros.soundrecorder" rateId="1-1-2-3" />  <!--录音-->
+  <item package="com.coloros.backuprestore" rateId="2-1-2-2" />  <!--手机搬家-->
+  <item package="com.coloros.familyguard" rateId="1-1-2-3" />  <!--远程守护-->
+  <item package="com.android.incallui" rateId="1-1-2-1" />  <!--电话-->
+  <item package="com.coloros.gallery3d" rateId="1-1-2-1" disableViewOverride="true" appreqfirst="true" />  <!--相册 BugID 2882523 -->
+  <item package="com.oplus.camera" rateId="2-2-2-2" />  <!-- 相机 -->
+  <item package="com.oplus.camera" activity="com.oplus.camera/.ui.menu.setting.CameraSettingActivity" rateId="1-1-2-3"/>  <!--相机的设置界面-->
+  <item package="com.oppo.camera" activity="com.oppo.camera/.ui.menu.setting.CameraSettingActivity" rateId="1-1-2-3"/>  <!--相机的设置界面-->
+  <item package="com.android.launcher" rateId="1-1-2-3" />  <!--桌面滑动-->
+  <item package="com.android.settings" rateId="1-1-2-3" />  <!--设置界面滑动-->
+  <item package="com.coloros.filemanager" rateId="1-1-2-3" /> <!--文件管理-->
+  <item package="com.oplus.securitypermission" rateId="1-1-2-3" /> <!--设置 权限管理-->
+  <item package="com.oplus.battery" rateId="1-1-2-3" /> <!--设置 电池管理-->
+  <item package="com.oplus.account" rateId="1-1-2-3" />  <!--账号-->
+  <item package="com.oplus.wirelesssettings" rateId="1-1-2-3" />  <!--WLAN-->
+  <item package="com.heytap.cloud" rateId="1-1-2-3" />  <!--云服务-->
+  <item package="com.android.phone" rateId="1-1-2-1" />  <!--移动网络-->
+  <item package="com.oplus.uxdesign" rateId="1-1-2-3" />  <!--个性壁纸-->
+    <item package="com.oplus.play" rateId="1-1-2-3" />  <!--小游戏-->
+  <item package="com.coloros.sceneservice" rateId="1-1-2-3" />  <!--小布助手-->
+  <item package="com.oplus.notificationmanager" rateId="1-1-2-3" />  <!--通知与状态栏-->
+  <item package="com.oplus.sos" rateId="1-1-2-3" />  <!--sos紧急网络-->
+  <item package="com.coloros.operationManual" rateId="1-1-2-3" />  <!--帮助与反馈-->
+  <item package="com.sohu.inputmethod.sogou" rateId="1-1-2-1" disableViewOverride="true" />  <!--搜狗输入法-->
+  <item package="com.iflytek.inputmethod" rateId="1-1-2-1" disableViewOverride="true" />  <!--x-f input-->
+  <item package="com.netease.uu" rateId="2-1-2-1" /> <!--uu加速器-->
+  <item package="com.mygc.ljqlds" rateId="2-1-2-1" /> <!--垃圾清理大师-->
+  <item package="com.naiyoubz.main" rateId="2-1-2-1" />  <!--奶由壁纸-->
+  <item package="com.oppo.launcher" rateId="3-1-2-3" />  <!--桌面-->
+  <item package="com.qihoo.cleandroid_cn" rateId="2-1-2-1" /> <!--360清理大师-->
+  <item package="com.qihoo.appstore" rateId="1-1-2-1" /> <!--360手机助手-->
+  <item package="com.qihoo360.mobilesafe" rateId="2-1-2-1" /> <!--360手机卫士-->
+  <item package="com.shyz.toutiao" rateId="2-1-2-1" /> <!--清理大师-手机管家-->
+  <item package="com.seewo.easicare.pro" rateId="2-1-2-1" /> <!--班级优化大师-->
+  <item package="com.qihoo.cleandroid_lite" rateId="2-1-2-1" /> <!--360清理大师极速版-->
+  <item package="com.relief.space.master.cleaner" rateId="2-1-2-1" /> <!--安心清理-->
+  <item package="com.qujianpan.duoduo" rateId="1-1-2-1" /> <!--见萌输入法-->
+  <item package="com.shoujiduoduo.wallpaper" rateId="2-1-2-1" /> <!--壁纸多多-->
+  <item package="com.quanminclean.clean" rateId="2-1-2-1" /> <!--全民来清理-->
+  <item package="com.komoxo.octopusime" rateId="1-1-2-1" />  <!--章鱼输入法-->
+  <item package="com.market.chenxiang" rateId="1-1-2-1" /> <!--应用中心-->
+  <item package="im.weshine.keyboard" rateId="2-1-2-1" />  <!--KK键盘 输入法-->
+  <item package="net.gfnandroidot.emctsclean.as" rateId="2-1-2-1" />  <!--平台清理王-->
+  <item package="sogou.mobile.explorer" rateId="1-1-2-3" />  <!--搜狗浏览器极速版-->
+  <item package="com.xinhu.clean" rateId="2-1-2-1" />  <!-- 专业清理大师  -->
+  <item package="com.vivo.easyshare" rateId="2-1-2-1" />  <!-- 互传 vivo  -->
+  <item package="com.yueme.itv" rateId="2-1-2-1" />  <!-- 小翼管家  -->
+  <item package="com.sogou.activity.src" rateId="1-1-2-3" />  <!-- 搜狗搜索  -->
+  <item package="com.sohu.inputmethod.sogouoem" rateId="1-1-2-1" />  <!-- 搜狗输入法  -->
+  <item package="com.tencent.qqpimsecure" rateId="2-1-2-1" />  <!-- 腾讯手机管家  -->
+  <item package="com.tencent.qqpim" rateId="2-1-2-1" />  <!-- QQ同步助手  -->
+  <item package="com.tencent.transfer" rateId="2-1-2-1" />  <!-- 换机助手  -->
+  <item package="com.tencent.token" rateId="2-1-2-1" />  <!-- QQ安全中心  -->
+  <item package="com.speed.cleaner.linglong.clear" rateId="2-1-2-1" />  <!-- 玲珑清理  -->
+  <item package="com.ultra.kingclean" rateId="2-1-2-1" />  <!-- 超级清理王  -->
+  <item package="com.tencent.qqpinyin" rateId="2-1-2-1" />  <!-- QQ输入法  -->
+  <item package="com.transsion.XOSLauncher" rateId="2-1-2-1" />  <!-- XOS桌面启动器  -->
+  <item package="com.shucha.find" rateId="2-1-2-2" /> <!--位寻手机定位-->
+  <item package="com.xtc.watch" rateId="2-1-2-1" />  <!-- 小天才电话手表app  -->
+  <item package="com.tgelec.aqsh" rateId="2-1-2-2" />  <!-- 安全守护2  -->
+  <item package="com.baidu.appsearch" rateId="1-1-2-1" />  <!--百度手机助手-->
+  <item package="com.baidu.input" rateId="1-1-2-1" disableViewOverride="true" />  <!--百度输入法-->
+  <item package="cn.ouandroidng.kzctssquare" rateId="2-1-2-1" />  <!--源源快速优化大师-->
+  <item package="cn.wind.speed.booster.cleaner" rateId="2-1-2-1" />  <!--风速清理-->
+  <item package="com.acceleration.manager.clean" rateId="2-1-2-1" />  <!--优化加速管家-->
+  <item package="com.android.sys.cow" rateId="2-1-2-1" />  <!--牛牛省电-->
+  <item package="cn.wind.speed.phone.master" rateId="2-1-2-1" />  <!--风速手机管家-->
+  <item package="cn.eandroidkg.gnctsoptic.fj" rateId="2-1-2-1" />  <!--全全快速清理大师-->
+  <item package="com.android.light.phone" rateId="2-1-2-1" />  <!--高速清理大师-->
+  <item package="com.android.nineton.elfinapp" rateId="2-1-2-1" />  <!--小精灵美化-->
+  <item package="com.android.certinstaller" rateId="2-1-2-1" />  <!--凭证安装-->
+  <item package="com.express.speed.booster.cn" rateId="2-1-2-1" />  <!--全速清理大师-->
+  <item package="com.estrongs.android.pop" rateId="2-1-2-1" />  <!--ES文件浏览器-->
+  <item package="com.farplace.qingzhuo" rateId="2-1-2-1" />  <!--清浊-->
+  <item package="com.huawei.appmarket" rateId="1-1-2-1" />  <!--华为应用市场-->
+  <item package="com.hicloud.android.clone" rateId="2-1-2-1" />  <!--手机克隆-->
+  <item package="com.jiejing.clean" rateId="2-1-2-1" />  <!--洁净清理-->
+  <item package="com.iflytek.speechsuite" rateId="2-1-2-1" />  <!--语音设置-->
+  <item package="com.iflytek.inputmethods.DungkarIME" rateId="1-1-2-1" />  <!--东噶藏文输入法-->
+  <item package="com.coloros.oshare" rateId="1-1-2-3" />  <!--OPPO互传-->
+  <item package="com.coloros.findmyphone" rateId="1-1-2-3" />  <!--查找手机-->
+  <item package="com.coloros.childrenspace" rateId="1-1-2-3" /> <!--儿童空间-->
+  <item package="com.coloros.bootreg" rateId="2-1-2-1" />   <!--开机向导-->
+  <item package="com.coloros.codebook" rateId="1-1-2-3" />  <!--密码本-->
+  <item package="com.coloros.sharescreen" rateId="1-1-2-3" />  <!--屏幕共享-->
+  <item package="com.coloros.phonemanager" rateId="1-1-2-3" />  <!--手机管家-->
+  <item package="com.coloros.ocrscanner" rateId="1-1-2-3" />  <!--小布扫一扫-->
+  <item package="com.coloros.directui/com.coloros.colordirectservice" rateId="1-1-2-3"/>  <!--小布识屏-->
+  <item package="com.coloros.directui" rateId="1-1-2-3" />
+  <item package="com.coloros.shortcuts" rateId="1-1-2-3" />  <!--小布指令-->
+  <item package="com.coloros.floatassistant" rateId="1-1-2-3" />  <!--悬浮球-->
+  <item package="com.coloros.smartsidebar" rateId="1-1-2-3" />  <!--智能侧边栏-->
+  <item package="com.coloros.colordirectservice" rateId="1-1-2-3" />
+  <item package="com.coloros.scenemode" rateId="1-1-2-3" />  <!--简易模式-->
+  <item package="com.coloros.digitalwellbeing" rateId="1-1-2-3" />  <!--应用使用时长-->
+  <item package="com.android.documentsui" rateId="1-1-2-3" />  <!--文件-->
+  <item package="com.android.systemui" rateId="1-1-2-3" />  <!--系统ui-->
+  <item package="com.android.permissioncontroller" rateId="1-1-2-3" />  <!--权限管理-->
+  <item package="com.android.server.telecom" rateId="1-1-2-3" />  <!--通话设置-->
+  <item package="com.heytap.ocsp.client" rateId="1-1-2-3" />  <!--有奖众包-->
+  <item package="com.heytap.health" rateId="1-1-2-3" />  <!--健康-->
+  <item package="com.heytap.pictorial" rateId="1-1-2-3" />  <!--乐划锁屏-->
+  <item package="com.heytap.quicksearchbox" rateId="1-1-2-3" />  <!--快速搜索-->
+  <item package="com.heytap.tas" rateId="1-1-2-3" />  <!--卡包-->
+  <item package="com.android.printspooler" rateId="1-1-2-3" />  <!--打印处理服务-->
+  <item package="com.coloros.assistantscreen" rateId="1-1-2-3" />  <!--负一屏速览-->
+  <item package="com.heytap.themestore" rateId="1-1-2-3" /> <!-- 主题商店  -->
+  <item package="com.nearme.themestore" rateId="1-1-2-3" /> <!-- 主题商店  -->
+  <item package="com.whatsapp" activity="com.whatsapp/com.whatsapp.voipcalling.VoipActivityV2" rateId="2-2-2-2" disableViewOverride="true" />  <!--whatsapp视频通话界面-->
+  <item package="com.whatsapp" activity="com.whatsapp/com.whatsapp.camera.CameraActivity" rateId="2-2-2-2" disableViewOverride="true" />  <!--whatsapp录制视频界面-->
+  <item package="com.facebook.katana" activity="com.facebook.katana/com.facebook.inspiration.activity.InspirationCameraActivity" rateId="2-2-2-2" disableViewOverride="true" />  <!--facebook直播界面-->
+  <item package="com.facebook.katana" activity="com.facebook.katana/com.facebook.rooms.call.app.RoomActivity" rateId="2-2-2-2" disableViewOverride="true" />  <!--facebook视频通话界面-->
+  <item package="com.facebook.katana" activity="com.facebook.katana/com.facebook.katana.immersiveactivity.ImmersiveActivity" rateId="2-2-2-2" disableViewOverride="true" />  <!--facebook浏览视频-->
+  <item package="in.mohalla.video" activity="in.mohalla.video/in.mohalla.camera.snap.SnapCameraActivity" rateId="2-2-2-2" disableViewOverride="true" />  <!--moji录制视频界面-->
+  <item package="com.instagram.android" activity="com.instagram.android/com.instagram.modal.ModalActivity" rateId="2-2-2-2" disableViewOverride="true" />  <!--instagram直播界面-->
+  <item package="com.facebook.katana" activity="com.facebook.katana/.LoginActivity" disableViewOverride="true"  rateId="1-1-2-1" /> <!--facebook bugID 5333044-->
+  <item package="com.facebook.katana" activity="com.facebook.katana/.activity.FbMainTabActivity" disableViewOverride="true"  rateId="1-1-2-1" /> <!--facebook bugID 5333044-->
+
+<!-- 录屏降低帧率到 60hz -->
+  <record package="com.heytap.cast" />  <!--投屏时候保持系统帧率在60hz-->
+  <record package="com.oplus.cast" />
+  <cameraOverride package="com.tencent.mm" />
+  <cameraOverride package="com.tencent.mobileqq" />
+  <cameraOverride package="com.whatsapp" />
+
+<!--inputMethodLowRate 为true输入法降帧，默认为false
+      enableRateOverride 默认为true,为false表示surfaceview，texture场景不降
+      enableFodHighRate true表示可以支持指纹高刷新请求，默认false，部分项目指纹闪屏需要配置
+      zoomWinRateId 浮窗限帧 90hz-->
+<config highBrightnessRateId="1" inputMethodLowRate="false" enableFodHighRate="true" voiceSceneLowRate="true" voiceSceneLowRateDelay="500" zoomWinRateId="1"/>
+</refresh_rate_config>

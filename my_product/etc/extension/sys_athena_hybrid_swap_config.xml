@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>2022060601</version>
+    <filter-name>sys_athena_hybrid_swap_config</filter-name>
+    <hybrid_swap_config>
+        <scene name="boot">
+            <ram value="all">
+                <hybrid_swap_action_config action="0" cgroup="#" label="100" value="1" />
+                <hybrid_swap_action_config action="1" cgroup="#" label="101" value="1" />
+                <hybrid_swap_action_config action="3" cgroup="#" label="103" value="1" />
+                <hybrid_swap_action_config action="4" cgroup="#" label="104" value="10737418240" />
+                <hybrid_swap_action_config action="10" cgroup="#" label="110"
+                    value="2300 2000 2300 1536" />
+                <!--  value="2300 2000 2300 1536" /> -->
+                <!--  value="2500 2200 2500 1536" /> -->
+                <hybrid_swap_action_config action="13" cgroup="#" label="113" value="50" />
+                <hybrid_swap_action_config action="3" cgroup="/" label="2030" value="400" />
+                <hybrid_swap_action_config action="3" cgroup="system" label="2031" value="400" />
+                <hybrid_swap_action_config action="3" cgroup="apps" label="2032" value="400" />
+                <hybrid_swap_action_config action="22" cgroup="#" label="122" value="3 0 99 0 0 0 100 399 80 0 0 400 499 70 0 0" />
+            </ram>
+
+            <ram value="4">
+                <hybrid_swap_action_config action="0" cgroup="#" label="100" value="1" />
+                <hybrid_swap_action_config action="1" cgroup="#" label="101" value="1" />
+                <hybrid_swap_action_config action="3" cgroup="#" label="103" value="1" />
+                <hybrid_swap_action_config action="4" cgroup="#" label="104" value="10737418240" />
+                <hybrid_swap_action_config action="10" cgroup="#" label="110"
+                    value="2000 1600 2000 1536" />
+                <hybrid_swap_action_config action="13" cgroup="#" label="113" value="50" />
+                <hybrid_swap_action_config action="3" cgroup="/" label="2030" value="400" />
+                <hybrid_swap_action_config action="3" cgroup="system" label="2031" value="400" />
+                <hybrid_swap_action_config action="3" cgroup="apps" label="2032" value="400" />
+            </ram>
+        </scene>
+
+        <scene name="normal">
+            <ram value="all">
+                <hybrid_swap_action_config action="0" cgroup="#" label="100" value="1" />
+                <hybrid_swap_action_config action="1" cgroup="#" label="101" value="1" />
+                <hybrid_swap_action_config action="3" cgroup="#" label="103" value="1" />
+                <hybrid_swap_action_config action="4" cgroup="#" label="104" value="10737418240" />
+                <hybrid_swap_action_config action="10" cgroup="#" label="110"
+                    value="2300 2000 2300 1536" />
+                <hybrid_swap_action_config action="13" cgroup="#" label="113" value="50" />
+                <hybrid_swap_action_config action="3" cgroup="/" label="2030" value="400" />
+                <hybrid_swap_action_config action="3" cgroup="system" label="2031" value="400" />
+                <hybrid_swap_action_config action="3" cgroup="apps" label="2032" value="400" />
+                <hybrid_swap_action_config action="22" cgroup="#" label="122" value="3 0 99 0 0 0 100 399 80 0 0 400 499 70 0 0" />
+            </ram>
+
+            <ram value="4">
+                <hybrid_swap_action_config action="0" cgroup="#" label="100" value="1" />
+                <hybrid_swap_action_config action="1" cgroup="#" label="101" value="1" />
+                <hybrid_swap_action_config action="3" cgroup="#" label="103" value="1" />
+                <hybrid_swap_action_config action="4" cgroup="#" label="104" value="10737418240" />
+                <hybrid_swap_action_config action="10" cgroup="#" label="110"
+                    value="2000 1600 2000 1536" />
+                <hybrid_swap_action_config action="13" cgroup="#" label="113" value="50" />
+                <hybrid_swap_action_config action="3" cgroup="/" label="2030" value="400" />
+                <hybrid_swap_action_config action="3" cgroup="system" label="2031" value="400" />
+                <hybrid_swap_action_config action="3" cgroup="apps" label="2032" value="400" />
+            </ram>
+        </scene>
+
+        <config key="hybrid_swap_switch_status" type="Integer" value="1" />
+        <config key="hybrid_swap_boot_delay" type="Long" value="20000" />
+        <config key="hybrid_swap_normal_delay" type="Long" value="120000" />
+    </hybrid_swap_config>
+</filter-conf>

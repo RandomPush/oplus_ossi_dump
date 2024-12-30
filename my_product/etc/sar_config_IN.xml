@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Configs>
+  <version>1</version>
+  <Policys>
+    <Policy condition="TESTCARD &amp;&amp; OTA">16</Policy>
+    <Policy condition="TESTCARD &amp;&amp; !OTA">-1</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; !HEAD &amp;&amp; !WIFI2G &amp;&amp; !WIFI5G &amp;&amp; !BT">4</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; HEAD &amp;&amp; !WIFI2G &amp;&amp; !WIFI5G &amp;&amp; !BT">5</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; !HEAD &amp;&amp; WIFI2G &amp;&amp; !WIFI5G &amp;&amp; !BT">9</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; !HEAD &amp;&amp; !WIFI2G &amp;&amp; WIFI5G &amp;&amp; !BT">9</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; !HEAD &amp;&amp; !WIFI2G &amp;&amp; !WIFI5G &amp;&amp; BT">9</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; HEAD &amp;&amp; WIFI2G &amp;&amp; !WIFI5G &amp;&amp; !BT">10</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; HEAD &amp;&amp; !WIFI2G &amp;&amp; WIFI5G &amp;&amp; !BT">10</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; HEAD &amp;&amp; !WIFI2G &amp;&amp; !WIFI5G &amp;&amp; BT">10</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; !HEAD &amp;&amp; WIFI2G &amp;&amp; WIFI5G &amp;&amp; !BT">14</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; !HEAD &amp;&amp; !WIFI2G &amp;&amp; WIFI5G &amp;&amp; BT">14</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; !HEAD &amp;&amp; WIFI2G &amp;&amp; !WIFI5G &amp;&amp; BT">14</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; !HEAD &amp;&amp; WIFI2G &amp;&amp; WIFI5G &amp;&amp; BT">14</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; HEAD &amp;&amp; WIFI2G &amp;&amp; WIFI5G &amp;&amp; !BT">15</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; HEAD &amp;&amp; !WIFI2G &amp;&amp; WIFI5G &amp;&amp; BT">15</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; HEAD &amp;&amp; WIFI2G &amp;&amp; !WIFI5G &amp;&amp; BT">15</Policy>
+    <Policy condition="!TESTCARD &amp;&amp; HEAD &amp;&amp; WIFI2G &amp;&amp; WIFI5G &amp;&amp; BT">15</Policy>
+  </Policys>
+  <Events>
+    <Event class="HeadNearEvent" name="HEAD">1</Event>
+    <Event class="WIFI2p4GEvent" name="WIFI2G">3</Event>
+    <Event class="WIFI5GEvent" name="WIFI5G">2</Event>
+    <Event class="BluetoothEvent" name="BT">6</Event>
+    <Event class="TestCardEvent" name="TESTCARD">0</Event>
+    <Event class="SwtpEvent" name="OTA">4</Event>
+  </Events>
+  <ScenarioMap>
+    <Scenario event_mask="0" sns_channel="-1">4</Scenario>
+    <Scenario event_mask="2" sns_channel="-1">5</Scenario>
+    <Scenario event_mask="8" sns_channel="-1">9</Scenario>
+    <Scenario event_mask="4" sns_channel="-1">9</Scenario>
+    <Scenario event_mask="64" sns_channel="-1">9</Scenario>
+    <Scenario event_mask="10" sns_channel="-1">10</Scenario>
+    <Scenario event_mask="6" sns_channel="-1">10</Scenario>
+    <Scenario event_mask="66" sns_channel="-1">10</Scenario>
+    <Scenario event_mask="12" sns_channel="-1">14</Scenario>
+    <Scenario event_mask="68" sns_channel="-1">14</Scenario>
+    <Scenario event_mask="72" sns_channel="-1">14</Scenario>
+    <Scenario event_mask="76" sns_channel="-1">14</Scenario>
+    <Scenario event_mask="14" sns_channel="-1">15</Scenario>
+    <Scenario event_mask="70" sns_channel="-1">15</Scenario>
+    <Scenario event_mask="74" sns_channel="-1">15</Scenario>
+    <Scenario event_mask="78" sns_channel="-1">15</Scenario>
+    <Scenario event_mask="1" sns_channel="-1">16</Scenario>
+  </ScenarioMap>
+</Configs>

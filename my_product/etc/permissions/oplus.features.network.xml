@@ -1,0 +1,45 @@
+<oplus-config>
+
+    <!-- REG -->
+    <!-- WangJianwei@NETWORK.REG.313285, 2020/09/30, add for dual 5g Enable-->
+    <oplus-feature name="oplus.software.radio.support_dual_nr"/>
+    <oplus-feature name="oplus.software.radio.nr_always_sa_pre"/>
+
+    <!-- POWER -->
+    <!-- Asiga@NETWORK.POWER.26376, 2020/04/27, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.nwpower_static_netcontroller_enabled" />
+    <!-- Asiga@NETWORK.POWER.26376, 2020/04/27, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.nwpower_app_network_monitor_switch_enable" />
+    <oplus-feature name="oplus.software.radio.comm_scene_switch_enable" />
+
+    <!-- DATA -->
+    <!-- KangJin@NETWORK.DATA.1207635, 20201/03/09, add foreign sw disalbe nw limit notification-->
+    <oplus-feature name="oplus.software.radio.disable_nw_limit_notify"/>
+    <!-- Jiangyifan@NETWORK.DATA.6153038, 2023/08/31, add data eval 3.0-->
+    <oplus-feature name="oplus.software.radio.data_eval3"/>
+
+    <!-- IMS/CALL -->
+    <!--WangJianwei@NETWORK.CALL, 2020/11/7, add for vonr switch -->
+    <oplus-feature name="oplus.software.radio.vonr_switch_enabled"/>
+    <!-- wangrufei@RF.CALL, 2022/03/31, disable DC sar  when FCC -->
+    <oplus-feature name="oplus.software.radio.fcc_disable_dc_sar"/>
+    <!-- HouYaming@NETWORK.CALL.3926103, 2022/07/11, add for disable game space mt optimization for export-->
+    <oplus-feature name="oplus.software.radio.mt_optimization"/>
+
+    <!-- RF -->
+    <!-- wangrufei@NETWORK.RF.8039, 2021/03/31, add for earpiece detect support -->
+    <oplus-feature name="oplus.software.radio.sar.earpiece.detect.support"/>
+    <!-- wangrufei@NETWORK.RF.8039, 2021/04/09, add for engineer sale pa test Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.eng_salepatest_support"/>
+    <!-- Xun.chen@NETWORK.RF, 2021/04/02, add for sar sensor simulation from AP -->
+    <oplus-feature name="oplus.software.radio.sar.sensor.simulation.support"/>
+    <!-- DuanRui@NETWORK.RF.2135219, 2021/9/5, Add for network components radar -->
+    <oplus-feature name="oplus.software.radio.hw.mipi.fail.support" />
+    <!-- RenPengkuan@NETWORK.RF, 2022/02/28, add for AOL scene to modem -->
+    <oplus-feature name="oplus.software.radio.aol_scene_to_modem"/>
+    <!-- ZhaoWeican@NETWORK.RF., 2021/12/02, add for use SarService via STS -->
+    <oplus-feature name="oplus.software.radio.sar_via_sts_support" />
+
+    <!-- YaoHao@NETOWRK.REG,4777167 2022/11/17, Add for reg monitor event 4.0 -->
+    <oplus-feature name="oplus.software.radio.nhs_reg_tracker_4.0_enabled" />
+</oplus-config>

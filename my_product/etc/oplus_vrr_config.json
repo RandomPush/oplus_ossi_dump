@@ -1,0 +1,1017 @@
+[
+    {
+        "filter_name": "oplus_adfr_config"
+    },
+    {
+        "version": 20230816
+    },
+    {
+        "sub_version": "20230816"
+    },
+    {
+        "feature_sa": "true"
+    },
+    {
+        "feature_osync": 3
+    },
+    {
+        "sa_backlight": true,
+        "sa_backlight_strategy": [
+            {
+                "fps": 120,
+                "list": [
+                    "50:120",
+                    "200:60",
+                    "1500:120"
+                ]
+            },
+            {
+                "fps": 90,
+                "list": [
+                    "50:90",
+                    "200:45",
+                    "1500:90"
+                ]
+            },
+            {
+                "fps": 60,
+                "list": [
+                    "110:60",
+                    "200:40",
+                    "1500:60"
+                ]
+            }
+        ]
+    },
+    {
+        "sa_backlight_pwm": true,
+        "sa_backlight_strategy_pwm": [
+            {
+                "fps": 120,
+                "list": [
+                    "110:120",
+                    "1500:120"
+                ]
+            },
+            {
+                "fps": 90,
+                "list": [
+                    "110:90",
+                    "1500:90"
+                ]
+            },
+            {
+                "fps": 60,
+                "list": [
+                    "110:60",
+                    "1500:60"
+                ]
+            }
+        ]
+    },
+    {
+        "ambient": true,
+        "ambient_rate": 500,
+        "ambient_horizon": 500,
+        "ambient_thresholds": [400,4500],
+        "ambient_check_count": 200,
+        "ambient_check_timeout": 2000
+    },
+    {
+        "color_temp": true,
+        "color_temp_rate": 500,
+        "color_temp_horizon": 500,
+        "color_temp_cct": false,
+        "color_temp_cct_thresholds": [4000,7500],
+        "color_temp_cct_check_count": 200,
+        "color_temp_ir": true,
+        "color_temp_ir_thresholds": [21,25],
+        "color_temp_ir_check_count": 200,
+        "color_temp_cct_ir_indexs": [0,1],
+        "color_temp_cct_ir_check_timeout": 2000
+    },
+    {
+        "game_list": [
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.sgame"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "not_game_win_name": [
+                    "com.ryg.dynamicload.DLProxyProcessActivity"
+                ],
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.riotgames.league.wildrift",
+                    "com.riotgames.league.wildrifttw",
+                    "com.riotgames.league.wildriftvn",
+                    "com.riotgames.internal.wildrift.test"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ],
+                "kfc": true,
+                "kfc_target": [
+                    60,
+                    120
+                ],
+                "kfc_jitter": [
+                    60,
+                    120
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.supercell.brawlstars",
+                    "com.youzu.bs.nearme.gamecenter",
+                    "com.youzu.bs",
+                    "com.supercell.brawlstars"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.speedmobile",
+                    "com.tencent.qqspmi"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.cod",
+                    "com.garena.game.codm",
+                    "com.activision.callofduty.shooter"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.pubgmhd"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "not_game_win_name": [
+                    "com.ryg.dynamicload.DLProxyProcessActivity"
+                ],
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.ig",
+                    "com.pubg.imobile"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ],
+                "kfc": true,
+                "kfc_target": [
+                    60,
+                    120
+                ],
+                "kfc_jitter": [
+                    60,
+                    120
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.mobile.legends"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.dts.freefireth",
+                    "com.dts.freefiremax"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.tmgp.cf"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.lolm"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.wepie.snake.nearme.gamecenter"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.netease.harrypotter.nearme.gamecenter"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.netease.sky.nearme.gamecenter"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.tencent.KiHan"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.kitkagames.fallbuddies"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.garena.game.kgvn"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.roblox.client"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.mojang.minecraftpe"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "jp.konami.pesam"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.garena.game.kgth"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.vng.pubgmobile"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ],
+                "kfc": true,
+                "kfc_target": [
+                    60,
+                    120
+                ],
+                "kfc_jitter": [
+                    60,
+                    120
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.ea.gp.apexlegendsmobilefps"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.tw.fivexgames.apexlegendsmobile"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.levelinfinite.apexlegendsmobile"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            },
+            {
+                "pkg_name": [
+                    "com.miHoYo.GenshinImpact"
+                ],
+                "available": true,
+                "flee_brightness": true,
+                "backlight": true,
+                "backlight_strategy": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "50:120",
+                            "1500:60"
+                        ]
+                    }
+                ],
+                "backlight_pwm": true,
+                "backlight_strategy_pwm": [
+                    {
+                        "fps": 120,
+                        "list": [
+                            "110:120",
+                            "1500:120"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "touch_idle": true,
+        "hw_enable": true,
+        "sw_enable": true,
+        "adfr_enable": false,
+        "timeout": 3500,
+        "hw_nit_limit": 110,
+        "hw_nit_limit_pwm": 110,
+        "special_timeout": {
+            "com.tencent.mobileqq": 3500,
+            "com.android.contacts": 3500,
+            "com.coloros.gallery3d": 4000,
+            "com.android.wallpaper.livepicker": 4000,
+            "com.oplus.wallpapers": 4000,
+            "com.android.launcher": 5000,
+            "com.tencent.qqmusic": 3500,
+            "com.facebook.katana": 10000
+        },
+        "blacklist": [
+            "com.android.settings",
+            "com.android.mms",
+            "com.oplus.engineermode",
+            "com.antutu.ABenchMark",
+            "com.antutu.benchmark.full",
+            "com.ludashi.benchmark2",
+            "com.ludashi.benchmark",
+            "com.coloros.video",
+            "com.tencent.tvoem",
+            "com.tencent.tmgp.speedmobile",
+            "com.tencent.af",
+            "com.netease.blqx.nearme.gamecenter",
+            "com.netease.lztg.nearme.gamecenter",
+            "com.pwrd.xxajh.nearme.gamecenter",
+            "com.netease.blqx",
+            "com.netease.lztg",
+            "com.tencent.ig",
+            "com.tencent.lolm",
+            "com.ChillyRoom.DungeonShooter",
+            "com.ChillyRoom.nearme.gamecenter",
+            "com.tencent.tmgp.yqqskp",
+            "com.riotgames.league.wildrift",
+            "com.riotgames.internal.wildrift.trunk",
+            "com.riotgames.internal.wildrift.test",
+            "com.riotgames.league.wildriftvn",
+            "com.riotgames.league.wildrifttw",
+            "com.tencent.tmgp.sgame",
+            "com.tencent.tmgp.cf",
+            "com.tencent.tmgp.pubgmhd",
+            "com.pubg.krmobile",
+            "com.vng.pubgmobile",
+            "com.pubg.imobile",
+            "com.rekoo.pubgm",
+            "com.tencent.tmgp.projectg",
+            "com.tencent.igce",
+            "com.tencent.iglite",
+            "com.tencent.tmgp.sgamece",
+            "com.tencent.KiHan",
+            "com.tencent.tmgp.KiHan",
+            "com.netease.yokaikoya",
+            "com.miHoYo.enterprise.NGHSoD",
+            "com.miHoYo.bh3.nearme.gamecenter",
+            "com.miHoYo.Yuanshen",
+            "com.tencent.tmgp.eyou.ygwu",
+            "com.netease.yokaikoya.nearme.gamecenter",
+            "com.tencent.YiRen",
+            "com.netease.wptqz",
+            "com.bilibili.fatego",
+            "com.netease.jddsaef",
+            "com.netease.jddsaef.nearme.gamecenter",
+            "com.tencent.tmgp.jddsaef",
+            "com.tencent.tmgp.yongyong.lztg",
+            "com.tencent.tmgp.eyou.blqx",
+            "com.pwrd.xxajh.laohu",
+            "com.tencent.tmgp.xxajh",
+            "com.tencent.tmgp.eyou.blqx",
+            "com.netease.moba.nearme.gamecenter",
+            "com.tencent.tmgp.kaopu.jzpaj",
+            "com.tencent.tmgp.kaopu.jzpaj",
+            "com.pwrd.xsmdl.laohu",
+            "com.xsmdl.nearme.gamecenter",
+            "com.tencent.tmgp.xsmdl",
+            "com.youzu.bs",
+            "com.youzu.bs.nearme.gamecenter",
+            "com.yingxiong.dftk.nearme.gamecenter",
+            "com.yunbu.rehtona.nearme.gamecenter",
+            "com.denachina.g13002010.denacn",
+            "com.denachina.g13002010.nearme.gamecenter",
+            "com.volvapps.ef5.x.nearme.gamecenter",
+            "com.tencent.tmgp.ef5",
+            "com.tencent.tmgp.hqxy",
+            "com.netease.x19",
+            "com.tencent.tmgp.wdsj666",
+            "com.netease.mc.nearme.gamecenter",
+            "com.palmpi.hcollege.nearme.gamecenter",
+            "com.palmpi.hcollege.feiyu",
+            "com.tencent.tmgp.supercell.brawlstars",
+            "com.ztgame.bob",
+            "com.netease.hyxd.nearme.gamecenter",
+            "com.netease.dwrg.nearme.gamecenter",
+            "com.tencent.qqsports",
+            "com.netflix.mediaclient",
+            "com.android.packageinstaller",
+            "com.oplus.appdetail",
+            "com.bairimeng.dmmdzz",
+            "com.bairimeng.dmmdzz.nearme.gamecenter",
+            "com.tencent.tmgp.bairimeng.dmmdzz",
+            "com.tencent.tmgp.WePop",
+            "com.kitkagames.fallbuddies",
+            "com.garena.game.kgvn",
+            "com.garena.game.codm",
+            "com.roblox.client",
+            "com.mojang.minecraftpe",
+            "jp.konami.pesam",
+            "com.ea.gp.apexlegendsmobilefps",
+            "com.tw.fivexgames.apexlegendsmobile",
+            "com.levelinfinite.apexlegendsmobile",
+            "com.dts.freefireth",
+            "com.dts.freefiremax",
+            "com.miHoYo.GenshinImpact",
+            "com.mobile.legends",
+            "com.garena.game.kgth",
+            "com.activision.callofduty.shooter",
+            "com.supercell.brawlstars",
+            "com.tencent.qqspmi"
+        ],
+        "sw_negligible_overlay": [
+            "StatusBar",
+            "NavigationBar",
+            "ScreenDecorOverlay",
+            "OplusOSEdge",
+            "Sprite",
+            "AssistOverlay",
+            "RefreshRateOverlay",
+            "Letterbox -",
+            "GameFloatBarView",
+            "game-sdk-buoy",
+            "GamesFloatBar",
+            "autotest",
+            "OplusPrivacyIconTop",
+            "GameSpaceFloat",
+            "ColorOSEdgePanel"
+        ]
+    },
+    {
+        "cvt": true
+    },
+    {
+        "frtc": true
+    },
+    {
+        "debug_overlay": [
+            "1",
+            "1",
+            "150",
+            "-1",
+            "2",
+            "1",
+            "3",
+            "5",
+            "5",
+            "8",
+            "10",
+            "10",
+            "13",
+            "16",
+            "15"
+        ]
+    },
+    {
+        "deferred_mode_change": true
+    },
+    {
+        "oa_deferred_mode_change": false
+    }
+]

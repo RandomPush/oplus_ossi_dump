@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<features>
+    <feature name="com.oplus.eng.sar.head" value="1.130" />
+    <feature name="com.oplus.eng.sar.body" value="0.872" />
+    <feature name="com.oplus.eng.pcba.bootshow" value="false" />
+</features>

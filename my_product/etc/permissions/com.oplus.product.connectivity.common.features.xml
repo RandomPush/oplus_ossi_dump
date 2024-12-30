@@ -1,0 +1,67 @@
+<oplus-config>
+<!-- WangJian@CONNECTIVITY.WIFI.ARCHITECHURE, 2020/06/16   -->
+    <oplus-feature name="oplus.software.wlan.assistant" />
+
+    <oplus-feature name="oplus.software.wlan.auto_reconnect" />
+<!-- Xiazijian@CONNECTIVITY.WIFI.BASIC.SWITCH, 2022/02/16, Add for hidden camera detection-->
+    <oplus-feature name="oplus.software.wlan.sniffer_capture_with_udp" />
+
+    <oplus-feature name="oplus.software.wlan.connection_selfcure" />
+
+<!-- ZhaoXiang@CONNECTIVITY.WIFI.CONNECT.SMARTWIFI.3055896, 2022/2/25, Add for network switch between wifi and cell -->
+    <oplus-feature name="oplus.software.wlan.seamless_switch" />
+
+<!-- liangenglin@CONNECTIVITY.WIFI.NETWORK, 2022/08/24, Add for wifi low latency  -->
+    <oplus-feature name="oplus.software.wlan.low_latency_v2" />
+
+<!-- ZhengDeng@CONNECTIVITY.WIFI.BASIC.P2P.3615099, 2022/09/15, add for AP-GC CONNECT -->
+    <oplus-feature name="oplus.software.wlan.ap_gc_connect" />
+
+<!-- KongXianghui@CONNECTIVITY.WIFI.BASIC.6165685, 2023/09/04, Add for STA 5G160M feature -->
+    <oplus-feature name="oplus.software.wlan.5g_160M_station_for_phone_clone" />
+
+<!--  BT begin -->
+<!-- GaoShangxiu@CONNECTIVITY.BT.ARCHITECHURE, 2020/07/14   -->
+    <oplus-feature name="oplus.software.bt.absvolume_support" />
+
+    <oplus-feature name="oplus.software.bt.rmtdevice_report" />
+
+    <oplus-feature name="oplus.software.bt.vendor_at_command" />
+
+    <oplus-feature name="oplus.software.bt.ignore_locationmode" />
+
+    <oplus-feature name="oplus.software.bt.iot_enablelogging" />
+
+    <oplus-feature name="oplus.software.bt.ble_scan_strategymode" />
+
+    <oplus-feature name="oplus.software.bt.profile_tracker" />
+
+    <oplus-feature name="oplus.software.bt.rus" />
+
+    <oplus-feature name="oplus.software.bt.api_customize" />
+
+    <oplus-feature name="oplus.software.bt.rssi_range_support" />
+
+    <oplus-feature name="oplus.software.bt.hcilog" />
+
+    <oplus-feature name="oplus.software.bt.ssrdump" />
+
+    <oplus-feature name="oplus.software.bt.identification" />
+
+    <oplus-feature name="oplus.software.bt.dynamic_blacklist_dwm" />
+
+    <oplus-feature name= "oplus.software.bt.audio_guard" />
+
+    <oplus-feature name= "oplus.software.bt.oidt" />
+
+<!-- GaoShangxiu@CONNECTIVITY.BT.Audio.Feature.1621909, 2021/10/02,add for support Binuural Record -->
+    <oplus-feature name="oplus.software.bt.binaural_record" />
+
+ <!-- ZhangZhiLin@CONNECTIVITY.BT.Basic.Feature, 2021/06/30,add for bt sar feature  -->
+    <oplus-feature name="oplus.software.bt.sar_support" />
+<!--  BT end -->
+<!--  NFC begin -->
+<!-- huangruhong@CONNECTIVITY.NFC.ARCHITECHURE, 2020/08/18,add for felica(NFC Card Emulation) toggle feature  -->
+    <oplus-feature name="oplus.software.nfc.felica_support" />
+<!--  NFC end -->
+</oplus-config>

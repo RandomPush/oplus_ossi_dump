@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20240103</version>
+    <toggle>1</toggle>
+    <features>
+        <feature name="BindCore" enable="1">
+            <!-- big core index, start from 0 -->
+            <bigcore_id>4</bigcore_id>
+            <bigcore_id>5</bigcore_id>
+            <bigcore_id>6</bigcore_id>
+            <bigcore_id>7</bigcore_id>
+        </feature>
+
+        <feature name="OplusFingerPrint" enable="1">
+            <backlight>0.0029 0.053 0.0907 0.1127 0.1376 0.1567 0.1781 0.1962 0.216 0.2377 0.2566 0.2764 0.2973 0.3192 0.3372 0.3578 0.3775 0.3955 0.4216 0.4458 0.47632 0.5105 0.5428 0.6004 0.6521 0.7175 0.7677 0.7914 0.8191 0.8679 0.9049</backlight>
+            <alpha>0.935 0.920 0.899 0.881 0.857 0.840 0.821 0.806 0.782 0.761 0.744 0.724 0.704 0.683 0.665 0.643 0.625 0.609 0.582 0.560 0.531 0.499 0.467 0.411 0.361 0.298 0.247 0.223 0.190 0.112 0.041</alpha>
+        </feature>
+
+        <feature name="curtain" enable="1">
+            <application name="com.google.android.youtube">
+                <scene type="FuzzyLayer">
+                    <layer>SurfaceView[com.google.android.youtube/com.google.android.apps.youtube.app</layer>
+                    <action>
+                        <mode>SurfaceView</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.instagram.android">
+                <scene type="FuzzyLayer">
+                    <layer>TransparentModalActivity</layer>
+                    <action>
+                        <mode>Normal</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>MainActivity</layer>
+                    <action>
+                        <mode>Normal</mode>
+                    </action>
+                </scene>
+                <scene type="FuzzyLayer">
+                    <layer>ModalActivity</layer>
+                    <action>
+                        <mode>Normal</mode>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+
+    </features>
+</filter-conf>

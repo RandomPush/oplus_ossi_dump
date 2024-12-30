@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.wlan.net_share"/>
+	<oplus-feature name="oplus.software.support_fluid_entry"/>
+	<oplus-feature name="oplus.software.radio.virtualmodem_support"/>
+	<oplus-feature name="oplus.software.radio.game_ims_reg"/>
+	<oplus-feature name="oplus.software.logkit.ocloud.support"/>
+	<oplus-feature name="oplus.software.radio.smart5g_sa_enabled"/>
+	<oplus-feature name="oplus.software.fluid_replace_ntf"/>
+	<oplus-feature name="oplus.software.view.spring_over_scroller"/>
+	<oplus-feature name="oplus.software.radio.data_eval3"/>
+</oplus-config>
+<!-- Timestamp 2023-11-10T15:07:20 #65451 -->

@@ -1,0 +1,29 @@
+<oplus-config>
+
+    <oplus-feature name="oplus.software.bt.switchlog" />
+
+    <oplus-feature name="oplus.software.wlan.dbs" />
+
+    <oplus-feature name="oplus.software.wlan.wifi6" />
+
+    <!--oplus-feature name="oplus.software.wlan.smart_gear" /-->
+    <oplus-feature name="oplus.software.wlan.smart_gear" />
+
+    <!-- LiFenfen@CONNECTIVITY.WIFI.HARDWARE.SGDETECT.4092444, 2022/10/09, smartgear 3.0 -->
+    <oplus-feature name="oplus.software.wlan.sg_detect" />
+
+    <!-- LiXiong@CONNECTIVITY.WIFI.NETWORK.ROUTERBOOST, 2020/09/27   -->
+    <oplus-feature name="oplus.software.wlan.routerboost" />
+
+    <!-- XiaSong@CONNECTIVITY.WIFI.HARDWARE.PKAT.1460037, 2021/12/3 -->
+    <oplus-feature name="oplus.software.wlan.pkat" />
+
+    <!-- NormanLiu@CONNECTIVITY.WIFI.NETWORK, 2021/10/14 -->
+    <oplus-feature name="oplus.software.wlan.fdd_mode" />
+
+    <!-- XiaSong@CONNECTIVITY.WIFI.HARDWARE.POWER.2792204, 2021/12/19, add for MTK BAR -->
+    <oplus-feature name="oplus.software.wlan.bar" />
+
+    <!-- Jiayangshuai@CONNECTIVITY.WIFI.BASIC.CUSTOM, 2022/08/30,add for SoftAP 1*1   -->
+    <oplus-feature name="oplus.software.wlan.softap_nss1X1" />
+</oplus-config>

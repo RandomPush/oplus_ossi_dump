@@ -1,0 +1,6 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<!-- COLOR_EDIT.  add oppo.screen.hovering.support ;remove oppo.narrow.frame -->
+<permissions>
+    <!-- ifdef OPLUS_FEATURE_BATTERY_MANAGER -->
+    <!-- endif OPLUS_FEATURE_BATTERY_MANAGER -->
+</permissions>
