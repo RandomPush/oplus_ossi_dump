@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RFTOOLKIT>
+    <TestCase mode="QtTest, Expert, Factory">
+        <RAT name="CDMA">
+             <Band type="Any"></Band>
+        </RAT>
+    </TestCase>
+    <TestCase mode="CustomService, Diagnostic">
+        <RAT name="CDMA">
+            <Band type="Any"></Band>
+        </RAT>
+    </TestCase>
+    <TestCase mode="NPT">
+        <RAT name="LTE">
+           <Band number="1">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+           <Band number="2">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="3">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="4">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="5">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="7">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="8">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="12">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="17">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="18">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="19">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="20">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="25">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="26">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="28">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="66">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="38">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="39">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="40">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="41">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+        </RAT>
+        <RAT name="NR5G">
+             <Band number="1">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="2">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="3">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="5">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="7">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="8">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="12">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="20">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="25">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="28">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="38">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 100,200,300,400 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="40">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="41">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 100,200,300,400 </Antenna>
+                </Channel>
+            </Band>
+             <Band number="66">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 0,101,404 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="77">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 100,200,300,400 </Antenna>
+                </Channel>
+            </Band>
+            <Band number="78">
+                <Channel type="Mid">
+                     <SubBand>0</SubBand>
+                     <Antenna paIndex="0"> 100,200,300,400 </Antenna>
+                </Channel>
+            </Band>
+        </RAT>
+    </TestCase>
+</RFTOOLKIT>

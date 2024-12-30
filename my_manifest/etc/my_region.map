@@ -1,0 +1,7 @@
+//my_region/etc/extension/com.oplus.app-features.xml 6
+//my_region/etc/oplus_carrier_config.xml 8
+//my_region/etc/startup/blacklist_default.xml 9-12
+//my_region/etc/startup/safe_boot_whitelist.xml 13-14
+//my_region/etc/startup/sys_startup_v3_config_list.xml 15-17
+//my_region/etc/startup/sys_startupmanager_config_list.xml 18-20
+//my_region/global/oplus_carrier_list.xml 159-162

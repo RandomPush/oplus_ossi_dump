@@ -1,0 +1,55 @@
+{
+    "VideoEnhance": [
+        {
+            "proName": 21871,
+            "cameraId": 0,
+            "processType":3,
+            "processEnable":1
+
+        },
+        {
+            "proName": 21871,
+            "cameraId": 1,
+            "processType":0,
+            "processEnable":0
+
+        }
+    ],
+    "VideoEnhancePara": [
+        {   //ProcessFrontNR:0
+            "fIsoNvStartBright": 6400.0,
+            "fIsoConvertInter": 500.0,
+            "fBackRatio": 0.85,
+            "iSnrFactor": 36
+        },
+        {   //ProcessRearNV:1
+            "fIsoNvStartBright": 4000.0,
+            "fIsoNvStartDark": 1200.0,
+            "fIsoConvertInter": 500.0,
+            "fAdptiveWeight": 0.55,
+            "iDarkLumaThr": 45,
+            "fSharpLevel": 0.4,
+            "fChromEnhanceLevel": 1.1,
+            "iContrastLevel": 5
+
+        },
+        {   //ProcessRear3DLUT:2
+            "fIsoNvStartBright": 4000.0,
+            "fIsoNvStartDark": 1200.0,
+            "fIsoConvertInter": 500.0,
+            "fIsoTh0": 8000.0,
+            "fIsoTh1": 12000.0,
+            "fIsoTh2": 15000.0,
+            "fChromEnhanceLevel": 0.7
+        },
+        {   //ProcessRearNR3DLUT:3
+            "fIsoNvStartBright": 2400.0,
+            "fIsoNvStartDark": 1200.0,
+            "fIsoConvertInter": 500.0,
+            "iBackFactor": 4,
+            "iSnrFactor": 16,
+            "fChromEnhanceLevel": 0.7,
+            "fMidSharpLevel": 0.5
+        }
+    ]
+}

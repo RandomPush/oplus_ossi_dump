@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.oplus.tzupdate.timezone_url" args="String:https://weather-api-eu.allawnos.com"/>
+	<app_feature name="com.oplusos.deepthinker.apptype.host" args="String:classify-app-eu.allawnos.com"/>
+	<app_feature name="com.oplusos.deepthinker.boot.default.switch.export" args="boolean:false"/>
+	<app_feature name="com.android.launcher.REGION_NAME" args="String:EUEX"/>
+	<app_feature name="com.android.launcher.DEFAULT_DRAWER_MODE"/>
+	<app_feature name="com.oplus.eap.release_host" args="String:https://moa-upload-eu.allawnos.com"/>
+	<app_feature name="com.oplus.eap.file_upload_mode" args="String:m1"/>
+	<app_feature name="com.oplus.eap.anr_crash.minilogfile.switch" args="boolean:false"/>
+	<app_feature name="com.oplus.eap.anr_crash.logfile.switch" args="boolean:false"/>
+	<app_feature name="com.oplus.eap.anr_crash.statistics.switch" args="boolean:false"/>
+	<app_feature name="com.oplus.eap.cloud_storage_release_host_v3" args="String:https://ostorage-ocloud-eu.allawnos.com"/>
+	<app_feature name="dfx.diag.ostorage_url" args="String:https://ostorage-ocloud-eu.allawnos.com"/>
+	<app_feature name="com.android.systemui.pc_synergy" args="boolean:false"/>
+	<app_feature name="com.oplus.cosa.server_url_spec" args="String:https://icosa-service-eu.allawnos.com"/>
+	<app_feature name="com.oplus.cosa.server_url_test_spec" args="String:https://icosa-service-eu.allawnos.com"/>
+	<app_feature name="dft.logkit.ostorage_url" args="String:https://ostorage-ocloud-eu.allawnos.com"/>
+	<app_feature name="dft.logkit.feedback_server_url" args="String:https://ilogkit-service-eu.allawnos.com"/>
+	<app_feature name="com.oplus.wallpapers.online_wallpaper.host" args="String:https://wallpaper-service-eu.allawnos.com"/>
+	<app_feature name="com.android.phone.no_display_record"/>
+	<app_feature name="com.android.phone.simsettings.exp_pl_orange_url" args="String:www.orange.pl/wificalling"/>
+	<app_feature name="com.android.phone.simsettings.disable_smart_5g"/>
+	<app_feature name="com.android.incallui.display_vowifi_icon_active"/>
+	<app_feature name="com.android.phone.disable_ted_function"/>
+	<app_feature name="com.android.incallui.no_display_record"/>
+	<app_feature name="com.android.phone.simsettings.show_kpn_volte_off_dialog"/>
+	<app_feature name="com.oplus.lockassistant.server_access_restrict"/>
+	<app_feature name="com.oplus.bootreg_region_euex"/>
+	<app_feature name="com.android.phone.simsettings.domestic_demand_region" args="String:EUEX"/>
+	<app_feature name="com.android.phone.simsettings.replace_operator_name_for_bg"/>
+	<app_feature name="com.android.phone.simsettings.grant_location_for_vowifi"/>
+	<app_feature name="com.android.phone.simsettings.apn_hide_apn_for_tim"/>
+	<app_feature name="com.oplus.bootreg.statement_copy" args="int:1"/>
+	<app_feature name="com.oplus.bootreg.support_mobile_data_page"/>
+	<app_feature name="com.oplus.bootreg.show_toast_skip_set_password"/>
+	<app_feature name="com.oplus.bootreg.feed_back_status_off"/>
+	<app_feature name="com.oplus.bootreg.not_notify_app_market"/>
+	<app_feature name="com.android.phone.simsettings.special_url_text" args="String:www.orange.pl/wificalling"/>
+	<app_feature name="com.oplus.soundrecorder.no_display_record"/>
+	<app_feature name="com.oplus.camera.face_beauty_default_off"/>
+	<app_feature name="com.oplus.camera.soloop_route_url" args="String:https://videoeditor-eu.soloop.heytapmobile.com"/>
+	<app_feature name="com.oplus.camera.sticker_base_url" args="String:https://sticker-apps-eu.heytapmobile.com"/>
+	<app_feature name="com.android.mms.disable_ted_function"/>
+	<app_feature name="com.oplus.floatassistant.assistive_ball_disable"/>
+	<app_feature name="com.oplus.floatassistant.air_view_disable"/>
+	<app_feature name="com.android.providers.contacts.is_need_register_sdn_listener"/>
+	<app_feature name="com.oplus.calculator.rate_address" args="String:https://calculator-api-fr.allawnos.com/"/>
+	<app_feature name="com.oplus.wirelesssettings.vcomm_more" args="String:https://support.oppo.com/en/vcomm-help/"/>
+	<app_feature name="com.oplus.smartanalysis.rule_server_host" args="String:https://iwisdom-apps-fr.allawnos.com"/>
+	<app_feature name="com.oplus.assistantscreen.spotify_host_http" args="String:http://smartcardf-eu.apps.coloros.com"/>
+	<app_feature name="com.oplus.assistantscreen.spotify_host_https" args="String:https://smartcardf-eu.apps.coloros.com"/>
+	<app_feature name="com.oplus.assistantscreen.normal_host_http" args="String:http://smartcardf-eu.apps.coloros.com"/>
+	<app_feature name="com.oplus.assistantscreen.normal_host_https" args="String:https://smartcardf-eu.apps.coloros.com"/>
+	<app_feature name="com.oplus.assistantscreen.advice_disable"/>
+	<app_feature name="com.oplus.note.speech_url_domain" args="String:atot-si-eu.allawnos.com"/>
+	<app_feature name="com.oplus.weather.service.weather_host" args="String:https://weather-server-eu.allawnos.com"/>
+	<app_feature name="com.oplus.gallery3d.sticker_url" args="String:https://sticker-service-eu.allawnos.com"/>
+	<app_feature name="com.oplus.gallery3d.videoeditor_url" args="String:https://fourier-videoclip-eu.allawnos.com"/>
+	<app_feature name="com.oplus.bootreg.ota_night_update_default_status_off"/>
+	<app_feature name="com.oplus.bootreg.system_improvement_default_status_off"/>
+	<app_feature name="com.oplus.bootreg.user_experience_default_status_off"/>
+	<app_feature name="com.android.phone.exp_uaprofile_url" args="String:https://ua-prof-eu.allawnofs.com/resource/ua-PROF/"/>
+	<app_feature name="com.oplus.heysynergy.agreement_url_12.0" args="String:https://connect.oppo.com/en-GB/agreement"/>
+	<app_feature name="com.oplus.heysynergy.func_brief_url_12.0" args="String:connect.oppo.com"/>
+	<app_feature name="com.oplus.padconnect.QR_url" args="String:https://pc-assistant-eu.allawnofs.com/h5/index.html?param="/>
+	<app_feature name="com.oplus.wirelesssettings.vcomm_account_skip"/>
+	<app_feature name="com.android.providers.contacts.is_need_register_preset_contacts_listener"/>
+	<app_feature name="com.oneplus.membership.url_host" args="String:https://memberapi-eu.oneplus.com/"/>
+	<app_feature name="com.oneplus.membership.web_url_host" args="String:https://account.oneplus.com/member/sdk?region=eu&amp;utm_source=rom&amp;utm_medium="/>
+	<app_feature name="com.oneplus.membership.account.url_host" args="String:https://gateway-eu.oneplus.net/v2/"/>
+	<app_feature name="com.oplus.daydreamvideo.regionmark" args="String:EUEX"/>
+	<app_feature name="com.oplus.daydreamvideo.cloud_config" args="String:1"/>
+	<app_feature name="com.oplus.daydreamvideo.region_euex"/>
+	<app_feature name="com.oplus.daydreamvideo.exit_sale_mode" args="String:https://storemode-eu.coloros.com"/>
+	<app_feature name="com.oplus.daydreamvideo.demo_phone_dau" args="String:https://smdemo-service-eu.allawnos.com"/>
+	<app_feature name="com.oplus.daydreamvideo.rus" args="String:https://rus-service-eu.allawnos.com"/>
+	<app_feature name="com.oplus.daydreamvideo.demo_phone_reg" args="String:https://smdemo-service-eu.allawnos.com"/>
+	<app_feature name="com.oplus.daydreamvideo.sau" args="String:https://sau-server-eu.allawnos.com"/>
+	<app_feature name="com.market.heydemo.h5_sdk_url" args="String:https://h5f-eu.coloros.com"/>
+	<app_feature name="com.market.heydemo.regionmark" args="String:EUEX"/>
+	<app_feature name="com.android.providers.contacts.is_need_sim_contacts"/>
+	<app_feature name="dfx.remotediagnosis.server_url.version" args="String:1627379310216"/>
+	<app_feature name="dfx.remotediagnosis.server_url.public.key" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy0nC0ZG5DGhkwUWnCgL4ZmlGEDz93ZbCmAVEGimu1N662VyV+x+fZhyECEpQ8JJvxsI+jNnnbW4JX6tVWEIFEKvC00RGzDIiHw4KYT5GcX//1gDabm7HLduw9pRNBJvsjRGghdjWTxpjbEUiBtOpDMkJgdyj54tcDI1c+ZxMKDvDyB3gSDoqTvAZjYo+5AVD60sInfcO/qxkORMXW5XYxzqYoS8H3BvRw9AgLpgUVOmni4u+rrpnK7uXRkFvjAiOq3HEHRbnQ125P7WYyCzidGt5wEQsXidLh+GnjWEYA2prRn7cMfb5CCYLZBjdL+/Yqwm3mgNbmX4zL6aeo/c3cwIDAQAB"/>
+	<app_feature name="dfx.remotediagnosis.server_url" args="String:https://asdt-server5-fr.allawnos.com"/>
+	<app_feature name="com.android.phone.simsettings.smart5g_default_off"/>
+	<app_feature name="com.android.relax.region_url_dynamic" args="String:relax-service-eu.allawnos.com"/>
+	<app_feature name="com.oplus.smartsidebar.scene_rules_url" args="String:https://sidebar-apps-eu.allawnos.com"/>
+	<app_feature name="com.oplus.compass.altitude_address" args="String:https://weather-server-eu.allawnos.com"/>
+	<app_feature name="com.oplus.backuprestore.support_verify_code_check"/>
+	<app_feature name="com.oplus.lockassistant.region_assistant_server_url" args="String:https://regionlock-dist-fr.allawnos.com/"/>
+	<app_feature name="com.oplus.camera.camera_log_unlock_login_url" args="String:https://login-decrypt-eu.allawnos.com/secrecy/login_authorization_oaep"/>
+	<app_feature name="com.oplus.camera.camera_log_unlock_login_url.public.key" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsNYxEj4aGKpdp+Zy1MX4mGsR3hrpFScRjTKR5KyNrivHJJZyWPXgcbhIm3C/3bNqM1VF5T3fxyWo/aCRT/mFSB08YrMdS/bYab3Kio5ihmAeau8hc8zokSsPuFE81ZLVIvRzTe+qj6Qso+KvVDW/B5iBQx363MOnvZoEPjFU1JaVXOcx8usrGLs87cb6nbgTf0LFqxEv+NYC3IFZ+3xJ6zakZr1Q8pl53Z2RiJasJ0C8uRPSlWxEWQwLP13OdfbQ4/nrfI9v0nwjjVEajjSt7886Rvda9XjD1vmiFUXY/KVmRI87gp0/D6OJHsPXVY/7e/cn3C+Y2SEjBYLIsL6puwIDAQAB"/>
+	<app_feature name="com.oplus.wirelesssettings.nfc_secure"/>
+	<app_feature name="com.oplus.lockassistant.region_batch_unlock_server_url" args="String:https://eu-phone-service.realme.com/"/>
+</extend_features>
+<!-- Timestamp 2024-05-08T23:27:33 #123220 -->

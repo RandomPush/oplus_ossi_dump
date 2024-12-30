@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audio_config>
+    <feature name="USB_SPEECH_ECHO_DELAY" config="yes"/>
+    <feature name="GOODIX_LVIMFS" config="All"/>
+    <feature name="OPLUS_KTV" config="KTV_V2_PCM"/>
+    <feature name="OPLUS_IV_DATA_SUPPORT" config="yes"/>
+    <feature name="OPLUS_RECORD_MUTE_TIME_MS" config="120"/>
+    <feature name="OPLUS_USB_KTV_SUPPORT" config="yes"/>
+    <feature name="OPLUS_AEC_RECORD_SUPPORT" config="yes"/>
+    <feature name="OPLUS_AGING_CALIB_RETRY_SUPPORT" config="yes"/>
+    <feature name="OPLUS_RECORD_FADE_IN_TIME_MS" config="60"/>
+    <feature name="OPLUS_SURROUND_RECORD_TYPE" config="lvacfs"/>
+    <feature name="OPLUS_SMARTPA_PM_SUPPORT" config="yes"/>
+    <feature name="OPLUS_AUDIO_DETECT_SUPPORT" config="yes"/>
+    <feature name="OPLUS_PCM_OPEN_WORKAROUND" config="yes"/>
+    <feature name="OPLUS_HDR_RUS" config="yes"/>
+    <feature name="OPLUS_SCREENOFF_RECORD_POWER" config="yes"/>
+    <feature name="oplus_lvve_err_fb" config="yes"/>
+    <feature name="OPLUS_MMI_MAINHL_ID" config="11"/>
+    <feature name="OPLUS_EM_CALIBRATED_RESULT_CHECK" config="yes"/>
+</audio_config>

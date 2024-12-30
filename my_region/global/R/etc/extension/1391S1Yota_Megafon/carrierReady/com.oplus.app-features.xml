@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.simsettings.need_check_carrier_location_perms_dynamic"/>
+</extend_features>
+<!-- Timestamp 2023-08-29T18:03:59 #42858 -->

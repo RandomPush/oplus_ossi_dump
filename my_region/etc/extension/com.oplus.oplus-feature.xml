@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.radio.fetch_number_country_name"/>
+	<oplus-feature name="oplus.software.radio.custom_plmn_for_special_operator"/>
+	<oplus-feature name="oplus.software.radio.mix_sim_name_len_default_ten"/>
+	<oplus-feature name="oplus.software.radio.process_change_region"/>
+	<oplus-feature name="oplus.software.radio.sim_name_length_default_ten"/>
+	<oplus-feature name="oplus.software.radio.smart5g_sp_region_disable"/>
+	<oplus-feature name="oplus.software.radio.vcomm_account_skip"/>
+	<oplus-feature name="oplus.software.radio.enable_sim_detect"/>
+	<oplus-feature name="oplus.software.wlan.log_euex"/>
+	<oplus-feature name="oplus.software.bt.switchlog_disable"/>
+	<oplus-feature name="oplus.software.wlan.operator_preset_tmo"/>
+	<oplus-feature name="oplus.software.radio.sa_apm_control"/>
+	<oplus-feature name="oplus.software.radio.sa_tac_control"/>
+	<oplus-feature name="oplus.software.radio.disable_nw_limit_notify"/>
+	<oplus-feature name="oplus.software.disable_startup_manager"/>
+</oplus-config>
+<!-- Timestamp 2024-04-22T17:31:20 #113584 -->

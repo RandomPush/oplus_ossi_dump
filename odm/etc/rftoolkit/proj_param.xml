@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RFTOOLKIT>
+    <RAT name="NR5G">
+        <GeneralConfig name="Bandwidth">
+            <!--  by KHz -->
+            <Band number="41">
+                <default>10000</default>
+            </Band>
+        </GeneralConfig>
+        <GeneralConfig name="Power">
+            <!-- by db/100 -->
+            <Band number="41">
+                <Channel type="Low">2000</Channel>
+                <Channel type="Mid">2600</Channel>
+                <Channel type="High">2600</Channel>
+            </Band>
+        </GeneralConfig>
+    </RAT>
+</RFTOOLKIT>

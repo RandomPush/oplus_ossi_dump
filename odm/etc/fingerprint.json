@@ -1,0 +1,86 @@
+[
+    {
+        "project":"21871",
+        "name":"default",
+        "brand":"OnePlus",
+        "product":"CPH2491",
+        "device":"OP556FL1",
+        "manufacturer":"OnePlus",
+        "model":"CPH2491",
+        "first_api_level":"33",
+        "rsa_level" : "R4T3",
+        "base_oses": [
+            {
+              "14": "OnePlus/CPH2491/OP556FL1:14/UP1A.230620.001/T.R4T3.12b3d42_4d28-3e27d:user/release-keys"
+            }
+        ],
+        "emer_base_oses": [
+            {
+              "14": "OnePlus/CPH2491/OP556FL1:14/UP1A.230620.001/T.R4T3.12b3d42_4d28-3e27d:user/release-keys"
+            }
+        ]
+    },
+    {
+        "project":"21871",
+        "name":"eea",
+        "brand":"OnePlus",
+        "product":"CPH2493EEA",
+        "device":"OP556FL1",
+        "manufacturer":"OnePlus",
+        "model":"CPH2493",
+        "first_api_level":"33",
+        "rsa_level" : "R4T3",
+        "base_oses": [
+            {
+              "14": "OnePlus/CPH2493EEA/OP556FL1:14/UP1A.230620.001/T.R4T3.12b3d42_4d28-3e27d:user/release-keys"
+            }
+        ],
+        "emer_base_oses": [
+            {
+              "14": "OnePlus/CPH2493EEA/OP556FL1:14/UP1A.230620.001/T.R4T3.12b3d42_4d28-3e27d:user/release-keys"
+            }
+        ]
+    },
+    {
+        "project":"21871",
+        "name":"row",
+        "brand":"OnePlus",
+        "product":"CPH2493",
+        "device":"OP556FL1",
+        "manufacturer":"OnePlus",
+        "model":"CPH2493",
+        "first_api_level":"33",
+        "rsa_level" : "R4T3",
+        "base_oses": [
+            {
+              "14": "OnePlus/CPH2493/OP556FL1:14/UP1A.230620.001/T.R4T3.12b3d42_4d28-3e27d:user/release-keys"
+            }
+        ],
+        "emer_base_oses": [
+            {
+              "14": "OnePlus/CPH2493/OP556FL1:14/UP1A.230620.001/T.R4T3.12b3d42_4d28-3e27d:user/release-keys"
+            }
+        ]
+    },
+    {
+        "project":"21871",
+        "name":"id",
+        "brand":"OnePlus",
+        "product":"CPH2493",
+        "device":"OP556FL1",
+        "manufacturer":"OnePlus",
+        "model":"CPH2493",
+        "first_api_level":"33",
+        "rsa_level" : "R4T3",
+        "base_oses": [
+            {
+              "14": "OnePlus/CPH2493/OP556FL1:14/UP1A.230620.001/T.R4T3.12b3d42_4d28-3e27d:user/release-keys"
+            }
+        ],
+        "emer_base_oses": [
+            {
+              "14": "OnePlus/CPH2493/OP556FL1:14/UP1A.230620.001/T.R4T3.12b3d42_4d28-3e27d:user/release-keys"
+            }
+        ]
+    }
+]

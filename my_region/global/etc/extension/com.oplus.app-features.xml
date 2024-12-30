@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.oplus.trafficmonitor.disable_close_restrict_background" args="StringList:whitelist">
+		<StringList name="whitelist" args="com.coloros.lockassistant"/>
+	</app_feature>
+</extend_features>
+<!-- Timestamp 2023-09-20T16:44:06 #48550 -->
