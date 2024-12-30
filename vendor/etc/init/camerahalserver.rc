@@ -1,0 +1,15 @@
+service camerahalserver /vendor/bin/hw/camerahalserver
+    class main
+    user cameraserver
+    group audio camera input drmrpc sdcard_rw system media graphics
+    ioprio rt 4
+    capabilities SYS_NICE
+    task_profiles CameraServiceCapacity MaxPerformance
+
+on post-fs-data
+    chown cameraserver cameraserver /mnt/vendor/persist/camera/front_camera_SN.bin
+    chown cameraserver cameraserver /mnt/vendor/persist/camera/rear_camera_SN.bin
+    chown cameraserver cameraserver /mnt/vendor/persist/camera/rear_second_camera_SN.bin
+    chown cameraserver cameraserver /mnt/vendor/persist/camera/rear_third_camera_SN.bin
+    chmod 0755 /mnt/vendor/persist/camera/*
+    restorecon /mnt/vendor/persist/camera/*
