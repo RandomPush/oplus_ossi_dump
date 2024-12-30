@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.vip_preload"/>
+	<oplus-feature name="oplus.software.parallel_preload"/>
+	<oplus-feature name="oplus.software.next_preload"/>
+	<oplus-feature name="oplus.software.sau_preload"/>
+	<oplus-feature name="oplus.software.resolver_share_email"/>
+	<oplus-feature name="oplus.software.uxicon_exp"/>
+	<oplus-feature name="oplus.software.pms_install_statistics_no_silent"/>
+	<oplus-feature name="oplus.software.pms_device_owner_uninstall_policy"/>
+	<oplus-feature name="oplus.software.pms_mainline_preodex_enabled"/>
+	<oplus-feature name="oplus.software.oguard.enable"/>
+	<oplus-feature name="oplus.software.support_fluid_entry"/>
+	<oplus-feature name="oplus.software.fluid_replace_ntf"/>
+	<unavailable-oplus-feature name="os.tool.midas"/>
+</oplus-config>
+<!-- Timestamp 2024-01-30T16:01:41 #88915 -->
